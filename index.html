@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Narrative</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body id="home">
+    
+    <div id="nav_mobile">
+        <header>
+            <nav class="menu">
+                <a id="logo1" href="index.html">Cindy Lee</a>
+                <img src="images/menu.png" alt="menu" id="hamburger">
+                <ul class="hidden">
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/1duGPnjkUVdTuiX5lrK3ge5Ky3wupU_FH/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div id="nav_desktop">
+        <header>
+            <a id="logo2" href="index.html">Cindy Lee</a>
+            <nav class="menu">
+                <ul>
+                    <li><a id="button1" href="index.html">Portfolio</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/1jGrVhR-c6okNi3zBNpc2zqFB_939I2rH/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+
+    <main>
+        <div id="intro">
+            <img src="images/cindy.png" alt="cindy">
+    
+            <h1>Hi, I'm Cindy!</h1>
+            <p>
+                I’m an aspiring UX Designer interested in designing inclusive experiences to help people achieve their personal goals. 
+            </p>
+        </div>
+
+        <div id="casestudies">
+            <div id="weguide">
+                <img src="images/Slide 16_9 - 1 (1).png" alt="weguide">
+                <div id="weguidea">
+                    <a href="weguide.html">Weguide</a>
+                    <p>A mobile app designed to help Chinese immigrants navigate through their new life in the United States.
+                    </p>
+                </div>
+            </div>
+
+            <div id="travelocity">
+                <img src="images/travelocityhero.png" alt="travelocity">
+                <div id="travelocitya">
+                    <a href="travelocity.html">Travelocity Redesign</a>
+                    <p>Redesigned the Travelocity app to be a  seamless one-stop trip booking experience rather than an app that merely sells plane tickets and hotel rooms. 
+                    </p>
+                </div>
+            </div>
+
+            <div id="library">
+                <img src="images/library.png" alt="library redesign">
+                <div id="librarya">
+                    <a href="library.html">UC Davis Library Space Reservation</a>
+                    <p>Designed a space reservation system for the UC Davis library to help students efficiently book study rooms and seats. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector('.menu ul');
+
+        hamburger.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+
+        });
+    </script>
+
+    <footer>
+        
+        <p><a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Cindy Lee</a></p>
+
+        <div id="connecticon">
+            <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
+
+            <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <p>
+            <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a>
+        </p>
+    </footer>
+</body>
+</html>

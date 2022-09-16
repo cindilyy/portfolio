@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Narrative</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body id="about">
+
+    <div id="nav_mobile">
+        <header>
+            <nav class="menu">
+                <a id="logo1" href="index.html">Cindy Lee</a>
+                <img src="images/menu.png" alt="menu" id="hamburger">
+                <ul class="hidden">
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/1duGPnjkUVdTuiX5lrK3ge5Ky3wupU_FH/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div id="nav_desktop">
+        <header>
+            <a id="logo2" href="index.html">Cindy Lee</a>
+            <nav class="menu">
+                <ul>
+                    <li><a id="button1" href="index.html">Portfolio</a></li>
+                    <li><a id="button2" href="about.html">About Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/1duGPnjkUVdTuiX5lrK3ge5Ky3wupU_FH/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+
+    <main>
+        <div id="aboutintro">
+            <div id="aboutintro2">
+                <div id="introtext">
+                    <h1>I’m a boba-fueled college student majoring in Design, Chinese Studies, and International Relations
+                    </h1>
+
+                    <p>
+                        I combine disciplines from my majors to design experiences that are human-centered, inclusive, and culturally respectful.
+                    </p>
+                </div>
+                <img src="images/boba.png" alt="Cindy">
+            </div>
+        </div>
+
+        <section>
+            <div id="why">
+                <h2>Why UX Design?</h2>
+                <p>
+                    Originally, I entered college as a Chinese Studies major but I soon double majored in International Relations with an emphasis in World Trade and Development and an area emphasis in East Asia. This stemmed from my interest in learning about people, cultures,
+                    history, and languages. My initial goal was to become a Chinese to English translator or interpreter to help bridge the language barrier many Chinese immigrants face in the United States.
+                </p>
+
+                <p>
+                    During the pandemic, I worked at the Oakland Chinatown Chamber of Commerce as an Administrative Assistant and was tasked to support the redesign of our website, which was outdated, lacked essential information, and provided a poor user experience for
+                    our target audience, our chamber members and community members. I was in charge of providing the engineer with necessary images and content, which I now know is the job of a UX Writer, and providing input on the design of the website,
+                    which I now know is called UI/UX Design. Through this experience, I developed an interest in UI/UX Design, so during my senior year of college, I decided to triple major in Design.
+                </p>
+            </div>
+
+            <div id="interests">
+                <h2>Interests/Hobbies</h2>
+                <p>
+                    🎬 Watching Asian dramas and films
+                </p>
+
+                <p>
+                    🎧 Listening to Asian music
+                </p>
+
+                <p>
+                    ✍🏼 Learning Chinese and Korean
+                </p>
+
+                <p>
+                    ☕️ Trying out new restaurants, boba shops, and cafes
+                </p>
+
+
+            </div>
+
+            <div id="connect">
+                <h2>Let's Connect</h2>
+                <div id="connecticon">
+                    <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
+
+                    <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector('.menu ul');
+
+        hamburger.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+
+        });
+    </script>
+
+    <footer>
+        <p><a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Cindy Lee</a></p>
+
+        <div id="connecticon">
+            <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
+
+            <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <p>
+            <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a>
+        </p>
+    </footer>
+</body>
+
+</html>
