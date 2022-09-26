@@ -257,6 +257,19 @@ section h4 {
     padding-right: 20px;
 }
 
+section h5 {
+    text-align: center;
+    color: #222222;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    padding: 0px;
+    font-size: 10px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 section p {
     padding-left: 20px;
     padding-right: 20px;
@@ -303,11 +316,7 @@ img {
     margin-bottom: 10px;
 }
 
-.row {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-}
+
 
 video {
     display: flex;
@@ -445,6 +454,7 @@ section a {
         gap: 50px;
         padding: 0px;
     }
+
     #casestudies img {
         max-width: 50%;
         margin: auto;
@@ -620,13 +630,12 @@ section a {
         display: flex;
         margin: auto;
         margin-top: 20px;
-        /* margin-bottom: 20px */
     }
-    .row {
+
+    .row{
         display: flex;
-        margin: 0px;
-        padding: 0px;
     }
+
     video {
         display: flex;
         margin: auto;
