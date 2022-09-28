@@ -218,7 +218,7 @@
                 We used the font and colors from the logo as the main colors and font of our redesign. 
             </p>
 
-            <img src="images/colorfont.png" alt="color and font">
+            <img src="images/colorfont.png" alt="color and font" style="max-width:25%;">
 
             <h3>Final Solution</h3>
 
@@ -230,14 +230,16 @@
                 <strong>Create an account:</strong> Users can create an account if they are new to the app. They can also choose their traveling interests to receive catered travel suggestions. 
             </p>
 
-            <img src="images/travelocity_signup.gif" alt="Signup" style="max-width:25%; height:auto;">
+            <!-- <img src="images/travelocity_signup.gif" alt="Signup" style="max-width:25%; height:auto;"> -->
+            <img src="images/travelocity_signup.gif" alt="Signup" id="singlegif">
             <h5>Create an account</h5>
 
             <p>
                 <strong>Begin planning trip:</strong> Users can begin to plan their trip by choosing their location and departure/arrival date. Once that information has been inputted, they will be redirected to a page dedicated to planing for that trip, where they can access different flights, accomodations, and attraction options. This is the KEY feature of our redesign because it repackages Travelocity from an app that provides different travel-related services to one that is dedicated to helping future travelers plan every aspect of their trip.
             </p>
 
-            <img src="images/Begin Planning Trip.gif" alt="Begin Planning Trip" style="max-width:25%; height:auto;">
+            <!-- <img src="images/Begin Planning Trip.gif" alt="Begin Planning Trip" style="max-width:25%; height:auto;"> -->
+            <img src="images/Begin Planning Trip.gif" alt="Begin Planning Trip" id="singlegif">
             <h5>Begin Planning Trip</h5>
 
             <p>
@@ -245,7 +247,7 @@
             </p>
 
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="column">
                     <img src="images/travelocity_original_flights.PNG" alt="Original: Book a flight" style="max-width:77%; height:auto;">
                     <h5>Redesign: Book A Flight</h5>
@@ -254,13 +256,25 @@
                     <img src="images/travelocity_flights.gif" alt="Book a flight" style="max-width:85%; height:auto; margin-right:300px">
                     <h5>Redesign: Book A Flight</h5>
                 </div>
+            </div> -->
+
+            <div class="row">
+                <div class="column">
+                    <img src="images/travelocity_original_flights.PNG" alt="Original: Book a flight" style="width:100%;">
+                    <h5>Redesign: Book A Flight</h5>
+                </div>
+                <div class="column" id = "deskflight2">
+                    <img src="images/travelocity_flights.gif" alt="Book a flight" style="width:100%;">
+                    <h5>Redesign: Book A Flight</h5>
+                </div>
             </div>
+            
 
             <p>
                 <strong>Book an accomodation:</strong> The original design for booking an accomodation was extremely cluttered with information resulting in cognitive overload. Thus, for our redesign, we focused on reducing cognitive overload by eliminating or hiding a lot of the less important details and sectioning off information. Similar to flights, we also used horizontal scrolling cards to make it easier to compare different rooms at the hotel. 
             </p>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="column" style="margin-left:150px;" >
                     <video width="550" controls>
                         <source src="images/RPReplay_Final1663856500.mov">
@@ -271,13 +285,26 @@
                     <img src="images/travelocity_hotel.gif" alt="Book an accomodation" style="max-width:58%; height:auto;">
                     <h5>Redesign: Accomodations</h5>
                 </div>
+            </div> -->
+
+            <div class="row">
+                <div class="column" id = "deskaccom1">
+                    <video controls>
+                        <source src="images/RPReplay_Final1663856500.mov">
+                    </video>
+                    <h5>Original Design: Accomodations</h5>
+                </div>
+                <div class="column" id = "deskaccom2">
+                    <img src="images/travelocity_hotel.gif" alt="Book an accomodation">
+                    <h5>Redesign: Accomodations</h5>
+                </div>
             </div>
 
             <p>
                 <strong>Book an attraction:</strong> Users can book attractions such as tours or find good local restaurants and landmarks. Our main change was to the attractions page. The original design just recommends popular attractions and to filter through different attractions, users must click the filter button to pick different categories. Instead, we made the attractions page a page with different categories so users can easily filter through the many types of attractions by selecting what interests them. We also placed an emphasis on recommended activities, customer reviews, and used lots of images, all highly requested features from our user survey. 
             </p>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="column">
                     <img src="images/travelocity_original_attractions.png" alt="Original: Attractions" style="max-width:77%; height:auto;">
                     <h5>Redesign: Book An Attraction</h5>
@@ -286,26 +313,40 @@
                     <img src="images/travelocity_tours.gif" alt="Book an attraction" style="max-width:85%; height:auto; margin-right:300px">
                     <h5>Redesign: Book An Attraction</h5>
                 </div>
+            </div> -->
+
+            <div class="row">
+                <div class="column" id ="deskattract1">
+                    <img src="images/travelocity_original_attractions.png" alt="Original: Attractions">
+                    <h5>Redesign: Book An Attraction</h5>
+                </div>
+                <div class="column" id="deskattract2">
+                    <img src="images/travelocity_tours.gif" alt="Book an attraction">
+                    <h5>Redesign: Book An Attraction</h5>
+                </div>
             </div>
 
             <p>
                 <strong>Share:</strong> Majority of survey respondents shared that they plan their trips with other people, thus we created an option to add other users to plan trips together.
             </p>
 
-            <img src="images/travelocity_share.gif" alt="Share" style="max-width:25%; height:auto;">
+            <!-- <img src="images/travelocity_share.gif" alt="Share" style="max-width:25%; height:auto;"> -->
+            <img src="images/travelocity_share.gif" alt="Share" id="singlegif">
             <h5>Share</h5>
 
             <p>
                 <strong>Trips and Favorites:</strong> Users can easily find trips that they had previously planned or are currently planning. If they find flights, accomodations, or attractions that interest them and would like to save them for future trips, they can also favorite it and it would show up in the Favorites tab of the bottom navigation. 
             </p>
 
-            <img src="images/travelocity_saved.gif" alt="Trips and Favorites" style="max-width:25%; height:auto;">
+            <!-- <img src="images/travelocity_saved.gif" alt="Trips and Favorites" style="max-width:25%; height:auto;"> -->
+            <img src="images/travelocity_saved.gif" alt="Trips and Favorites" id="singlegif">
             <h5>Trips and Favorites</h5>
 
             <p>
                 <strong>Maps and Filter:</strong> The maps and filter button for each page is located at the bottom center of the screen. It blends in with the grey background making it hard to spot. Since it is located on top of card components, there is a chance that users might accidentally click onto a card instead of the maps and filter button. Thus, we moved these buttons up to the top center and changed the color of the button to make it easier to spot and click.
             </p>
-            <img src="images/travelocity_stays.png" alt="Maps and Filters" style="max-width:25%; height:auto;">
+            <!-- <img src="images/travelocity_stays.png" alt="Maps and Filters" style="max-width:25%; height:auto;"> -->
+            <img src="images/travelocity_stays.png" alt="Maps and Filters" id="singlegif">
             <h5>Maps and Filters</h5>
 
 
