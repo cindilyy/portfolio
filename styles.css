@@ -241,7 +241,7 @@ section h3 {
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 section h4 {
@@ -252,7 +252,7 @@ section h4 {
     font-weight: bolder;
     padding: 0px;
     font-size: 15px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -376,6 +376,16 @@ section a {
 #singlegif{
     width: 40%;
     margin: auto;
+}
+
+#filter1{
+    margin:auto;
+    width:50%;
+}
+
+#filter2{
+    margin:auto;
+    width: 50%;
 }
 
 
@@ -567,9 +577,9 @@ section a {
         font-family: 'Poppins', sans-serif;
         font-weight: bolder;
         padding: 0px;
-        font-size: 25px;
-        padding-top: 10px;
-        text-decoration: underline;
+        font-size: 30px;
+        padding-top: 20px;
+        /* text-decoration: underline; */
     }
     section h4 {
         text-align: left;
@@ -579,7 +589,7 @@ section a {
         font-weight: bolder;
         padding: 0px;
         font-size: 20px;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     section h5 {
@@ -652,6 +662,7 @@ section a {
         display: flex;
         margin: auto;
         margin-top: 20px;
+        /* margin-bottom: 20px; */
         width:100%;
     }
 
@@ -678,13 +689,21 @@ section a {
         /* margin-right:300px; */
     }
 
+    #filter1{
+        margin:0px;
+        margin-left:150px;
+        width:30%;
+    }
+
+    #filter2{
+        margin:0px;
+        margin-left:100px;
+        width: 32%;
+    }
+
     #singlegif{
         max-width:25%;
     }
-
-
-
-
 
 
     .row{
@@ -735,4 +754,42 @@ section a {
         padding: 20px;
         font-family: 'Lato', sans-serif;
     }
+
+    #infobar{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between; 
+        
+        
+    }
+
+    #userpersona{
+        display: flex;
+        flex-direction:row;
+    }
+
+
+    /* html{
+        scroll-behavior: smooth;
+    }
+
+    .topbutton{
+        position: fixed;
+        bottom: 100px;
+        right: 70px;
+        font-size: 30px;
+    }
+
+    .fa-chevron-up{
+        color:#222222;
+        
+    }
+
+    .fa-chevron-up:hover{
+        color: #C4C4C4;
+    } */
+
+
+
+   
 }
