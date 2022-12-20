@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trader Joe's App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+
+<body id="travelocitypost">
+    
+    <div id="nav_mobile">
+        <header>
+            <nav class="menu">
+                <a id="logo1" href="index.html">Cindy Lee</a>
+                <img src="images/menu.png" alt="menu" id="hamburger">
+                <ul class="hidden">
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/197DLdoq2-qS-XQ5ov8FOg6S9b-jDhTTY/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div id="nav_desktop">
+        <header>
+            <a id="logo2" href="index.html">Cindy Lee</a>
+            <nav class="menu">
+                <ul>
+                    <li><a id="button1" href="index.html">Portfolio</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="https://drive.google.com/file/d/197DLdoq2-qS-XQ5ov8FOg6S9b-jDhTTY/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+
+    <main>
+
+        <section>
+            <h2>Trader Joe's App</h2>
+
+            <img id="hero" src="images/tjhero2.png" alt="Trader Joe's App hero image">
+
+            <h3>Overview</h3>
+
+            <p>
+                Trader Joe’s has developed a unique culture of their brand with their own collection of products and cult following, bringing up the opportunity to cater to their customer base through an application. With this in mind, we worked on a Trader Joe’s app across the course of six weeks.
+            </p>
+
+            <div id="infobarTJ">
+                <div>
+                    <h4>Collaborators</h4>
+                    <p>
+                        Karen Dang, Isabel Shic, Kaitlyn Lam, <br> Nava Babei (PM)
+                    </p>
+                </div>
+                <div id="Role">
+                    <h4>Role</h4>
+                    <p>UX Research Lead, UX Design</p>
+                </div>
+                
+                <div id="timeframe">
+                    <h4>Duration</h4>
+                    <p>6 weeks</p>
+                </div>
+
+                <div id="tools">
+                    <h4>Tools</h4>
+                    <p>Figma, Qualtrics</p>
+                </div>
+            </div>
+
+            <!-- <h3>Problem Statement</h3>
+            <p>
+                How might we enhance the Trader Joe’s store experience through efficiency and brand familiarity with a virtual app?
+            </p> -->
+
+            <h3>Research</h3>
+
+            <h4>Competitor Analysis</h4>
+
+            <p>In order to get a better sense of potential features, we conducted a competitive analysis with various existing grocery store apps, including Safeway, Costco, and Target. We found that these applications didn’t enhance much of the in-store experience. </p>
+
+            <img src = "images/tjcompana.png" alt = "Trader Joe's Competitive Analysis">
+
+            <h4>Survey</h4>
+
+            <p>
+                For our primary research, we conducted a survey because it enabled us to gather the most data in the least amount of time and reach various demographics. We first began by brainstorming questions for our survey. First, we wanted to learn about users’ basic background information to understand the makeup of our respondents, and it will become useful when we want to select interviewees. Next, we wanted to learn about their grocery shopping experience, such as which stores they prefer and why and whether they use any existing grocery store apps. Finally, we wanted to see how they engage or not engage with existing grocery store apps and what they are looking for in a good grocery store. We made sure to not word questions that may result in bias or include any leading questions.
+            </p>
+
+            <p>
+                We created the survey on Qualtrics and began collecting data by posting our QR code and URL in various group chats and group pages, as well as, going to the nearby Trader Joe’s and having consumers fill out the survey there. Within the span of 2 weeks, we collected over <strong style="color: #C81E24;">225 responses</strong>.
+            </p>
+
+            <h4>Survey Demographic</h4>
+
+            <p>
+                As students and mainly distributing the survey with our peers, 78.92% of our respondents are between the ages of 18-25. We are aware that our data does not represent the entire population and is very biased toward the students and the Gen Z generation. 
+            </p>
+
+            <h4>Survey Results</h4>
+
+            <p>
+                Respondents who considered Trader Joe’s their <strong style="color: #C81E24;">preferred grocery store</strong> shared that they prefer it because of its location (26.84%), selection (26.84%), and prices (23.46%). 
+            </p>
+
+            <img src="images/tjpreferred.png" alt="Pie Chart: What makes Trader Joe's your preferred grocery store?" style="max-width:50%;">
+
+            <p>
+                The <strong style="color: #C81E24;">most wanted features</strong> on a grocery app are deals and discounts (61.45%), product availability (58.10%), and location of the product in the store (44.69%). 
+            </p>
+
+            <img src="images/tjfeatures.png" alt="Bar Chart: Most Wanted Features">
+
+            <p>
+                The top three qualities that <strong style="color: #C81E24;">enhance users’ Trader Joe’s experience</strong> are customer service (33.67%), branding (23.37%), and organization (20.85%).
+            </p>
+            
+            <img src="images/tjenhance.png" alt="Pie Chart: Enhances Store Experience">
+
+            <h4>User Journey Map</h4>
+            <p>
+                We also created a user journey map using these insights to connect with our user in terms of the phases they go through and how they are feeling and act in each stage. Through this process, we found many potential user pain points and helped us better empathize with our users. 
+            </p>
+
+            <img src="images/tjuserjourneymap.png" alt="User Journey Map" style="max-width:70%; margin-top: 30px; margin-bottom: 30px;">
+
+            <h3>Synthesis of Data</h3>
+
+            <p>
+                After gathering survey responses, conducting user interviews, and creating a user journey map, we noticed similar pain points arose among them.
+            </p>
+
+            <h4>Pain Points</h4>
+            <div id="TJpainpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #C81E24;">01</p>
+                </div>
+
+                <div>
+                    <p style="color: #C81E24;"><strong>Product Availability</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        Brought up during our survey, interviews, and user journey, not knowing whether a product was in stock was the most common pain point. Due to its constant change in selection and consistently sold out products, many users have gone to Trader Joe's only to find it out of stock or pulled from shelves. 
+                    </p>
+
+                    <p style="color: #888888;">
+                        “Trader Joe’s runs out of stock quickly. It would be nice to know when stock runs out ahead of time.”
+                    </p>
+                </div>
+            </div>
+
+            <div id="TJpainpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #C81E24;">02</p>
+                </div>
+
+                <div>
+                    <p style="color: #C81E24;"><strong>Forgetting Items</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        Forgetting to purchase items they planned on purchasing causes users to have to make an extra trip or change recipes. 
+                    </p>
+
+                    <p style="color: #888888;">
+                        “I forget to purchase things and I only realize it after returning home.”
+
+                    </p>
+                </div>
+            </div>
+
+            <div id="TJpainpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #C81E24;">03</p>
+                </div>
+
+                <div>
+                    <p style="text-align: left; color: #C81E24;"><strong>Shopping When The Store Is Busy</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        Users want to avoid going to Trader Joe's when it is too busy because it is hard to get around the store and check out takes a long time.
+                    </p>
+
+                    <p style="color: #888888;">
+                        “It’s hard to get around when there’s a lot of people. I try to [shop] when it is less busy.”
+
+                    </p>
+                </div>
+            </div>
+
+            <div id="TJpainpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #C81E24;">04</p>
+                </div>
+
+                <div>
+                    <p style="text-align: left; color: #C81E24;"><strong>Lack of Social Features</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        Fans of Trader Joe's wanted social features such as being able to share their thoughts on different products and view other's reviews to discover new products. Though there are currently platforms that fans can use for this purpose, there are way too many different platforms resulting in a scattered experience. 
+                    </p>
+
+                    <p style="color: #888888;">
+                        “I wish there was a fan club feature to share reviews and vote for favorite items. ”
+
+                    </p>
+                </div>
+            </div>
+
+            <!-- <div id="TJpainpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder;">05</p>
+                </div>
+
+                <div>
+                    <p style="text-align: left;"><strong>Going Over Budget</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        Forgetting to purchase items they planned on purchasing causes them to have to make an extra trip or change recipes. 
+                    </p>
+
+                    <p>
+                        “I forget to purchase things and I realize it after returning home.”
+
+                    </p>
+                </div>
+            </div> -->
+
+            <h4>Pain Points We Chose Not To Focus On</h4>
+
+            <div id="TJpainpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #C81E24;">01</p>
+                </div>
+
+                <div>
+                    <p style="text-align: left; color: #C81E24;"><strong>Price/ Deals & Discounts</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        From our research, we learned that users care the most about price when shopping at Trader Joe's and mainly use other grocery store apps to find deals and discounts; however, we chose not to focus on this pain point to stay true to Trader Joe's brand culture because Trader Joe's almost never has any deals and prides itself as having some of the lowest prices.   
+                    </p>
+                </div>
+            </div>
+
+            <div id="TJpainpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #C81E24;">02</p>
+                </div>
+
+                <div>
+                    <p style="text-align: left; color: #C81E24;"><strong>Location of Product</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        One popular feature that our survey respondents wanted to see in a grocery store app was the location of the product. However, though this may be useful for other grocery stores, this would not fit well with Trader Joe's due to the following reasons:
+                    </p>
+
+                    <ol>
+                        <li>Trader Joe's does not currently have an existing store organization system unlike Target or Safeway which label their aisles. We did not want to invent a new store organization system which would confuse users.</li>
+                        <li>Trader Joe's prides itself in its excellent store experience, thus the goal is to have shoppers naturally walk around the store and explore all of its products.</li>
+                        <li>The store is so small that users can easily find all the items they need with minimal effort.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <h3>Ideation</h3>
+
+            <p>
+                We synthesized our data from user surveys and interviews through affinity mapping and developed three main insights:
+            </p>
+
+            <ol>
+                <li>Saving time and money is a priority for users</li>
+                <li>Users enjoy the Trader Joe’s store experience when it comes to visuals and product selection</li>
+                <li>Users, especially loyal Trader Joe’s fans, want a stronger social experience/sense of community</li>
+            </ol>
+
+            <img src="images/tjaffinitymap.png" alt="Affinity Map">
+
+            <h3>Problem Statement</h3>
+
+            <p>From these insights, we came up with our How Might We statement:</p>
+
+            <p style="font-size:25px; text-align: left; background-color: #F8F8F3; padding:20px;">
+                How might we enhance the Trader Joe’s <strong style="font-weight: bold; color: #C81E24;">store experience</strong> through <strong style="font-weight: bold; color: #C81E24;">efficiency</strong> and <strong style="font-weight: bold; color: #C81E24;">brand familiarity</strong> with a virtual app?
+            </p>
+
+            <h3>Low Fidelity Wireframes</h3>
+
+            <img src="images/tjlowfi.png" alt="low-fidelity wireframes" style="max-width:100%;">
+
+            <p>
+                We began ideating by coming up with solutions for each pain point. We presented our ideas in the form of individual low fidelity sketches and proceeded to vote internally on features we each liked the most. After compiling a list of our favorite features, we did one final sketch of all the features we wanted to include in our mid-fidelity prototype.
+            </p>
+
+            <!-- <p>
+                Features in our final low fidelity sketch:
+            </p>
+
+            <ul>
+                <li>Shopping list</li>
+                <li>Product Scanner</li>
+                <li>Crowd meter</li>
+                <li>Availability of product</li>
+                <li>Socials Page</li>
+                <li>Recipes Page</li>
+                <li>Write Reviews</li>
+            </ul> -->
+
+            <h3>Mid-Fidelity Prototyping</h3>
+
+            <img src="images/tjmidfi.png" alt="mid-fidelity wireframes" style="max-width:100%;">
+
+            <p>We created a mid-fidelity prototype based off of our final low-fidelity sketch. The basic skeletal framework of the app allowed us to focus on functionality over appearance. 
+            </p>
+
+            <h3>Usability Testing</h3>
+
+            <p>
+                We created a set of tasks for each stage of the grocery shopping process to test the user’s ability to navigate the app and asked about overall first impressions.
+            </p>
+
+            <ol>
+                <li>The first stage reflected the pre-store experience, in which we prompted users to check how crowded their store was, find products, and create a shopping list. </li>
+                <li>The next task reflected the in-store experience, during which users interacted with the product scanner and checked items off of their shopping list. </li>
+                <li>Lastly, the post-store task consisted of writing reviews of products and saving them to collections for future reference. </li>
+            </ol>
+
+            <p>
+                Our main findings included: Social Page had a lot of overlapping features with other pages, confusion over the wording of our crowd meter, shopping list was not efficient, the confusion over the flow to add an item to a Collections, and the many features confused users.
+            </p>
+
+            <h3>High Fidelity Prototyping</h3>
+
+            <img src="images/tjhifi.png" alt="High Fidelity" style="max-width:100%;">
+
+            <!-- <h4>Features Prototyped</h4> -->
+
+            <div id="TJfeatures">
+                <img src="images/tjonboarding.gif" alt="Onboarding">
+
+                <div>
+                    <p>
+                        <strong style="color:#C81E24; font-size: 30px;">Onboarding</strong>
+                    </p>
+                    <p style="text-align: left;">
+                        The many features might be confusing for new users, so an onboarding section is available to introduce the different features and result in a smoother user flow. To brush up their memory, users can access the Onboarding Pages on the Home Page at any time. 
+                    </p>
+                </div> 
+            </div>
+
+            <div id="TJfeatures">
+                <div>
+                    <p>
+                        <strong style="color:#C81E24; font-size: 30px;">Home Page</strong>
+                    </p>
+                    <p style="text-align: left;">
+                        Designed to cater towards the in-store experience. Key features on this app include a <strong style="color:#C81E24;">crowd meter</strong>, easy access to view all <strong style="color:#C81E24;">new and season products</strong>, and a <strong style="color:#C81E24;">product scanner</strong> to learn more about and product or add it to their shopping list. 
+                    </p>
+                </div>
+
+                <img src="images/tjhome.gif" alt="Home Page">
+            </div>
+
+
+            <div id="TJfeatures">
+                <img src="images/tjshoppinglist.gif" alt="Shopping List">
+                    
+                <div>
+                    <p>
+                        <strong style="color:#C81E24; font-size: 30px;">Shopping List</strong>
+                    </p>
+                    <p style="text-align: left;">
+                        Users can create a shopping list before they go to the store so they never forget to purchase an item. The shopping list is divided by category to make it easier to navigate. Users can use the add button to add items directly from the Shopping List Page so they do not need to navigate to a new page.
+                    </p>
+
+                    <p>
+                        At the store, users can check off items on their shopping list as they place the item in their cart. Once an item has been checked off, the cost of the item will be added to the total, so users can always <strong style="color:#C81E24;">stay within budget</strong>, a user pain point that came up during our research. To quickly get the total of the whole list, users can use the select all button. To delete the list and start a new list, users can click clear all. 
+                    </p>
+                </div>
+            </div>
+
+            <div id="TJfeatures">
+                <div>
+                    <p>
+                        <strong style="color:#C81E24; font-size: 30px;">Collections</strong>
+                    </p>
+                    <p style="text-align: left;">
+                        Users can <strong style="color:#C81E24;">bookmark</strong> items and <strong style="color:#C81E24;">organize</strong> them into different Collections, which can accessed through the Profile Page. 
+                    </p>
+                </div>
+
+                <img src="images/tjcollections.gif" alt="Collections">
+            </div>
+
+            <div id="TJfeatures">
+                <img src="images/tjproductalerts.gif" alt="Product Alerts">
+
+                <div>
+                    <p>
+                        <strong style="color:#C81E24; font-size: 30px;">Product Alerts</strong>
+                    </p>
+                    <p style="text-align: left;">
+                        Users have access to 4 types of product alerts so they never miss a product.
+                    </p>
+
+                    <p style="text-align: left;">
+                        <strong style="color:#C81E24;">Restock Alert</strong> for out of stock items.
+                    </p>
+
+                    <p style="text-align: left;">
+                        <strong style="color:#C81E24;">Back In Season Alert</strong> to notify users that their favorite seasonal items are back.
+                    </p>
+
+                    <p style="text-align: left;">
+                        <strong style="color:#C81E24;">Out of Season Alert</strong> to remind users to stock up on their favorite seasonal items before they leave the shelves.
+                    </p>
+
+                    <p style="text-align: left;">
+                        <strong style="color:#C81E24;">Discontinued Soon Alert</strong> to alert users to stock up on their favorite items before they are discontinued indefinitely.
+                    </p>
+                </div>
+
+                
+            </div>
+
+            <div id="TJfeatures">
+                <div>
+                    <p>
+                        <strong style="color:#C81E24; font-size: 30px;">Socials Page</strong>
+                    </p>
+                    <p style="text-align: left;">
+                        Users can add their contacts as friends to view each other's Collections and reviews. 
+                    </p>
+                </div>
+
+                <img src="images/tjsocials.gif" alt="Socials Page">
+            </div>
+
+            <h3>Design System</h3>
+            <!-- Furthermore, we had to decide how we would transition from mid-fi to hi-fi. We began with a design system.  -->
+            <p>
+                With sketched graphics and a familiar color scheme resembling the Trader Joe’s website and packaging, we hope our app captures the unique Trader Joe’s shopping experience. 
+            </p>
+            <img src="images/tjdesignsystem.png" alt="Design System" style="max-width:100%;">
+
+            <!-- <h3>Final Prototype</h3>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaSPJsoNv0EwOW4RCsKqq8w%2FDesignathon-Travelocity-redesign%3Fnode-id%3D97%253A315%26scaling%3Dscale-down%26page-id%3D2%253A4%26starting-point-node-id%3D105%253A427" allowfullscreen></iframe> -->
+
+            <h3>Presentation Day</h3>
+
+            <p>
+                We presented our project to a panel of industry professionals on Presentation Day, an event hosted by Design Interactive, the first UX organization at UC Davis. We were awarded the <strong style="color:#C81E24;">Audience Choice Award</strong> and the <strong style="color:#C81E24;">Best Storytelling Award</strong>. 
+            </p>
+            <img src="images/tjpresentationday.jpg" alt="Presentation Day" style="max-width:60%;">
+
+            <h3>Takeaways</h3>
+            <p>
+                This was my first time being user research lead and it was quite stressful since I have never lead any part of a design sprint before; however, it proved to be a valuable experience as now I gained experience delegating tasks, spearheading user research, and experimenting with various methods to gather data. This was also my first time using Qualtrics and it definitely changed the game for me when it comes to creating surveys as there is a lot more customization that I can do, as well as, different ways to display data.
+            </p>
+
+            <p>
+                Another important skill I learned was working with a design system. Previously, I had a poor habit of designing without a comprehensive design system, which resulted in unconsistent designs especially when I worked with other team members. Though creating the design system did take time, it proved to be extremely useful in making sure all of our designs were uniform and changes could easily be made. 
+            </p>
+
+            <h3>Challenges</h3>
+
+            <p>
+                Our biggest challenge was that we had many features in mind (i.e. socials page with poll voting, featured customer reviews, having different grocery lists) and had to eliminate/reorganize these features.
+            </p>
+
+            <h3>Next Steps</h3>
+
+            <p>
+                Given more time, I would like to focus on interviewing more loyal fans of Trader Joe’s as opposed to just casual shoppers since that is a demographic that I would like to focus on. I would also like to conduct more usability tests on the high fidelity prototype to improve the user flow.
+            </p>
+
+            <p>
+                In addition, I would also like to develop the following features that my team and I previously ideated but were not able to get to:
+            </p>
+
+            <ul>
+                <li>Expand Social Page to promote interaction between friends such as the addition of collaborative Collections</li>
+                <li>Ability to submit recipes to be shown on the Recipes Page</li>
+                <li>Add a feature that allows customers to report product availability for better accuracy</li>
+            </ul>
+            
+            <!-- <h3>Final Thoughts</h3>
+            <p>
+                This was my first time being user research lead and it was quite stressful since I have never lead any part of a design sprint before; however, it proved to be a valuable experience as now I gained experience delegating tasks, spearheading user research, and experimenting with various methods to gather data. This was also the first I had used Qualtrics and it definitely changed the game for me when it comes to creating surveys as there is a lot more customization that I can do, as well as, different ways to display data.
+            </p>
+
+            <p>
+                Another important skill I learned was working with a design system. Previously, I had a poor habit of designing without a comprehensive design system, which resulted in unconsistent designs especially when I worked with other team members. Though creating the design system did take time, it proved to be extremely useful in making sure all of our designs were uniform and changes could easily be made. 
+            </p> -->
+
+            <!-- <p>Overall, an amazing 6 weeks with an amazing group of designers and a final product that I am proud of.</p>
+
+            <img src="images/tjteam.png" alt="Trader Joe's Team" style="max-width:50%;"> -->
+
+        </section>
+    </main>
+
+    <script>
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector('.menu ul');
+
+        hamburger.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+
+        });
+    </script>
+
+    <footer>
+        <p><a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Cindy Lee</a></p>
+
+        <div id="connecticon">
+            <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
+
+            <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <p>
+            <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a>
+        </p>
+    </footer>
+</body>
+</html>

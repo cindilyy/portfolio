@@ -1,7 +1,11 @@
 /* MOBILE VERSION CSS */
 
-body {
+section {
     margin: auto;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom:0px;
+    margin-top: 0px;
 }
 
 #nav_desktop {
@@ -124,7 +128,7 @@ body {
     flex-direction: column;
     text-align: center;
     max-width:350px;
-    padding-top:50px;
+    /* padding-top:50px; */
     padding-bottom: 50px;
     gap: 50px;
 }
@@ -206,8 +210,8 @@ a:hover {
 
 #aboutintro img {
     max-width: 70%;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     margin: auto;
     padding-top: 20px;
 }
@@ -225,8 +229,8 @@ section h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     padding: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     font-size: 30px;
 }
 
@@ -239,8 +243,8 @@ section h3 {
     padding: 0px;
     font-size: 20px;
     padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     /* text-decoration: underline; */
 }
 
@@ -253,8 +257,8 @@ section h4 {
     padding: 0px;
     font-size: 15px;
     padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
 
 section h5 {
@@ -266,19 +270,21 @@ section h5 {
     padding: 0px;
     font-size: 10px;
     padding-top: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
 
 section p {
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     color: #222222;
     font-family: 'Lato', sans-serif;
     line-height: 150%;
     font-size: 17px;
     text-align: justify;
     font-weight: normal;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 section ul li {
@@ -304,8 +310,7 @@ section ol li {
 }
 
 #hero {
-    max-width: 90%;
-    margin-left: 20px;
+    max-width: 100%;
 }
 
 img {
@@ -388,11 +393,23 @@ section a {
     width: 50%;
 }
 
+#TJfeatures img {
+    max-width: 30%;
+}
+
+#infobar p{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
 
 
 /* DESKTOP VERSION CSS */
 
 @media only screen and (min-width: 600px) {
+    body{
+        margin:0px;
+    }
     #hamburger {
         visibility: hidden;
     }
@@ -473,7 +490,7 @@ section a {
         font-size: 20px;
         margin: auto;
     }
-    #home #library,
+    #home #traderjoes, #library,
     #travelocity,#weguide {
         display: flex;
         flex-direction: row;
@@ -610,6 +627,8 @@ section a {
         font-size: 20px;
         padding: 0px;
         text-align: justify;
+        margin-top:15px;
+        margin-bottom:15px;
     }
     section h2 {
         padding: 0px;
@@ -624,7 +643,7 @@ section a {
         font-family: 'Lato', sans-serif;
         line-height: 170%;
         font-size: 20px;
-        padding-left: 20px;
+        /* padding-left: 20px; */
         text-align: justify;
     }
     section ul li {
@@ -651,12 +670,6 @@ section a {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    /* img {
-        max-width: 70%;
-        display: flex;
-        margin: auto;
-        margin-top: 20px;
-    } */
 
     img {
         display: flex;
@@ -671,7 +684,6 @@ section a {
     }
 
     #deskaccom1{
-        /* margin-left:100px; */
         margin:auto;
         width:70%;
     }
@@ -686,7 +698,6 @@ section a {
 
     #deskattract2{
         max-width:80%;
-        /* margin-right:300px; */
     }
 
     #filter1{
@@ -759,8 +770,18 @@ section a {
         display: flex;
         flex-direction:row;
         justify-content: space-between; 
-        
-        
+    }
+
+    #infobar p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    #infobarTJ{
+        display:grid;
+        grid-template-columns: 2fr 1fr 0.75fr 1fr;
+        gap:50px;
     }
 
     #userpersona{
@@ -788,6 +809,42 @@ section a {
     .fa-chevron-up:hover{
         color: #C4C4C4;
     } */
+
+    /* #tjquotes{
+        display: flex;
+        flex-direction:row;
+
+    } */
+
+    /* .grid-container{
+        display:grid;
+        grid-template-columns: 5fr 1fr;
+        align-items: center;
+        row-gap:0px;
+        
+    } */
+
+    #TJfeatures {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        align-items: center;
+        margin: auto;
+        max-width: 900px;
+        padding-top:50px;
+        padding-bottom:50px;
+        gap:100px;
+    }
+
+    #TJfeatures img {
+        max-width: 30%;
+    }
+
+    #TJpainpoints {
+        display:grid;
+        grid-template-columns: 0.05fr 0.5fr 3fr;
+        gap:50px;
+    }
 
 
 
