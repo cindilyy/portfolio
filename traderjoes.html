@@ -11,6 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+    <style media="all">
+        .mobile-display{display:none}
+        .desktop-display{display:block}
+        @media (max-width:600px){
+        .desktop-display {display:none}
+        .mobile-display {display:block}
+        }
+    </style>
 
 </head>
 
@@ -25,7 +33,7 @@
                 <ul class="hidden">
                     <li><a href="index.html">Portfolio</a></li>
                     <li><a href="about.html">About Me</a></li>
-                    <li><a href="https://drive.google.com/file/d/197DLdoq2-qS-XQ5ov8FOg6S9b-jDhTTY/view?usp=sharing">Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1f0GdOW6diCkHtKgPK75xHlPbQtZpUyta/view?usp=sharing">Resume</a></li>
                 </ul>
             </nav>
         </header>
@@ -38,7 +46,7 @@
                 <ul>
                     <li><a id="button1" href="index.html">Portfolio</a></li>
                     <li><a href="about.html">About Me</a></li>
-                    <li><a href="https://drive.google.com/file/d/197DLdoq2-qS-XQ5ov8FOg6S9b-jDhTTY/view?usp=sharing">Resume</a></li>
+                    <li><a href="https://drive.google.com/file/d/1f0GdOW6diCkHtKgPK75xHlPbQtZpUyta/view?usp=sharing">Resume</a></li>
                 </ul>
             </nav>
 
@@ -62,7 +70,7 @@
                 <div>
                     <h4>Collaborators</h4>
                     <p>
-                        Karen Dang, Isabel Shic, Kaitlyn Lam, <br> Nava Babei (PM)
+                        Karen Dang, Isabel Shic, Kaitlyn Lam, <br> Nava Babei (Project Manager)
                     </p>
                 </div>
                 <div id="Role">
@@ -81,18 +89,15 @@
                 </div>
             </div>
 
-            <!-- <h3>Problem Statement</h3>
-            <p>
-                How might we enhance the Trader Joe’s store experience through efficiency and brand familiarity with a virtual app?
-            </p> -->
-
             <h3>Research</h3>
 
             <h4>Competitor Analysis</h4>
 
             <p>In order to get a better sense of potential features, we conducted a competitive analysis with various existing grocery store apps, including Safeway, Costco, and Target. We found that these applications didn’t enhance much of the in-store experience. </p>
 
-            <img src = "images/tjcompana.png" alt = "Trader Joe's Competitive Analysis">
+            <img class="desktop-display" src = "images/tjcompana.png" alt = "Trader Joe's Competitive Analysis" style="max-width:80%">
+
+            <img class="mobile-display" src = "images/tjcompana.png" alt = "Trader Joe's Competitive Analysis">
 
             <h4>Survey</h4>
 
@@ -116,26 +121,37 @@
                 Respondents who considered Trader Joe’s their <strong style="color: #C81E24;">preferred grocery store</strong> shared that they prefer it because of its location (26.84%), selection (26.84%), and prices (23.46%). 
             </p>
 
-            <img src="images/tjpreferred.png" alt="Pie Chart: What makes Trader Joe's your preferred grocery store?" style="max-width:50%;">
+            <img class="desktop-display" src="images/tjpreferred.png" alt="Pie Chart: What makes Trader Joe's your preferred grocery store?" style="max-width: 50%;">
+
+            <img class="mobile-display" src="images/tjpreferred.png" alt="Pie Chart: What makes Trader Joe's your preferred grocery store?">
 
             <p>
                 The <strong style="color: #C81E24;">most wanted features</strong> on a grocery app are deals and discounts (61.45%), product availability (58.10%), and location of the product in the store (44.69%). 
             </p>
 
-            <img src="images/tjfeatures.png" alt="Bar Chart: Most Wanted Features">
+            <img class="desktop-display" src="images/tjfeatures.png" alt="Bar Chart: Most Wanted Features"style="max-width:80%;">
+
+            <img class="mobile-display" src="images/tjfeatures.png" alt="Bar Chart: Most Wanted Features">
 
             <p>
                 The top three qualities that <strong style="color: #C81E24;">enhance users’ Trader Joe’s experience</strong> are customer service (33.67%), branding (23.37%), and organization (20.85%).
             </p>
-            
-            <img src="images/tjenhance.png" alt="Pie Chart: Enhances Store Experience">
+
+            <img class="desktop-display" src="images/tjenhance.png" alt="Pie Chart: Enhances Store Experience" style="max-width:80%;">
+
+            <img class="mobile-display" src="images/tjenhance.png" alt="Pie Chart: Enhances Store Experience">
 
             <h4>User Journey Map</h4>
             <p>
                 We also created a user journey map using these insights to connect with our user in terms of the phases they go through and how they are feeling and act in each stage. Through this process, we found many potential user pain points and helped us better empathize with our users. 
             </p>
 
-            <img src="images/tjuserjourneymap.png" alt="User Journey Map" style="max-width:70%; margin-top: 30px; margin-bottom: 30px;">
+            <!-- <img src="images/tjuserjourneymap.png" alt="User Journey Map" style="max-width:70%; margin-top: 30px; margin-bottom: 30px;"> -->
+
+            <img class="desktop-display" src="images/tjuserjourneymap.png" alt="User Journey Map" style="max-width:70%; margin-top: 30px; margin-bottom: 30px;">
+
+            <img class="mobile-display" src="images/tjuserjourneymap.png" alt="User Journey Map">
+
 
             <h3>Synthesis of Data</h3>
 
@@ -227,27 +243,6 @@
                 </div>
             </div>
 
-            <!-- <div id="TJpainpoints">
-                <div>
-                    <p style="font-size: 30px; font-weight: bolder;">05</p>
-                </div>
-
-                <div>
-                    <p style="text-align: left;"><strong>Going Over Budget</strong></p>
-                </div>
-                
-                <div>
-                    <p>
-                        Forgetting to purchase items they planned on purchasing causes them to have to make an extra trip or change recipes. 
-                    </p>
-
-                    <p>
-                        “I forget to purchase things and I realize it after returning home.”
-
-                    </p>
-                </div>
-            </div> -->
-
             <h4>Pain Points We Chose Not To Focus On</h4>
 
             <div id="TJpainpoints">
@@ -296,11 +291,13 @@
 
             <ol>
                 <li>Saving time and money is a priority for users</li>
-                <li>Users enjoy the Trader Joe’s store experience when it comes to visuals and product selection</li>
+                <li>Users enjoy the Trader Joe’s store experience when it comes to branding, visuals, and product selection</li>
                 <li>Users, especially loyal Trader Joe’s fans, want a stronger social experience/sense of community</li>
             </ol>
 
-            <img src="images/tjaffinitymap.png" alt="Affinity Map">
+            <img class="desktop-display" src="images/tjaffinitymap.png" alt="Affinity Map" style="max-width:70%">
+
+            <img class="mobile-display" src="images/tjaffinitymap.png" alt="Affinity Map">
 
             <h3>Problem Statement</h3>
 
@@ -318,21 +315,7 @@
                 We began ideating by coming up with solutions for each pain point. We presented our ideas in the form of individual low fidelity sketches and proceeded to vote internally on features we each liked the most. After compiling a list of our favorite features, we did one final sketch of all the features we wanted to include in our mid-fidelity prototype.
             </p>
 
-            <!-- <p>
-                Features in our final low fidelity sketch:
-            </p>
-
-            <ul>
-                <li>Shopping list</li>
-                <li>Product Scanner</li>
-                <li>Crowd meter</li>
-                <li>Availability of product</li>
-                <li>Socials Page</li>
-                <li>Recipes Page</li>
-                <li>Write Reviews</li>
-            </ul> -->
-
-            <h3>Mid-Fidelity Prototyping</h3>
+            <h3>Mid-Fidelity Prototype</h3>
 
             <img src="images/tjmidfi.png" alt="mid-fidelity wireframes" style="max-width:100%;">
 
@@ -342,128 +325,241 @@
             <h3>Usability Testing</h3>
 
             <p>
-                We created a set of tasks for each stage of the grocery shopping process to test the user’s ability to navigate the app and asked about overall first impressions.
+                To test our mid-fidelity prototype, we created a set of tasks for each stage of the grocery shopping process to test the user’s ability to navigate the app and asked about overall first impressions.
             </p>
 
             <ol>
-                <li>The first stage reflected the pre-store experience, in which we prompted users to check how crowded their store was, find products, and create a shopping list. </li>
-                <li>The next task reflected the in-store experience, during which users interacted with the product scanner and checked items off of their shopping list. </li>
-                <li>Lastly, the post-store task consisted of writing reviews of products and saving them to collections for future reference. </li>
+                <li>The first stage reflected the <strong style="color:#C81E24;">pre-store experience</strong>, in which we prompted users to check how crowded their store was, find products, and create a shopping list. </li>
+                <li>The next task reflected the <strong style="color:#C81E24;">in-store experience</strong>, during which users interacted with the product scanner and checked items off of their shopping list. </li>
+                <li>Lastly, the <strong style="color:#C81E24;">post-store experience</strong> consisted of writing reviews of products and saving them to collections for future reference. </li>
             </ol>
 
             <p>
-                Our main findings included: Social Page had a lot of overlapping features with other pages, confusion over the wording of our crowd meter, shopping list was not efficient, the confusion over the flow to add an item to a Collections, and the many features confused users.
+                Our main findings included:
             </p>
 
-            <h3>High Fidelity Prototyping</h3>
+            <ul>
+                <li>Social Page had a lot of overlapping features with other pages</li>
+                <li>Confusion over the wording of our crowd meter</li>
+                <li>Shopping list was not efficient</li>
+                <li>Confusion over the flow to add an item to a Collections</li>
+                <li>Too many features confused users</li>
+                
+            </ul>
+
+            <h3>High Fidelity Prototype</h3>
 
             <img src="images/tjhifi.png" alt="High Fidelity" style="max-width:100%;">
 
-            <!-- <h4>Features Prototyped</h4> -->
-
-            <div id="TJfeatures">
-                <img src="images/tjonboarding.gif" alt="Onboarding">
-
-                <div>
-                    <p>
-                        <strong style="color:#C81E24; font-size: 30px;">Onboarding</strong>
-                    </p>
-                    <p style="text-align: left;">
-                        The many features might be confusing for new users, so an onboarding section is available to introduce the different features and result in a smoother user flow. To brush up their memory, users can access the Onboarding Pages on the Home Page at any time. 
-                    </p>
-                </div> 
-            </div>
-
-            <div id="TJfeatures">
-                <div>
-                    <p>
-                        <strong style="color:#C81E24; font-size: 30px;">Home Page</strong>
-                    </p>
-                    <p style="text-align: left;">
-                        Designed to cater towards the in-store experience. Key features on this app include a <strong style="color:#C81E24;">crowd meter</strong>, easy access to view all <strong style="color:#C81E24;">new and season products</strong>, and a <strong style="color:#C81E24;">product scanner</strong> to learn more about and product or add it to their shopping list. 
-                    </p>
+            <div class = "desktop-display">
+                <div id="TJfeatures">
+                    <img src="images/tjonboarding.gif" alt="Onboarding">
+    
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Onboarding</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            The many features might be confusing for new users, so an onboarding section is available to introduce the different features and result in a smoother user flow. To brush up their memory, users can access the Onboarding Pages on the Home Page at any time. 
+                        </p>
+                    </div> 
                 </div>
-
-                <img src="images/tjhome.gif" alt="Home Page">
-            </div>
-
-
-            <div id="TJfeatures">
-                <img src="images/tjshoppinglist.gif" alt="Shopping List">
+    
+                <div id="TJfeatures">
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Home Page</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Designed to cater towards the in-store experience. Key features on this app include a <strong style="color:#C81E24;">crowd meter</strong>, easy access to view all <strong style="color:#C81E24;">new and season products</strong>, and a <strong style="color:#C81E24;">product scanner</strong> to learn more about and product or add it to their shopping list. 
+                        </p>
+                    </div>
+    
+                    <img src="images/tjhome.gif" alt="Home Page">
+                </div>
+    
+    
+                <div id="TJfeatures">
+                    <img src="images/tjshoppinglist.gif" alt="Shopping List">
+                        
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Shopping List</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Users can create a shopping list before they go to the store so they never forget to purchase an item. The shopping list is divided by category to make it easier to navigate. Users can use the add button to add items directly from the Shopping List Page so they do not need to navigate to a new page.
+                        </p>
+    
+                        <p>
+                            At the store, users can check off items on their shopping list as they place the item in their cart. Once an item has been checked off, the cost of the item will be added to the total, so users can always <strong style="color:#C81E24;">stay within budget</strong>, a user pain point that came up during our research. To quickly get the total of the whole list, users can use the select all button. To delete the list and start a new list, users can click clear all. 
+                        </p>
+                    </div>
+                </div>
+    
+                <div id="TJfeatures">
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Collections</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Users can <strong style="color:#C81E24;">bookmark</strong> items and <strong style="color:#C81E24;">organize</strong> them into different Collections, which can accessed through the Profile Page. 
+                        </p>
+                    </div>
+    
+                    <img src="images/tjcollections.gif" alt="Collections">
+                </div>
+    
+                <div id="TJfeatures">
+                    <img src="images/tjproductalerts.gif" alt="Product Alerts">
+    
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Product Alerts</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Users have access to 4 types of product alerts so they never miss a product.
+                        </p>
+    
+                        <p style="text-align: left;">
+                            <strong style="color:#C81E24;">Restock Alert</strong> for out of stock items.
+                        </p>
+    
+                        <p style="text-align: left;">
+                            <strong style="color:#C81E24;">Back In Season Alert</strong> to notify users that their favorite seasonal items are back.
+                        </p>
+    
+                        <p style="text-align: left;">
+                            <strong style="color:#C81E24;">Out of Season Alert</strong> to remind users to stock up on their favorite seasonal items before they leave the shelves.
+                        </p>
+    
+                        <p style="text-align: left;">
+                            <strong style="color:#C81E24;">Discontinued Soon Alert</strong> to alert users to stock up on their favorite items before they are discontinued indefinitely.
+                        </p>
+                    </div>
+    
                     
-                <div>
-                    <p>
-                        <strong style="color:#C81E24; font-size: 30px;">Shopping List</strong>
-                    </p>
-                    <p style="text-align: left;">
-                        Users can create a shopping list before they go to the store so they never forget to purchase an item. The shopping list is divided by category to make it easier to navigate. Users can use the add button to add items directly from the Shopping List Page so they do not need to navigate to a new page.
-                    </p>
-
-                    <p>
-                        At the store, users can check off items on their shopping list as they place the item in their cart. Once an item has been checked off, the cost of the item will be added to the total, so users can always <strong style="color:#C81E24;">stay within budget</strong>, a user pain point that came up during our research. To quickly get the total of the whole list, users can use the select all button. To delete the list and start a new list, users can click clear all. 
-                    </p>
+                </div>
+    
+                <div id="TJfeatures">
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Socials Page</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Users can add their contacts as friends to view each other's Collections and reviews. 
+                        </p>
+                    </div>
+    
+                    <img src="images/tjsocials.gif" alt="Socials Page">
                 </div>
             </div>
 
-            <div id="TJfeatures">
-                <div>
-                    <p>
-                        <strong style="color:#C81E24; font-size: 30px;">Collections</strong>
-                    </p>
-                    <p style="text-align: left;">
-                        Users can <strong style="color:#C81E24;">bookmark</strong> items and <strong style="color:#C81E24;">organize</strong> them into different Collections, which can accessed through the Profile Page. 
-                    </p>
+            <div class = "mobile-display">
+                <div id="TJfeatures">
+                    <img src="images/tjonboarding.gif" alt="Onboarding">
+    
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Onboarding</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            The many features might be confusing for new users, so an onboarding section is available to introduce the different features and result in a smoother user flow. To brush up their memory, users can access the Onboarding Pages on the Home Page at any time. 
+                        </p>
+                    </div> 
                 </div>
-
-                <img src="images/tjcollections.gif" alt="Collections">
-            </div>
-
-            <div id="TJfeatures">
-                <img src="images/tjproductalerts.gif" alt="Product Alerts">
-
-                <div>
-                    <p>
-                        <strong style="color:#C81E24; font-size: 30px;">Product Alerts</strong>
-                    </p>
-                    <p style="text-align: left;">
-                        Users have access to 4 types of product alerts so they never miss a product.
-                    </p>
-
-                    <p style="text-align: left;">
-                        <strong style="color:#C81E24;">Restock Alert</strong> for out of stock items.
-                    </p>
-
-                    <p style="text-align: left;">
-                        <strong style="color:#C81E24;">Back In Season Alert</strong> to notify users that their favorite seasonal items are back.
-                    </p>
-
-                    <p style="text-align: left;">
-                        <strong style="color:#C81E24;">Out of Season Alert</strong> to remind users to stock up on their favorite seasonal items before they leave the shelves.
-                    </p>
-
-                    <p style="text-align: left;">
-                        <strong style="color:#C81E24;">Discontinued Soon Alert</strong> to alert users to stock up on their favorite items before they are discontinued indefinitely.
-                    </p>
+    
+                <div id="TJfeatures">
+                    <img src="images/tjhome.gif" alt="Home Page">
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Home Page</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Designed to cater towards the in-store experience. Key features on this app include a <strong style="color:#C81E24;">crowd meter</strong>, easy access to view all <strong style="color:#C81E24;">new and season products</strong>, and a <strong style="color:#C81E24;">product scanner</strong> to learn more about and product or add it to their shopping list. 
+                        </p>
+                    </div>
+    
+                    
                 </div>
-
-                
-            </div>
-
-            <div id="TJfeatures">
-                <div>
-                    <p>
-                        <strong style="color:#C81E24; font-size: 30px;">Socials Page</strong>
-                    </p>
-                    <p style="text-align: left;">
-                        Users can add their contacts as friends to view each other's Collections and reviews. 
-                    </p>
+    
+    
+                <div id="TJfeatures">
+                    <img src="images/tjshoppinglist.gif" alt="Shopping List">
+                        
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Shopping List</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Users can create a shopping list before they go to the store so they never forget to purchase an item. The shopping list is divided by category to make it easier to navigate. Users can use the add button to add items directly from the Shopping List Page so they do not need to navigate to a new page.
+                        </p>
+    
+                        <p>
+                            At the store, users can check off items on their shopping list as they place the item in their cart. Once an item has been checked off, the cost of the item will be added to the total, so users can always <strong style="color:#C81E24;">stay within budget</strong>, a user pain point that came up during our research. To quickly get the total of the whole list, users can use the select all button. To delete the list and start a new list, users can click clear all. 
+                        </p>
+                    </div>
                 </div>
+    
+                <div id="TJfeatures">
+                    <img src="images/tjcollections.gif" alt="Collections">
 
-                <img src="images/tjsocials.gif" alt="Socials Page">
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Collections</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Users can <strong style="color:#C81E24;">bookmark</strong> items and <strong style="color:#C81E24;">organize</strong> them into different Collections, which can accessed through the Profile Page. 
+                        </p>
+                    </div>
+                </div>
+    
+                <div id="TJfeatures">
+                    <img src="images/tjproductalerts.gif" alt="Product Alerts">
+    
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Product Alerts</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Users have access to 4 types of product alerts so they never miss a product.
+                        </p>
+    
+                        <p style="text-align: left;">
+                            <strong style="color:#C81E24;">Restock Alert</strong> for out of stock items.
+                        </p>
+    
+                        <p style="text-align: left;">
+                            <strong style="color:#C81E24;">Back In Season Alert</strong> to notify users that their favorite seasonal items are back.
+                        </p>
+    
+                        <p style="text-align: left;">
+                            <strong style="color:#C81E24;">Out of Season Alert</strong> to remind users to stock up on their favorite seasonal items before they leave the shelves.
+                        </p>
+    
+                        <p style="text-align: left;">
+                            <strong style="color:#C81E24;">Discontinued Soon Alert</strong> to alert users to stock up on their favorite items before they are discontinued indefinitely.
+                        </p>
+                    </div>
+    
+                    
+                </div>
+    
+                <div id="TJfeatures">
+                    <img src="images/tjsocials.gif" alt="Socials Page">
+
+                    <div>
+                        <p>
+                            <strong style="color:#C81E24; font-size: 30px;">Socials Page</strong>
+                        </p>
+                        <p style="text-align: left;">
+                            Users can add their contacts as friends to view each other's Collections and reviews. 
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <h3>Design System</h3>
-            <!-- Furthermore, we had to decide how we would transition from mid-fi to hi-fi. We began with a design system.  -->
+
             <p>
                 With sketched graphics and a familiar color scheme resembling the Trader Joe’s website and packaging, we hope our app captures the unique Trader Joe’s shopping experience. 
             </p>
@@ -477,11 +573,14 @@
             <p>
                 We presented our project to a panel of industry professionals on Presentation Day, an event hosted by Design Interactive, the first UX organization at UC Davis. We were awarded the <strong style="color:#C81E24;">Audience Choice Award</strong> and the <strong style="color:#C81E24;">Best Storytelling Award</strong>. 
             </p>
-            <img src="images/tjpresentationday.jpg" alt="Presentation Day" style="max-width:60%;">
+
+            <img class="desktop-display" src="images/tjpresentationday.jpg" alt="Presentation Day" style="max-width:80%;">
+
+            <img class="mobile-display" src="images/tjpresentationday.jpg" alt="Presentation Day">
 
             <h3>Takeaways</h3>
             <p>
-                This was my first time being user research lead and it was quite stressful since I have never lead any part of a design sprint before; however, it proved to be a valuable experience as now I gained experience delegating tasks, spearheading user research, and experimenting with various methods to gather data. This was also my first time using Qualtrics and it definitely changed the game for me when it comes to creating surveys as there is a lot more customization that I can do, as well as, different ways to display data.
+                This was my first time being user research lead and it was quite intimidating since I have never lead any part of a design sprint before; however, it proved to be a valuable experience as now I gained experience delegating tasks, spearheading user research, and experimenting with various methods to gather data. This was also my first time using Qualtrics and it definitely changed the game for me when it comes to creating surveys as there is a lot more customization that I can do, as well as, different ways to display data.
             </p>
 
             <p>
@@ -509,19 +608,6 @@
                 <li>Ability to submit recipes to be shown on the Recipes Page</li>
                 <li>Add a feature that allows customers to report product availability for better accuracy</li>
             </ul>
-            
-            <!-- <h3>Final Thoughts</h3>
-            <p>
-                This was my first time being user research lead and it was quite stressful since I have never lead any part of a design sprint before; however, it proved to be a valuable experience as now I gained experience delegating tasks, spearheading user research, and experimenting with various methods to gather data. This was also the first I had used Qualtrics and it definitely changed the game for me when it comes to creating surveys as there is a lot more customization that I can do, as well as, different ways to display data.
-            </p>
-
-            <p>
-                Another important skill I learned was working with a design system. Previously, I had a poor habit of designing without a comprehensive design system, which resulted in unconsistent designs especially when I worked with other team members. Though creating the design system did take time, it proved to be extremely useful in making sure all of our designs were uniform and changes could easily be made. 
-            </p> -->
-
-            <!-- <p>Overall, an amazing 6 weeks with an amazing group of designers and a final product that I am proud of.</p>
-
-            <img src="images/tjteam.png" alt="Trader Joe's Team" style="max-width:50%;"> -->
 
         </section>
     </main>
