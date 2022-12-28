@@ -21,7 +21,8 @@ section {
     top: 50px;
     right: 20px;
     width: 50px;
-    top: 29px;
+    top: 20px;
+    /* top: 29px; */
     max-width: 10%;
 }
 
@@ -172,6 +173,16 @@ footer p {
     font-family: 'Lato', sans-serif;
 }
 
+footer #connecticon{
+    gap:20px;
+    align-items: center;
+}
+
+footer #connecticon i{
+    margin:0px;
+    padding:0px;
+}
+
 footer a {
     text-decoration: none;
     color: #222222;
@@ -213,6 +224,19 @@ a:hover {
     padding-right: 20px; */
     margin: auto;
     padding-top: 20px;
+}
+
+#about #why, #interests{
+    padding-bottom:30px;
+}
+
+#connect #connecticon i{
+    margin:0px; 
+}
+
+#connect #connecticon{
+    margin-top:10px;
+    gap:20px;
 }
 
 section {
@@ -362,7 +386,23 @@ section a {
     color: #C4C4C4;
 }
 
-#deskflight2{
+#travelocity_features img{
+    max-width: 50%;
+}
+
+/* .row {
+    max-width: 90%;
+    margin: auto;
+
+
+} */
+
+#travelocity_features video{
+    height:400px;
+    
+}
+
+/* #deskflight2{
     width: 50%;
     margin:auto;
 }
@@ -395,9 +435,9 @@ section a {
 #infobar p{
     margin-top:5px;
     margin-bottom:5px;
-}
+} */
 
-#TJfeatures {
+/* #TJfeatures {
     display: flex;
     flex-direction: row;
     padding: 0px;
@@ -411,8 +451,29 @@ section a {
 
 #TJfeatures img {
     max-width: 40%;
-}
+} */
  
+
+#TJfeatures {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-items:flex-start;
+    margin: auto;
+    max-width: 900px;
+    padding-top:20px;
+    padding-bottom:20px;
+    gap:20px;
+}
+
+#TJfeatures img {
+    max-width: 70%;
+}
+
+#weguidefeatures img {
+    max-width: 60%;
+}
+
 
 
 /* DESKTOP VERSION CSS */
@@ -520,6 +581,17 @@ section a {
         margin: auto;
         padding: 0px;
     }
+
+    #homehero:hover{
+        /* box-shadow: 0 8px 6px -6px black; */
+        /* box-shadow: 10px 10px 5px #ccc; */
+        /* box-shadow: 10px 10px 5px #C4C4C4;
+        transform: scale(1.05); */
+        /* box-shadow: 3px 3px 5px 6px #ccc; */
+        /* box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3); */
+        box-shadow: 3px 3px 10px #C4C4C4;
+    }
+
     #casestudies {
         margin: auto;
         max-width: 1000px;
@@ -568,7 +640,7 @@ section a {
     #aboutintro2 {
         display: flex;
         flex-direction: row;
-        gap: 100px;
+        gap: 50px;
         width: 1000px;
         margin: auto;
     }
@@ -689,14 +761,68 @@ section a {
         margin-bottom: 20px;
     }
 
-    img {
+
+
+
+    #travelocitypage a{
+        color:#00477F;
+    }
+
+    #travelocitypage a:hover{
+        color:#5aa3d6;
+    }
+
+    #travelocity_features img{
+        max-width: 27%;
+        
+    }
+
+    .row {
+        max-width: 90%;
+        margin: auto;
+        /* background-color: pink; */
+        display: grid;
+        grid-template-columns: 1fr 0.75fr;
+        align-items: flex-end;
+        /* justify-content: space-around; */
+    }
+
+    #travelocity_features video{
+        height:500px;
+        
+    }
+
+    #weguidefeatures img {
+        max-width: 25%;
+    }
+    
+
+    /* .row {
+        display:flex;
+        flex-direction: row;
+        align-items: flex-end;
+        align-content: space-between;
+
+    } */
+
+       
+    
+
+      
+      
+
+
+
+    
+
+    /* img {
         display: flex;
         margin: auto;
         margin-top: 20px;
-        width:100%;
-    }
+        max-width:70%;
+    } */
 
-    #deskflight2{
+    /* #deskflight2{
         width: 95%;
     }
 
@@ -706,7 +832,7 @@ section a {
     }
 
     #deskaccom2{
-        width: 40%;
+        max-width: 40%;
     }
 
     #deskattract1{
@@ -745,7 +871,16 @@ section a {
         max-width: 100%;
         height: 500px;
         margin-bottom: 20px;
-    }
+    } */
+
+
+
+
+
+
+
+
+
     #connecticon i {
         margin-top: 20px;
         color: #222222;
@@ -860,6 +995,12 @@ section a {
     #TJpainpoints {
         display:grid;
         grid-template-columns: 0.05fr 0.5fr 3fr;
+        gap:50px;
+    }
+
+    #Travelocity_painpoints{
+        display:grid;
+        grid-template-columns: 0.05fr 0.7fr 3fr;
         gap:50px;
     }
 

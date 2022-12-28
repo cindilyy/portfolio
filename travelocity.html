@@ -11,6 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+    <style media="all">
+        .mobile-display{display:none}
+        .desktop-display{display:block}
+        @media (max-width:600px){
+        .desktop-display {display:none}
+        .mobile-display {display:block}
+        }
+    </style>
 
 </head>
 
@@ -47,19 +55,19 @@
 
     <main>
 
-        <section>
+        <section id="travelocitypage">
             <h2>Travelocity Redesign</h2>
 
-            <img id="hero" src="images/travelocityhero.png" alt="Travelocity hero image">
+            <img id="hero" src="images/travelocityhero2.png" alt="Travelocity hero image">
 
             <h3>Overview</h3>
 
             <p>
-                Redesigned the Travelocity app to be a seamless one-stop trip booking experience with improved flow and mobile interface.
+                Over the span of six days, my team and I redesigned the Travelocity app, an online travel agency with services such as flights, accomodations, rental cars, cruises and packaged vacations, to create a seamless one-stop trip booking experience with improved flow and mobile interface.
             </p>
 
             <p>
-                <a href="https://designathon.sbcreativelab.com/">SB Creative Lab's 2022 PiXEL Designathon</a> Beginners Category First Place Winner
+                We presented our design to a panel of industry professionals and won first place in the beginners category at the <br><a href="https://designathon.sbcreativelab.com/">SB Creative Lab's 2022 PiXEL Designathon</a>. 
             </p>
 
             <div id="infobar">
@@ -87,13 +95,17 @@
 
             <h3>Problem</h3>
             <p>
-                With countries and cities slowly reopening their borders, students and families are thinking about planning memorable senior trips, study abroad programs, or family vacations. However, despite the numerous trip planners, and accommodation booking tools, the user experience falls short. Travelocity wants a redesign to improve the app’s user experience by improving the flow and mobile interface.
+                With countries and cities slowly reopening their borders, students and families are thinking about planning memorable senior trips, study abroad programs, or family vacations. However, despite the numerous trip planners, and accommodation booking, the user experience falls short. 
             </p>
 
-            <h3>Solution</h3>
+            <p>
+                How might we redesign the Travelocity app to better the user’s experience by <strong style="color: #00477F;">improving the flow</strong> and <strong style="color: #00477F;">mobile interface</strong>?
+            </p>
+
+            <!-- <h3>Solution</h3>
             <p>
                 A redesigned Travelocity app that provides a seamless one-stop trip booking experience that covers all aspects of the trip from flights to accommodations to tours.
-            </p>
+            </p> -->
 
             <h3>Research</h3>
 
@@ -101,15 +113,19 @@
 
             <h4>Competitor Analysis</h4>
 
-            <p>Each member of the team was tasked with analyzing the pros and cons of both the app we were redesigning, Travelocity, and a competing app (i.e. Kayak, Tripadvisor, and Hopper). The app I analyzed was Hopper. The goal of this step was to better understand the app we were redesigning, as well as, learn from other apps to see what was and was not working for them since we lacked knowledge about travel apps. </p>
+            <p>Each member of the team was tasked with analyzing the pros and cons of both the app we were redesigning, Travelocity, and a similar app (i.e. Kayak, Tripadvisor, and Hopper). The goal of this step was to better understand the app we were redesigning, as well as, learn from other apps to see what was and was not working for them since we lacked knowledge about travel apps.</p>
+
+            <!-- <p>
+                <strong>Travelocity:</strong> The app is not very first-time users friendly. A lot of features are not explicitly stated so first-time users might not know they exist and might not know where to find them. For example, the “explore trips” page was actually one of my favorite features on the app; however, I had no clue about it when I first started using the app. Our favorite aspect of the app is how comprehensive the trip planning could be when using the “explore trips” page because all your related accommodations, flights, and tickets for your trip were all in one place. We later decided to structure our redesign around this feature to create a seamless one-stop trip booking experience rather than having the app feel like a mishmash of different services. 
+            </p> -->
 
             <p>
-                <strong>Travelocity:</strong> The app is not very first-time users friendly. A lot of features are not explicitly stated so first-time users might not know they exist and might not know where to find them. For example, the “explore trips” page was actually one of my favorite features on the app; however, I had no clue about it when I first started using the app. Our favorite aspect of the app is how comprehensive the trip planning could be when using the “explore trips” page because all your related accommodations, flights, and tickets for your trip were all in one place. We later decided to structure our redesign around this feature to create a seamless one-stop trip booking experience rather than having the app feel like a mishmash of different services. 
+                <strong>Travelocity:</strong> Our favorite aspect of the app is how comprehensive the trip planning could be when using the “Explore Trips” page because the user’s related accommodations, flights, and tickets are all in one place. However, this feature was hidden and only appears after the user begins planning their trip. We decided to structure our redesign by highlighting this feature to create a <strong style="color: #00477F;">seamless one-stop trip booking experience</strong> rather than having the app feel like a mishmash of different services.
             </p>
 
             <img src="images/CA_Travelocity.png" alt="Travelocity Pros and Cons" style="max-width:90%; height:auto;">
 
-            <p>
+            <!-- <p>
                 <strong>Hopper:</strong> Hopper has a very clear target audience, Gen Z travelers. This could be seen through its youthful, fun aesthetic through the use of bright colors and cute animal animations. In addition, the app constantly reminds users of how Hopper is helping them save money through cashbacks, discounts, vouchers, deals, fee predictions, and insurance; this is perfect for Gen Z travelers who usually are on a tighter budget. The app also makes it easy to plan trips as a group through its sharing feature and travel buddy feature. 
             </p>
 
@@ -125,17 +141,33 @@
                 <strong>Kayak:</strong> Kayak is the most similar to Travelocity but differentiates itself with features such as theme selection and flight inspiration. 
             </p>
 
-            <img src="images/CA_Kayak.png" alt="Kayak Pros and Cons" style="max-width:80%; height:auto;">
-
-            <h4>Survey Structure</h4>
+            <img src="images/CA_Kayak.png" alt="Kayak Pros and Cons" style="max-width:80%; height:auto;"> -->
 
             <p>
-                For our survey, which we conducted via a Google Form, we used a mix of multiple-choice, checkbox, and free-response questions. We made sure to word our questions very objectively and to leave the responses open-ended.
+                <strong>Hopper:</strong> Through its youthful, fun aesthetic achieved through bright colors and cute animal animations, Hopper's app <strong style="color: #00477F;">appeals to Gen Z and millennials</strong>. In addition, the app constantly reminds users of how Hopper is helping them <strong style="color: #00477F;">save money</strong> through cashbacks, discounts, vouchers, deals, fee predictions, and insurance; this is perfect for Gen Z travelers who usually are on a tighter budget. The app also makes it easy to plan trips as a group through its <strong style="color: #00477F;">sharing feature</strong> and <strong style="color: #00477F;">travel buddy feature</strong>.
             </p>
 
-            <h4>Survey Results</h4>
+            <p>
+                <strong>Tripadvisor:</strong> Tripadvisor places its emphasis on <strong style="color: #00477F;">user interaction</strong> through forums, guides, and reviews. 
+            </p>
 
             <p>
+                <strong>Kayak:</strong> Kayak is the most similar to Travelocity but differentiates itself with features such as <strong style="color: #00477F;">theme selection</strong> and <strong style="color: #00477F;">flight inspiration</strong>. 
+            </p>
+
+            <img src="images/travelocity_competitoranalysis.png" alt="Kayak Pros and Cons" style="max-width:80%; height:auto;">
+
+            <h4>Survey</h4>
+
+            <p>
+                <!-- For our survey, which we conducted via a Google Form, we used a mix of multiple-choice, checkbox, and free-response questions. We made sure to word our questions very objectively and to leave the responses open-ended. -->
+
+                Our survey used a mix of multiple-choice, checkbox, and free-response questions to learn how people plan and book trips. From our survey responses, we learned about their traveling preferences and most wanted features. I will go in depth regarding these findings in the ideation section. 
+            </p>
+
+            <!-- <h4>Survey Results</h4> -->
+
+            <!-- <p>
                 We received 21 survey responses. Our demographic is quite diverse in terms of age as they range from 18-65+, with the majority (57.1%) being from ages 18 to 24. 
             </p>
 
@@ -149,27 +181,42 @@
 
             <p>
                 Next, we asked about the services they use on travel apps. Here are the results:
-            </p>
+            </p> -->
+
+            <img src="images/travelocity_piechart.png" alt="how many people do you usually travel with pie chart">
 
             <img src="images/topservices.png" alt="most popular services">
 
-            <p>
+            <!-- <p>
                 From this, we conclude that aside from Cruises and Show tickets, users would most likely take advantage of all the services offered by Travelocity, further justifying the importance of creating an inclusive, one-stop travel experience where users can plan every aspect of their trip in one place. 
             </p>
 
             <p>
                 In terms of features, the most popular features amongst our respondents include customer reviews, comparing options, favorites button, top deals, pictures, Covid info, and Visa info. Thus, we will keep and highlight these features during our redesign. 
-            </p>
+            </p> -->
 
-            <h4>Affinity Diagram</h4>
+            <h3>User Persona</h3>
 
             <p>
-                Next, using the information gathered through competitor analysis and our survey, we created an affinity diagram to find common pain points.
+                From our research, we created one user persona and began to brainstorm ideas to help solve the pain points of this user.  
             </p>
+
+            <img src="images/userpersona.png" alt="User Persona">
+
+            <h3>Affinity Diagram</h3>
+
+            <p>
+                <!-- We moved onto synthesizing our research findings using affinity mapping. After making categorizing our data and identifying patterns, we narrowed down five main insights that we used to drive the direction of our redesign.  -->
+                We synthesized our research findings using affinity mapping. After making categorizing our data and identifying patterns, we narrowed down five main insights that we used to drive the direction of our redesign. 
+            </p>
+
+            <!-- <p>
+                Next, using the information gathered through competitor analysis and our survey, we created an affinity diagram to find common pain points.
+            </p> -->
 
             <img src="images/travelocity_affinity_mapping.png" alt="Travelocity Affinity Diagram" style="max-width:100%; height:auto;">
 
-            <h4>Conclusions From Research</h4>
+            <!-- <h4>Conclusions From Research</h4>
 
             <p>
                 From our affinity diagram, we decided to focus our redesign on the following:
@@ -182,26 +229,101 @@
 
                 <li>Focus on providing the following features: customer reviews, comparing options, favorites button, top deals, pictures, Covid information, and visa information. 
                 </li>
-            </ol>
+            </ol> -->
 
-            <h3>User Persona</h3>
+            <h3>Main Insights</h3>
 
+            <div id="Travelocity_painpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #00477F;">01</p>
+                </div>
+
+                <div>
+                    <p style="color: #00477F;"><strong>Utilize Many Services</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        Aside from cruise and shows/attraction tickets, respondents use travel apps to book tickets for multiple services, thus further justifying the importance of creating an inclusive, one-stop travel experience where users can plan every aspect of their trip in one place.   
+                    </p>
+                </div>
+            </div>
+
+            <div id="Travelocity_painpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #00477F;">02</p>
+                </div>
+
+                <div>
+                    <p style="color: #00477F;"><strong>Travel and Plan In Groups</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        100% of respondents travel in groups and 71.4% of respondents like to plan collaboratively, thus group planning features are a must have.   
+                    </p>
+                </div>
+            </div>
+
+            <div id="Travelocity_painpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #00477F;">03</p>
+                </div>
+
+                <div>
+                    <p style="color: #00477F;"><strong>COVID Information</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        Nearly 1/4 of respondents shared that want COVID-related information to stay updated on the latest COVID restrictions of the countries they are looking to travel to. Thus, we learned that adding COVID updates would help users feel more at ease traveling again. 
+                    </p>
+                </div>
+            </div>
+
+            <div id="Travelocity_painpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #00477F;">04</p>
+                </div>
+
+                <div>
+                    <p style="color: #00477F;"><strong>Popular Features</strong></p>
+                </div>
+                
+                <div>
+                    <p>Respondents shared that they want to be able to see more customer reviews, comparing different options, and want more images on the app.</p>
+                </div>
+            </div>
+
+            <div id="Travelocity_painpoints">
+                <div>
+                    <p style="font-size: 30px; font-weight: bolder; color: #00477F;">05</p>
+                </div>
+
+                <div>
+                    <p style="color: #00477F;"><strong>Cognitive Overload</strong></p>
+                </div>
+                
+                <div>
+                    <p>
+                        The Travelocity pages often have lots of information, especially lots of long paragraphs, resulting in cognitive overload, especially on the hotel pages.
+                    </p>
+                </div>
+            </div>
+
+            <!-- <h3>Ideation</h3> -->
+
+            <h3>User Flow</h3>
             <p>
-                From our research, we created one user persona and began to brainstorm ideas to help solve the pain points of this user.  
+                <!-- We began by mapping out the user flow to see which pages needed to be created. Afterward, we moved on to mid-fidelity prototyping.  -->
+                Before we moved onto wireframing, we created a user flow to better understand the architecture of our app so we would know which pages we needed to create. 
             </p>
 
-            <img src="images/userpersona.png" alt="User Persona">
+            <img src="images/travelocity_user_flow.png" alt="User Flow" style="max-width:100%">
 
-            <h3>Ideation</h3>
+            <h3>Mid-fidelity Wireframing</h3>
 
-            <h4>User Flow</h4>
-            <p>
-                We began by mapping out the user flow to see which pages needed to be created. Afterward, we moved on to mid-fidelity prototyping. 
-            </p>
-
-            <img src="images/travelocity user flow.png" alt="User Flow" style="max-width:100%">
-
-            <h4>Mid-fidelity Wireframing</h4>
+            <img src="images/travelocity_allmidfi.png" alt="mid-fidelity wireframes">
 
             <p>
                 We began to produce mid-fidelity frames for each page using Figma. As mentioned previously, we focused on redesigning the app into a comprehensive, seamless trip planning experience. Thus, we spent most of our time redesigning the home page. Instead of having the user pick which service (i.e. stays, flights, packages, cars, things to do, and cruises) they want to begin with first, we had them pick their start and end location, time of travel, and the number of travelers. Then, they will be directed to a page where they can begin to plan any and all aspects of their trips.
@@ -209,7 +331,7 @@
 
             <img src="images/travelocity_midfi.png" alt="mid-fidelity wireframes home screens">
 
-            <p>
+            <!-- <p>
                 Considering how all our respondents emphasized that they mainly travel in groups and plan collectively, we designed an “invite and collaborate” feature for users to more efficiently plan collectively. 
             </p>
 
@@ -218,158 +340,251 @@
 
             <p>
                 We also noticed Travelocity pages often have lots of information, especially lots of long paragraphs, resulting in cognitive overload, especially on the hotel pages. Referencing the other travel apps we analyzed, we redesigned the format of other pages, to best display information to users and reduce cognitive load. We also prioritized the popular features mentioned in our survey such as customer reviews, favorites button, pictures, and Covid information. 
-            </p>
+            </p> -->
 
-            <h3>High-Fidelity Prototype</h3>
+            <!-- <h3>High-Fidelity Prototype</h3> -->
+            <h3>Color</h3>
 
             <p>
-                We used the font and colors from the logo as the main colors and font of our redesign. 
+                The current app uses very minimal color and does not stand out in the sea of travel apps, so for our redesign we wanted the app to be more exciting and fun to fit the theme of travel and vacation. We used the font and colors from the logo as the main colors and font of our redesign. 
             </p>
 
-            <img src="images/colorfont2.png" alt="color and font" style="max-width:60%;">
-
+            <img src="images/colorfont2.png" alt="color and font" style="max-width:70%;">
+            
             <h3>Final Solution</h3>
 
             <img src="images/travelocity_hifi.png" alt="final solution" style="max-width:100%; height:auto;">
 
-            <h4>Features Prototyped</h4>
+            <div id="travelocity_features">
+                <!-- <h4>Features Prototyped</h4> -->
 
-            <p>
-                <strong>Create an account:</strong> Users can create an account if they are new to the app. They can also choose their traveling interests to receive catered travel suggestions. 
-            </p>
+                <p>
+                    <strong>Create an account:</strong> Users can create an account if they are new to the app, or they can choose to continue as a guest and create an account later. When creating their account, users are prompted to choose their traveling interests to receive catered travel suggestions. 
+                </p>
 
-            <!-- <img src="images/travelocity_signup.gif" alt="Signup" style="max-width:25%; height:auto;"> -->
-            <img src="images/travelocity_signup.gif" alt="Signup" id="singlegif">
-            <h5>Create an account</h5>
+                <!-- <img src="images/travelocity_signup.gif" alt="Signup" style="max-width:25%; height:auto;"> -->
+                <img src="images/travelocity_signup.gif" alt="Signup" id="singlegif">
+                <h5>Create an account</h5>
 
-            <p>
-                <strong>Begin planning trip:</strong> Users can begin to plan their trip by choosing their location and departure/arrival date. Once that information has been inputted, they will be redirected to a page dedicated to planing for that trip, where they can access different flights, accomodations, and attraction options. 
+                <p>
+                    <strong>Begin planning trip:</strong> Users can begin to plan their trip by choosing their location and departure/arrival date. Once that information has been inputted, they will be redirected to a page dedicated to planing for that specific trip where they can access different flights, accomodations, and attractions. 
 
-                <!-- This is the KEY feature of our redesign because it repackages Travelocity from an app that provides different travel-related services to one that is dedicated to helping future travelers plan every aspect of their trip. -->
-            </p>
+                    <!-- This is the KEY feature of our redesign because it repackages Travelocity from an app that provides different travel-related services to one that is dedicated to helping future travelers plan every aspect of their trip. -->
+                </p>
 
-            <!-- <img src="images/Begin Planning Trip.gif" alt="Begin Planning Trip" style="max-width:25%; height:auto;"> -->
-            <img src="images/Begin Planning Trip.gif" alt="Begin Planning Trip" id="singlegif">
-            <h5>Begin Planning Trip</h5>
+                <!-- <img src="images/Begin Planning Trip.gif" alt="Begin Planning Trip" style="max-width:25%; height:auto;"> -->
+                <img src="images/Begin Planning Trip.gif" alt="Begin Planning Trip" id="singlegif">
+                <h5>Begin Planning Trip</h5>
 
-            <p>
-                <strong>Book a flight:</strong> For many travelers, the first order of business is booking a flight. During our user research, we learned that pricing and the ability to compare their options were important to our users, so in our redesign, we used horizontal scrolling cards so users can see more options and compare prices between different the tiers of flights for their selected flight. 
-            </p>
+                <p>
+                    <strong>Book a flight:</strong> For many travelers, the first order of business is booking a flight. During our user research, we learned that pricing and the ability to compare their options were important to our users, so in our redesign, we used horizontal scrolling cards instead of the original vertical cards so users can see more options and easily compare prices between different the tiers of flights. This is also a better use of screen space. 
+                </p>
 
 
-            <!-- <div class="row">
-                <div class="column">
-                    <img src="images/travelocity_original_flights.PNG" alt="Original: Book a flight" style="max-width:77%; height:auto;">
-                    <h5>Redesign: Book A Flight</h5>
+                <!-- REALLY OLD -->
+                <!-- <div class="row">
+                    <div class="column">
+                        <img src="images/travelocity_original_flights.PNG" alt="Original: Book a flight" style="max-width:77%; height:auto;">
+                        <h5>Redesign: Book A Flight</h5>
+                    </div>
+                    <div class="column">
+                        <img src="images/travelocity_flights.gif" alt="Book a flight" style="max-width:85%; height:auto; margin-right:300px">
+                        <h5>Redesign: Book A Flight</h5>
+                    </div>
+                </div> -->
+
+                <div class="mobile-display">
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/travelocity_original_flights.jpg" alt="Original: Book a flight" style="max-width:80%">
+                            <h5>Original Design: Book A Flight</h5>
+                        </div>
+                        <div class="column">
+                            <img src="images/travelocity_flights.gif" alt="Book a flight" style="max-width: 50%">
+                            <h5>Redesign: Book A Flight</h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="column">
-                    <img src="images/travelocity_flights.gif" alt="Book a flight" style="max-width:85%; height:auto; margin-right:300px">
-                    <h5>Redesign: Book A Flight</h5>
+                
+                <div class="desktop-display">
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/travelocity_original_flights.jpg" alt="Original: Book a flight" style="max-width:95%">
+                            <h5>Original Design: Book A Flight</h5>
+                        </div>
+                        <div class="column">
+                            <img src="images/travelocity_flights.gif" alt="Book a flight" style="max-width: 65%">
+                            <h5>Redesign: Book A Flight</h5>
+                        </div>
+                    </div>
                 </div>
-            </div> -->
+                
 
-            <div class="row">
-                <div class="column">
-                    <img src="images/travelocity_original_flights.jpg" alt="Original: Book a flight" style="width:100%;">
-                    <h5>Original Design: Book A Flight</h5>
+                <!-- <div id="travelocity_2pics">
+                    <div>
+                        <img src="images/travelocity_original_flights.jpg" alt="Original: Book a flight" style="max-width:65%">
+                        <h5>Original Design: Book A Flight</h5>
+                    </div>
+                    <div>
+                        <img src="images/travelocity_flights.gif" alt="Book a flight" style="max-width:110%">
+                        <h5>Redesign: Book A Flight</h5>
+                    </div>
+                </div> -->
+                
+
+                <p>
+                    <strong>Book an accomodation:</strong> The original design for booking an accomodation was extremely cluttered with information resulting in cognitive overload. Thus, for our redesign, we focused on reducing cognitive overload by eliminating or hiding a lot of the less important details and sectioning off information. Similar to flights, we also used horizontal scrolling cards to make it easier to compare different hotel rooms. 
+                </p>
+
+                <!-- <div class="row">
+                    <div class="column" style="margin-left:150px;" >
+                        <video width="550" controls>
+                            <source src="images/RPReplay_Final1663856500.mov">
+                        </video>
+                        <h5>Original Design: Accomodations</h5>
+                    </div>
+                    <div class="column">
+                        <img src="images/travelocity_hotel.gif" alt="Book an accomodation" style="max-width:58%; height:auto;">
+                        <h5>Redesign: Accomodations</h5>
+                    </div>
+                </div> -->
+
+                <div class="mobile-display">
+                    <div class="row">
+                        <div class="column">
+                            <video controls>
+                                <source src="images/RPReplay_Final1663856500.mov">
+                            </video>
+                            <h5>Original Design: Accomodations</h5>
+                        </div>
+                        <div class="column">
+                            <img src="images/travelocity_hotel.gif" alt="Book an accomodation" style="max-width: 50%">
+                            <h5>Redesign: Accomodations</h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="column" id = "deskflight2">
-                    <img src="images/travelocity_flights.gif" alt="Book a flight" style="width:100%;">
-                    <h5>Redesign: Book A Flight</h5>
+                
+                <div class="desktop-display">
+                    <div class="row">
+                        <div class="column">
+                            <video controls>
+                                <source src="images/RPReplay_Final1663856500.mov">
+                            </video>
+                            <h5>Original Design: Accomodations</h5>
+                        </div>
+                        <div class="column">
+                            <img src="images/travelocity_hotel.gif" alt="Book an accomodation" style="max-width: 65%">
+                            <h5>Redesign: Accomodations</h5>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- <div id="travelocity_2pics">
+                    <div style="margin-left: 250px;">
+                        <video style="height:450px; max-width: 100%;" controls>
+                            <source src="images/RPReplay_Final1663856500.mov">
+                        </video>
+                        <h5>Original Design: Accomodations</h5>
+                    </div>
+                    <div>
+                        <img src="images/travelocity_hotel.gif" alt="Book an accomodation" style="max-width:50%">
+                        <h5>Redesign: Accomodations</h5>
+                    </div>
+                </div> -->
+
+                <p>
+                    <strong>Book an attraction:</strong> Users can book attractions such as tours or find good local restaurants and landmarks. Our main change was to the attractions page. The original design just recommends popular attractions and to filter through different attractions, users must click the filter button to pick different categories. Instead, we made the attractions page a page with different categories so users can easily filter through the many types of attractions by selecting what interests them. We also placed an emphasis on recommended activities, customer reviews, and used lots of images, all highly requested features from our user survey. 
+                </p>
+
+                <!-- <div class="row">
+                    <div class="column">
+                        <img src="images/travelocity_original_attractions.png" alt="Original: Attractions" style="max-width:77%; height:auto;">
+                        <h5>Redesign: Book An Attraction</h5>
+                    </div>
+                    <div class="column">
+                        <img src="images/travelocity_tours.gif" alt="Book an attraction" style="max-width:85%; height:auto; margin-right:300px">
+                        <h5>Redesign: Book An Attraction</h5>
+                    </div>
+                </div> -->
+
+                <div class="mobile-display">
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/travelocity_original_attractions.png" alt="Original: Attractions" style="max-width:80%">
+                            <h5>Original Design: Book An Attraction</h5>
+                        </div>
+                        <div class="column">
+                            <img src="images/travelocity_tours.gif" alt="Book an attraction" style="max-width:50%">
+                            <h5>Redesign: Book An Attraction</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="desktop-display">
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/travelocity_original_attractions.png" alt="Original: Attractions" style="max-width:95%">
+                            <h5>Original Design: Book An Attraction</h5>
+                        </div>
+                        <div class="column">
+                            <img src="images/travelocity_tours.gif" alt="Book an attraction" style="max-width:65%">
+                            <h5>Redesign: Book An Attraction</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+                <p>
+                    <strong>Share:</strong> Majority of survey respondents shared that they plan their trips with other people, thus we created an option to add other users to plan trips together.
+                </p>
+
+                <!-- <img src="images/travelocity_share.gif" alt="Share" style="max-width:25%; height:auto;"> -->
+                <img src="images/travelocity_share.gif" alt="Share" id="singlegif">
+                <h5>Share</h5>
+
+                <p>
+                    <strong>Trips and Favorites:</strong> Users can easily find trips that they had previously planned or are currently planning. If they find flights, accomodations, or attractions that interest them and would like to save them for future trips, they can also favorite it and it would show up in the Favorites tab of the bottom navigation. 
+                </p>
+
+                <!-- <img src="images/travelocity_saved.gif" alt="Trips and Favorites" style="max-width:25%; height:auto;"> -->
+                <img src="images/travelocity_saved.gif" alt="Trips and Favorites" id="singlegif">
+                <h5>Trips and Favorites</h5>
+
+                <p>
+                    <strong>Maps and Filter:</strong> In the original design, the maps and filter button is located at the bottom center of the screen, and it blends in with the grey background making it hard to spot. Since it is located on top of card components, there is a chance that users might accidentally click onto a card instead of the maps and filter button. Thus, we moved these buttons up to the top center and changed the color of the button to make it easier to spot and click.
+                </p>
+                <!-- <img src="images/travelocity_stays.png" alt="Maps and Filters" style="max-width:25%; height:auto;"> -->
+
+                
+
+                <div class="mobile-display">
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/originalfilter.png" alt="Original Maps and Filters" style="max-width:50%;">
+                            <h5>Original Design: Filters</h5>
+                        </div>
+                        <div class="column">
+                            <img src="images/travelocity_stays.png" alt="Maps and Filters" style="max-width:50%;">
+                            <h5>Redesign: Filter</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="desktop-display">
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/originalfilter.png" alt="Original Maps and Filters" style="max-width:45%;">
+                            <h5>Original Design: Filters</h5>
+                        </div>
+                        <div class="column">
+                            <img src="images/travelocity_stays.png" alt="Maps and Filters" style="max-width:65%;">
+                            <h5>Redesign: Filter</h5>
+                        </div>
+                    </div>
+                </div>
+
+                
             </div>
-            
-
-            <p>
-                <strong>Book an accomodation:</strong> The original design for booking an accomodation was extremely cluttered with information resulting in cognitive overload. Thus, for our redesign, we focused on reducing cognitive overload by eliminating or hiding a lot of the less important details and sectioning off information. Similar to flights, we also used horizontal scrolling cards to make it easier to compare different rooms at the hotel. 
-            </p>
-
-            <!-- <div class="row">
-                <div class="column" style="margin-left:150px;" >
-                    <video width="550" controls>
-                        <source src="images/RPReplay_Final1663856500.mov">
-                    </video>
-                    <h5>Original Design: Accomodations</h5>
-                </div>
-                <div class="column">
-                    <img src="images/travelocity_hotel.gif" alt="Book an accomodation" style="max-width:58%; height:auto;">
-                    <h5>Redesign: Accomodations</h5>
-                </div>
-            </div> -->
-
-            <div class="row">
-                <div class="column" id = "deskaccom1">
-                    <video controls>
-                        <source src="images/RPReplay_Final1663856500.mov">
-                    </video>
-                    <h5>Original Design: Accomodations</h5>
-                </div>
-                <div class="column" id = "deskaccom2">
-                    <img src="images/travelocity_hotel.gif" alt="Book an accomodation">
-                    <h5>Redesign: Accomodations</h5>
-                </div>
-            </div>
-
-            <p>
-                <strong>Book an attraction:</strong> Users can book attractions such as tours or find good local restaurants and landmarks. Our main change was to the attractions page. The original design just recommends popular attractions and to filter through different attractions, users must click the filter button to pick different categories. Instead, we made the attractions page a page with different categories so users can easily filter through the many types of attractions by selecting what interests them. We also placed an emphasis on recommended activities, customer reviews, and used lots of images, all highly requested features from our user survey. 
-            </p>
-
-            <!-- <div class="row">
-                <div class="column">
-                    <img src="images/travelocity_original_attractions.png" alt="Original: Attractions" style="max-width:77%; height:auto;">
-                    <h5>Redesign: Book An Attraction</h5>
-                </div>
-                <div class="column">
-                    <img src="images/travelocity_tours.gif" alt="Book an attraction" style="max-width:85%; height:auto; margin-right:300px">
-                    <h5>Redesign: Book An Attraction</h5>
-                </div>
-            </div> -->
-
-            <div class="row">
-                <div class="column" id ="deskattract1">
-                    <img src="images/travelocity_original_attractions.png" alt="Original: Attractions">
-                    <h5>Original Design: Book An Attraction</h5>
-                </div>
-                <div class="column" id="deskattract2">
-                    <img src="images/travelocity_tours.gif" alt="Book an attraction">
-                    <h5>Redesign: Book An Attraction</h5>
-                </div>
-            </div>
-
-            <p>
-                <strong>Share:</strong> Majority of survey respondents shared that they plan their trips with other people, thus we created an option to add other users to plan trips together.
-            </p>
-
-            <!-- <img src="images/travelocity_share.gif" alt="Share" style="max-width:25%; height:auto;"> -->
-            <img src="images/travelocity_share.gif" alt="Share" id="singlegif">
-            <h5>Share</h5>
-
-            <p>
-                <strong>Trips and Favorites:</strong> Users can easily find trips that they had previously planned or are currently planning. If they find flights, accomodations, or attractions that interest them and would like to save them for future trips, they can also favorite it and it would show up in the Favorites tab of the bottom navigation. 
-            </p>
-
-            <!-- <img src="images/travelocity_saved.gif" alt="Trips and Favorites" style="max-width:25%; height:auto;"> -->
-            <img src="images/travelocity_saved.gif" alt="Trips and Favorites" id="singlegif">
-            <h5>Trips and Favorites</h5>
-
-            <p>
-                <strong>Maps and Filter:</strong> The maps and filter button for each page is located at the bottom center of the screen. It blends in with the grey background making it hard to spot. Since it is located on top of card components, there is a chance that users might accidentally click onto a card instead of the maps and filter button. Thus, we moved these buttons up to the top center and changed the color of the button to make it easier to spot and click.
-            </p>
-            <!-- <img src="images/travelocity_stays.png" alt="Maps and Filters" style="max-width:25%; height:auto;"> -->
-
-            <div class="row">
-                <div class="column" id ="filter1">
-                    <img src="images/originalfilter.png" alt="Original Maps and Filters">
-                    <h5>Original Design: Filters</h5>
-                </div>
-                <div class="column" id="filter2">
-                    <img src="images/travelocity_stays.png" alt="Maps and Filters">
-                    <h5>Redesign: Filter</h5>
-                </div>
-            </div>
-            
-            
-
 
             <!-- <h3>Final Prototype</h3>
             <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FaSPJsoNv0EwOW4RCsKqq8w%2FDesignathon-Travelocity-redesign%3Fnode-id%3D97%253A315%26scaling%3Dscale-down%26page-id%3D2%253A4%26starting-point-node-id%3D105%253A427" allowfullscreen></iframe> -->

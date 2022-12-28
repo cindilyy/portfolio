@@ -11,6 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+    <style media="all">
+        .mobile-display{display:none}
+        .desktop-display{display:block}
+        @media (max-width:600px){
+        .desktop-display {display:none}
+        .mobile-display {display:block}
+        }
+    </style>
 
 </head>
 <body id="travelocitypost">
@@ -56,15 +64,6 @@
                 Weguide is a mobile app designed to help Chinese immigrants navigate through their new life in the United States.
             </p>
 
-            <!-- <h4>Role</h4>
-            <p>UI/UX Design, UX Research</p>
-
-            <h4>Timeframe</h4>
-            <p>5 weeks (May - June 2022)</p>
-
-            <h4>Tools</h4>
-            <p>Figma</p> -->
-
             <div id="infobar">
                 <div id="Role">
                     <h4>Role</h4>
@@ -82,10 +81,9 @@
                 </div>
             </div>
 
-
             <h3>Problem Statement</h3>
             <p>
-                <strong>How might we support Chinese immigrants who have trouble assimilating to their new home in America due to the language barrier and digital illiteracy so that they are able to improve their standard of living?</strong>
+                How might we support Chinese immigrants who have <strong style="color:#F8333C;">trouble assimilating</strong> to their new home in America due to the <strong style="color:#F8333C;">language barrier</strong> and <strong style="color:#F8333C;">digital illiteracy</strong> so that they are able to improve their standard of living?
             </p>  
 
             <p>
@@ -121,12 +119,12 @@
 
             <div id="userpersona">
                 <div>
-                    <img src="images/User Persona 1.png" alt="User Persona 1" style="max-width:90%;">
+                    <img src="images/User Persona 1.png" alt="User Persona 1" >
                     <h5>User Persona 1: Mei Jia Fang</h5>
                 </div>
                 
                 <div>
-                    <img src="images/User Persona 2.png" alt="User Persona 2" style="max-width:90%;">
+                    <img src="images/User Persona 2.png" alt="User Persona 2" >
                     <h5>User Persona 2: David (Jia Feng) Li</h5>
                 </div>
                 
@@ -143,12 +141,12 @@
                 <strong>Forum:</strong> Users can post questions, share experiences, and interact with other users. To build deeper connections, a chat function was added so users can private message users they meet on the Forum.
             </p>
             
-            <img src="images/lowfiforum2.png" alt="low-fidelity wireframing forum" style="max-width:100%; height:auto;">
+            <img src="images/lowfiforum2.png" alt="low-fidelity wireframing forum">
 
             <p>
                 <strong>Guides:</strong> Users can access Guides to learn to do basic, essential tasks. These Guides are available in both English and Chinese and are packed with visuals to make it easier to understand. Users can also save their favorite Guides so they are easily accessible. 
             </p>
-            <img src="images/lowfiguide2.png" alt="low-fidelity wireframes guide" style="max-width:100%; height:auto;">
+            <img src="images/lowfiguide2.png" alt="low-fidelity wireframes guide">
 
             <p>
                 <strong>Resources:</strong> A Resources feature was added so users can have access to translated Resources all in one place. 
@@ -165,7 +163,7 @@
             <p>
                 I picked Inter, a san serif designed for user interfaces with a focus on high legibility of small-to-medium sized text on computer screens. Legibility was vital for me since my target audience is older and often has trouble reading due to their poor eyesight.
             </p>
-            <img src="images/Typograhy.png" alt="typography" style="max-width:20%;">
+            <img src="images/Typograhy.png" alt="typography" style="max-width:40%;">
 
             <h4>Color Scheme</h4>
             <p>
@@ -183,8 +181,8 @@
                 View my first iteration: <a href="https://www.figma.com/proto/u3RAJu6OfndRjOmPPcHer5/DES112--Final-Project?node-id=85%3A168&scaling=scale-down&page-id=85%3A123&starting-point-node-id=85%3A168"><u>First Iteration</u></a>
             </p> -->
 
-            <img src="images/firstiteration2.png" alt="first iteration" style="max-width:100%; height:auto;">
-            <h5>Mid-fidelity Wireframes of First Iteration</h5>
+            <img src="images/firstiteration2.png" alt="first iteration">
+            <!-- <h5>Mid-fidelity Wireframes of First Iteration</h5> -->
 
             <h4>Removing The Resources Feature</h4>
 
@@ -196,7 +194,15 @@
             <p>
                 A Loved tab was added for users to easily access saved forum posts and guides.
             </p>
-            <img src="images/Loved.png" alt="changes: loved" style="max-width:15%; height:auto;">
+
+            <div class="desktop-display">
+                <img src="images/Loved.png" alt="changes: loved" style="max-width:20%; height:auto;">
+            </div>
+            
+            <div class="mobile-display">
+                <img src="images/Loved.png" alt="changes: loved" style="max-width:40%; height:auto;">
+            </div>
+            
 
             
             <h4>Onboarding</h4>
@@ -209,7 +215,7 @@
                 Users had a lot of difficulty with the signup process. My touch targets were too small and unclear so users had a hard time filling out the signup information page. Users also felt that the information page asked for too many things and resulted in cognitive overload. Thus, the layout of the signup information screen was changed and touch targets were made larger to make it clearer where to click. The personal information section was also broken up into 2 frames to reduce cognitive overload. 
             </p>
 
-            <img src="images/signupframes2.png" alt="changes: signup frames" style="max-width:100%; height:auto;">
+            <img src="images/signupframes2.png" alt="changes: signup frames">
 
             <br>
             
@@ -219,7 +225,7 @@
                 During the Add Interests section of the signup process, users expressed they did not understand the purpose of the section. In addition, they expressed that the color contrast made it hard to read the words on my buttons. Thus, for my new iteration the Add Interests section was made more clear with more descriptions and the components were changed to make it easier to read. 
             </p>
 
-            <img src="images/interestschange.png" alt="changes: interests" style="max-width:100%; height:auto;">
+            <img src="images/interestschange.png" alt="changes: interests">
 
             <br>
 
@@ -249,42 +255,44 @@
 
             <h3>Final Solution</h3>
 
-            <h4>Features Prototyped</h4>
+            <!-- <h4>Features Prototyped</h4> -->
 
-            <p>
-                <strong>Signup:</strong> Users can create an account if they are new to the app. During the signup process, they are given a short introduction of the features of the app and also prompted to pick interests to be recommended groups corresponding to their interests for the forum.
-            </p>
-
-            <img src="images/Recording 2022-09-08 at 03.56.13.gif" alt="Task 1" style="max-width:25%; height:auto;">
-            <h5>Task 1: Sign Up Via Mobile (English Version)</h5>
-
-            <p>
-                <strong>Chinese Version:</strong> My completed prototype is in English; however, I did create a preview of what the Chinese version would look like. The Chinese version could be accessed by changing the language option on the log-in/sign-up page.
-            </p>
-
-            <img src="images/chineseversion.gif" alt="Task 1 Chinese Version" style="max-width:25%; height:auto;">
-            <h5>Chinese Version</h5>
-
-            <p>
-                <strong>Forum:</strong> Users can scroll through the forum to see posts from other users. They can also like a post and access it in the saved tab.
-            </p>
-
-            <img src="images/Forumsgif.gif" alt="Task 2: Browse Forums" style="max-width:25%; height:auto;">
-            <h5>Task 2: Browse Forums</h5>
-
-            <p>
-                <strong>Chat:</strong> Users can meet people on forums and chat with them privately. 
-            </p>
-
-            <img src="images/Chatgif.gif" alt="Task 3: Create a new chat" style="max-width:25%; height:auto;">
-            <h5>Task 3: Create a new chat</h5>
-
-            <p>
-                <strong>Guides:</strong> Users can read different guides on various topics that teach them how to do basic, everyday tasks. They can also save it and access it in the saved tab.
-            </p>
-
-            <img src="images/guidegif.gif" alt="Task 4: Browse Guides" style="max-width:25%; height:auto;">
-            <h5>Task 4: Browse and Like Guides</h5>
+            <div id="weguidefeatures">
+                <p>
+                    <strong>Signup:</strong> Users can create an account if they are new to the app. During the signup process, they are given a short introduction of the features of the app and also prompted to pick interests to be recommended groups corresponding to their interests for the forum.
+                </p>
+    
+                <img src="images/Recording 2022-09-08 at 03.56.13.gif" alt="Task 1">
+                <h5>Task 1: Sign Up Via Mobile (English Version)</h5>
+    
+                <p>
+                    <strong>Chinese Version:</strong> My completed prototype is in English; however, I did create a preview of what the Chinese version would look like. The Chinese version could be accessed by changing the language option on the log-in/sign-up page.
+                </p>
+    
+                <img src="images/chineseversion.gif" alt="Task 1 Chinese Version">
+                <h5>Chinese Version</h5>
+    
+                <p>
+                    <strong>Forum:</strong> Users can scroll through the forum to see posts from other users. They can also like a post and access it in the saved tab.
+                </p>
+    
+                <img src="images/Forumsgif.gif" alt="Task 2: Browse Forums">
+                <h5>Task 2: Browse Forums</h5>
+    
+                <p>
+                    <strong>Chat:</strong> Users can meet people on forums and chat with them privately. 
+                </p>
+    
+                <img src="images/Chatgif.gif" alt="Task 3: Create a new chat">
+                <h5>Task 3: Create a new chat</h5>
+    
+                <p>
+                    <strong>Guides:</strong> Users can read different guides on various topics that teach them how to do basic, everyday tasks. They can also save it and access it in the saved tab.
+                </p>
+    
+                <img src="images/guidegif.gif" alt="Task 4: Browse Guides">
+                <h5>Task 4: Browse and Like Guides</h5>
+            </div>
 
             <!-- <h4>High Fidelity Prototype</h4>
             <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fu3RAJu6OfndRjOmPPcHer5%2FDES112--Final-Project%3Fnode-id%3D749%253A461%26scaling%3Dscale-down%26page-id%3D749%253A253%26starting-point-node-id%3D749%253A501%26show-proto-sidebar%3D1" allowfullscreen></iframe> -->
