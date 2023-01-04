@@ -220,8 +220,6 @@ a:hover {
 
 #aboutintro img {
     max-width: 70%;
-    /* padding-left: 20px;
-    padding-right: 20px; */
     margin: auto;
     padding-top: 20px;
 }
@@ -252,8 +250,6 @@ section h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     padding: 0px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
     font-size: 30px;
 }
 
@@ -266,9 +262,6 @@ section h3 {
     padding: 0px;
     font-size: 20px;
     padding-top: 10px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    /* text-decoration: underline; */
 }
 
 section h4 {
@@ -280,8 +273,6 @@ section h4 {
     padding: 0px;
     font-size: 15px;
     padding-top: 20px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
 }
 
 section h5 {
@@ -293,8 +284,6 @@ section h5 {
     padding: 0px;
     font-size: 10px;
     padding-top: 0px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
 }
 
 section p {
@@ -390,68 +379,10 @@ section a {
     max-width: 50%;
 }
 
-/* .row {
-    max-width: 90%;
-    margin: auto;
-
-
-} */
-
 #travelocity_features video{
     height:400px;
     
 }
-
-/* #deskflight2{
-    width: 50%;
-    margin:auto;
-}
-
-#deskaccom2{
-    width: 50%;
-    margin: auto;
-}
-
-#deskattract2{
-    width: 50%;
-    margin: auto;
-}
-
-#singlegif{
-    width: 40%;
-    margin: auto;
-}
-
-#filter1{
-    margin:auto;
-    width:50%;
-}
-
-#filter2{
-    margin:auto;
-    width: 50%;
-}
-
-#infobar p{
-    margin-top:5px;
-    margin-bottom:5px;
-} */
-
-/* #TJfeatures {
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    align-items:flex-start;
-    margin: auto;
-    max-width: 900px;
-    padding-top:20px;
-    padding-bottom:20px;
-    gap:20px;
-}
-
-#TJfeatures img {
-    max-width: 40%;
-} */
  
 
 #TJfeatures {
@@ -583,12 +514,6 @@ section a {
     }
 
     #homehero:hover{
-        /* box-shadow: 0 8px 6px -6px black; */
-        /* box-shadow: 10px 10px 5px #ccc; */
-        /* box-shadow: 10px 10px 5px #C4C4C4;
-        transform: scale(1.05); */
-        /* box-shadow: 3px 3px 5px 6px #ccc; */
-        /* box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3); */
         box-shadow: 3px 3px 10px #C4C4C4;
     }
 
@@ -675,7 +600,8 @@ section a {
         font-weight: bolder;
         padding-top: 50px;
         font-size: 30px;
-        max-width:1000px;
+        /* max-width:1000px; */
+        width:70%;
         margin: auto;
     }
     section h3 {
@@ -795,91 +721,6 @@ section a {
     #weguidefeatures img {
         max-width: 25%;
     }
-    
-
-    /* .row {
-        display:flex;
-        flex-direction: row;
-        align-items: flex-end;
-        align-content: space-between;
-
-    } */
-
-       
-    
-
-      
-      
-
-
-
-    
-
-    /* img {
-        display: flex;
-        margin: auto;
-        margin-top: 20px;
-        max-width:70%;
-    } */
-
-    /* #deskflight2{
-        width: 95%;
-    }
-
-    #deskaccom1{
-        margin:auto;
-        width:70%;
-    }
-
-    #deskaccom2{
-        max-width: 40%;
-    }
-
-    #deskattract1{
-        max-width:65%;
-    }
-
-    #deskattract2{
-        max-width:80%;
-    }
-
-    #filter1{
-        margin:0px;
-        margin-left:150px;
-        width:30%;
-    }
-
-    #filter2{
-        margin:0px;
-        margin-left:100px;
-        width: 32%;
-    }
-
-    #singlegif{
-        max-width:25%;
-    }
-
-
-    .row{
-        display: flex;
-    }
-
-    video {
-        display: flex;
-        margin: auto;
-        padding: 0px;
-        max-width: 100%;
-        height: 500px;
-        margin-bottom: 20px;
-    } */
-
-
-
-
-
-
-
-
 
     #connecticon i {
         margin-top: 20px;
@@ -948,13 +789,15 @@ section a {
 
     .topbutton{
         position: fixed;
-        bottom: 100px;
-        right: 70px;
+        bottom: 50px;
+        right: 50px;
         font-size: 30px;
+        
     }
 
     .fa-chevron-up{
         color:#222222;
+        
         
     }
 
@@ -962,19 +805,6 @@ section a {
         color: #C4C4C4;
     } */
 
-    /* #tjquotes{
-        display: flex;
-        flex-direction:row;
-
-    } */
-
-    /* .grid-container{
-        display:grid;
-        grid-template-columns: 5fr 1fr;
-        align-items: center;
-        row-gap:0px;
-        
-    } */
 
     #TJfeatures {
         display: flex;
