@@ -9,8 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
+    <style media="all">
+        .mobile-display{display:none}
+        .desktop-display{display:block}
+        @media (max-width:800px){
+        .desktop-display {display:none}
+        .mobile-display {display:block}
+        }
+    </style>
 
 </head>
 <body id="home">
@@ -21,8 +30,8 @@
                 <a id="logo1" href="index.html">Cindy Lee</a>
                 <img src="images/menu.png" alt="menu" id="hamburger">
                 <ul class="hidden">
-                    <li><a href="index.html">Portfolio</a></li>
-                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="https://drive.google.com/file/d/1f0GdOW6diCkHtKgPK75xHlPbQtZpUyta/view?usp=sharing">Resume</a></li>
                 </ul>
             </nav>
@@ -31,11 +40,11 @@
 
     <div id="nav_desktop">
         <header>
-            <a id="logo2" href="index.html">Cindy Lee</a>
+            <a id="logo1" href="index.html">Cindy Lee</a>
             <nav class="menu">
                 <ul>
-                    <li><a id="button1" href="index.html">Portfolio</a></li>
-                    <li><a href="about.html">About Me</a></li>
+                    <li><a id="button1" href="index.html">Work</a></li>
+                    <li><a id="button2" href="about.html">About</a></li>
                     <li><a href="https://drive.google.com/file/d/1f0GdOW6diCkHtKgPK75xHlPbQtZpUyta/view?usp=sharing">Resume</a></li>
                 </ul>
             </nav>
@@ -45,105 +54,222 @@
 
     <main>
         <div id="intro">
-            <img src="images/cindy.png" alt="cindy">
-    
+
             <h1>Hi, I'm Cindy!</h1>
+    
+            <!-- <div>
+                <h1 class="hieng">Hi, I'm Cindy!</h1>
+                <h1 class="hichn">你好, I'm Cindy!</h1>
+            </div> -->
+            
             <p>
                 I’m an aspiring UX Designer interested in designing inclusive experiences to help people achieve their personal goals. 
             </p>
+
+            <div id="designdavis">
+                <p>Design @ UC Davis</p>
+            </div>
+
+            
+
+            <!-- <div id="connecticon">
+                <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
+    
+                <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
+            </div> -->
+
+            <div id="downarrow">
+                <a href="#casestudies"><img src="images/ep_arrow-down.png" alt = "down arrow" style="width:40px; height:40px;"></a>
+            </div>
+
+            
+            
         </div>
 
         <section>
-            <div id="casestudies">
-                <div id="traderjoes">
-                    <div id="homehero">
-                        <a href="traderjoes.html"><img src="images/tjhero2.png" alt="Trader Joe's"></a>
-                    </div>
-                    
-                    <div id="traderjoesa">
-                        <a href="traderjoes.html">Trader Joe's</a>
-                        <p>A Trader Joe’s app designed to cater to its customer base by  enhancing the in-store experience and reflecting the unique culture of the brand. 
-                        </p>
-                    </div>
-                </div>
 
-                <div id="weguide">
-                    <div id="homehero">
-                        <a href="weguide.html"><img src="images/Slide 16_9 - 1 (1).png" alt="weguide"></a>
-                    </div>
-                    
-                    <div id="weguidea">
-                        <a href="weguide.html">Weguide</a>
-                        <p>A mobile app designed to help Chinese immigrants navigate through their new life in the United States.
-                        </p>
-                    </div>
-                </div>
-    
-                <div id="travelocity">
-                    <div id="homehero">
-                        <a href="travelocity.html"><img src="images/travelocityhero2.png" alt="travelocity"></a>
-                    </div>
-                    
-                    <div id="travelocitya">
-                        <a href="travelocity.html">Travelocity</a>
-                        <p>Redesigned the Travelocity app to be a  seamless one-stop trip booking experience rather than an app that merely sells plane tickets and hotel rooms. 
-                        </p>
-                    </div>
-                </div>
-    
-                <div id="library">
-                    <div id="homehero">
-                        <a href="library.html"><img src="images/library.png" alt="library redesign"></a>
-                    </div>
-                    
-                    <div id="librarya">
-                        <a href="library.html">UC Davis Library Space Reservation</a>
-                        <p>Designed a space reservation system for the UC Davis library to help students efficiently book study rooms and seats. 
-                        </p>
-                    </div>
-                </div>
-
-                <!-- <div id="traderjoes">
-                    <img src="images/tjhero2.png" alt="Trader Joe's">
-
-                    
-                    <div id="traderjoesa">
-                        <a href="traderjoes.html">Trader Joe's</a>
-                        <p>A Trader Joe’s app designed to cater to its customer base by  enhancing the in-store experience and reflecting the unique culture of the brand. 
-                        </p>
-                    </div>
-                </div>
-
-                <div id="weguide">
-                    <img src="images/Slide 16_9 - 1 (1).png" alt="weguide">
-                    <div id="weguidea">
-                        <a href="weguide.html">Weguide</a>
-                        <p>A mobile app designed to help Chinese immigrants navigate through their new life in the United States.
-                        </p>
-                    </div>
-                </div>
-    
-                <div id="travelocity">
-                    <img src="images/travelocityhero.png" alt="travelocity">
-                    <div id="travelocitya">
-                        <a href="travelocity.html">Travelocity Redesign</a>
-                        <p>Redesigned the Travelocity app to be a  seamless one-stop trip booking experience rather than an app that merely sells plane tickets and hotel rooms. 
-                        </p>
-                    </div>
-                </div>
-    
-                <div id="library">
-                    <img src="images/library.png" alt="library redesign">
-                    <div id="librarya">
-                        <a href="library.html">UC Davis Library Space Reservation</a>
-                        <p>Designed a space reservation system for the UC Davis library to help students efficiently book study rooms and seats. 
-                        </p>
-                    </div>
-                </div> -->
-    
+            <div class = "desktop-display">
+                <div id="casestudies">
                 
+                    <div id="traderjoes">
+                        <div id="homehero">
+                            <a href="traderjoes.html"><img src="images/tjhero3.png" alt="Trader Joe's"></a>
+                        </div>
+                        
+                        <div id="traderjoesa">
+                            <a href="traderjoes.html">Trader Joe's</a>
+                            <p>A Trader Joe’s app designed to cater to its customer base by  enhancing the in-store experience and reflecting the unique culture of the brand. 
+                            </p>
+                            <!-- <img src="images/viewproject.png" alt="view project button" style="max-width:30%;"> -->
     
+                            <div id="vp">
+                                <a href="traderjoes.html">View Project</a>
+                                
+                                
+                            </div>
+    
+                        </div>
+                    </div>
+
+
+                    <div id="library">
+                        <div id="librarya">
+                            <!-- <a href="library.html">UC Davis Library Space Reservation</a> -->
+    
+                            <a href="oasis.html">Oasis</a>
+    
+                            <p>Designed a space reservation system for the UC Davis library to help students efficiently book study rooms and seats. 
+                            </p>
+                            <!-- <img src="images/viewproject.png" alt="view project button" style="max-width:30%;"> -->
+                            <div id="vp">
+                                <!-- <a href="library.html">View Project</a> -->
+                                <a href="oasis.html">View Project</a>
+                            </div>
+                        </div>
+    
+                        <div id="homehero">
+                            <!-- <a href="library.html"><img src="images/tjhero3.png" alt="library redesign"></a> -->
+    
+                            <a href="oasis.html"><img src="images/oasishero.png" alt="library redesign"></a>
+                        </div>
+                    </div>
+
+    
+
+                    <div id="weguide">
+                        <div id="homehero">
+                            <a href="weguide.html"><img src="images/weguidehero3.png" alt="weguide"></a>
+                        </div>
+
+                        <div id="weguidea">
+                            <a href="weguide.html">Weguide</a>
+                            <p>A mobile app designed to help Chinese immigrants navigate through their new life in the United States.
+                            </p>
+                            
+                            <div id="vp">
+                                <a href="weguide.html">View Project</a>
+                            </div>
+                        </div>
+    
+                    </div>
+
+
+        
+                    <div id="travelocity">
+                        <div id="travelocitya">
+                            <a href="travelocity.html">Travelocity</a>
+                            <p>Redesigned the Travelocity app to be a  seamless one-stop trip booking experience rather than an app that merely sells plane tickets and hotel rooms. 
+                            </p>
+                           
+                            <div id="vp">
+                                <a href="travelocity.html">View Project</a>
+                            </div>
+                        </div>
+
+                        <div id="homehero">
+                            <a href="travelocity.html"><img src="images/travelocityhero3.png" alt="travelocity"></a>
+                        </div>
+                    </div>
+        
+                    
+        
+                </div>
             </div>
+
+            
+
+            <div class = "mobile-display">
+                <div id="casestudies">
+                
+                    <div id="traderjoes">
+                        <div id="homehero">
+                            <a href="traderjoes.html"><img src="images/tjhero3.png" alt="Trader Joe's"></a>
+                        </div>
+                        
+                        <div id="traderjoesa">
+                            <a href="traderjoes.html">Trader Joe's</a>
+                            <p>A Trader Joe’s app designed to cater to its customer base by  enhancing the in-store experience and reflecting the unique culture of the brand. 
+                            </p>
+                            <!-- <img src="images/viewproject.png" alt="view project button" style="max-width:30%;"> -->
+    
+                            <div id="vp">
+                                <a href="traderjoes.html">View Project</a>
+                                
+                                
+                            </div>
+    
+                        </div>
+    
+                        
+                    </div>
+
+
+                    <div id="oasis">
+
+                        <div id="homehero">
+                            <!-- <a href="library.html"><img src="images/tjhero3.png" alt="library redesign"></a> -->
+    
+                            <a href="oasis.html"><img src="images/oasishero.png" alt="library redesign"></a>
+                        </div>
+                        
+                        
+                        <div id="librarya">
+                            <!-- <a href="library.html">UC Davis Library Space Reservation</a> -->
+    
+                            <a href="oasis.html">Oasis</a>
+    
+                            <p>Designed a space reservation system for the UC Davis library to help students efficiently book study rooms and seats. 
+                            </p>
+                            <!-- <img src="images/viewproject.png" alt="view project button" style="max-width:30%;"> -->
+                            <div id="vp">
+                                <!-- <a href="library.html">View Project</a> -->
+                                <a href="oasis.html">View Project</a>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+    
+                    <div id="weguide">
+                        <div id="homehero">
+                            <a href="weguide.html"><img src="images/weguidehero3.png" alt="weguide"></a>
+                        </div>
+                        
+                        <div id="weguidea">
+                            <a href="weguide.html">Weguide</a>
+                            <p>A mobile app designed to help Chinese immigrants navigate through their new life in the United States.
+                            </p>
+                            
+                            <div id="vp">
+                                <a href="weguide.html">View Project</a>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+        
+                    <div id="travelocity">
+                        <div id="homehero">
+                            <a href="travelocity.html"><img src="images/travelocityhero3.png" alt="travelocity"></a>
+                        </div>
+                        
+                        <div id="travelocitya">
+                            <a href="travelocity.html">Travelocity</a>
+                            <p>Redesigned the Travelocity app to be a  seamless one-stop trip booking experience rather than an app that merely sells plane tickets and hotel rooms. 
+                            </p>
+                            <!-- <img src="images/viewproject.png" alt="view project button" style="max-width:30%;"> -->
+                            <div id="vp">
+                                <a href="travelocity.html">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    
+                </div>
+            </div>
+            
+
+            
         </section>
 
         
@@ -165,7 +291,9 @@
 
     <footer>
         
-        <p><a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Cindy Lee</a></p>
+        <!-- <p><a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Cindy Lee</a></p> -->
+
+        <p>Let's Connect!</p>
 
         <div id="connecticon">
             <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
@@ -173,9 +301,9 @@
             <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
         </div>
 
-        <p>
+        <!-- <p>
             <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a>
-        </p>
+        </p> -->
     </footer>
 </body>
 </html>
