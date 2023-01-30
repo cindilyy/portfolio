@@ -288,9 +288,7 @@ a:hover {
 }
 
 #aboutintro img {
-    max-width: 70%;
-    /* padding-left: 20px;
-    padding-right: 20px; */
+    max-width: 60%;
     margin: auto;
     padding-top: 20px;
 }
@@ -805,21 +803,33 @@ section a {
     #aboutintro {
         padding-top: 100px;
         padding-bottom: 80px;
-        width: 1000px;
+        padding-left:0px;
+        padding-right:0px;
+        /* width: 1000px;
+        margin: auto; */
+        width: 70%;
         margin: auto;
+        
+        
     }
     #aboutintro2 {
         display: flex;
         flex-direction: row;
-        gap: 50px;
+        gap: 20px;
         /* width: 1000px;
+        margin: auto; */
+        /* width: 70%;
         margin: auto; */
     }
     #aboutintro img {
         padding: 0px;
-        margin: 0px;
+        margin:auto;
         max-width: 30%;
+        height:auto;
+        
     }
+
+
     #aboutintro h1 {
         text-align: left;
         color: #222222;
@@ -828,12 +838,12 @@ section a {
         font-weight: bolder;
         padding: 0px;
         font-size: 40px;
-        width: 700px;
+        /* width: 700px; */
     }
     #aboutintro p {
         color: #222222;
         font-family: 'Poppins', sans-serif;
-        line-height: 130%;
+        line-height: 170%;
         font-size: 20px;
         padding: 0px;
         width: 500px;
