@@ -317,7 +317,8 @@ section h2 {
     text-align: left;
     color: #222222;
     margin: 0px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Playfair Display-black', serif;
     font-weight: bolder;
     padding: 0px;
     /* padding-left: 20px;
@@ -329,7 +330,8 @@ section h3 {
     text-align: left;
     color: #222222;
     margin: 0px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Playfair Display-black', serif;
     font-weight: bolder;
     padding: 0px;
     font-size: 20px;
@@ -343,7 +345,8 @@ section h4 {
     text-align: left;
     color: #222222;
     margin: 0px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Playfair Display-black', serif;
     /* font-family: 'Karla', sans-serif; */
     font-weight: bolder;
     padding: 0px;
@@ -402,7 +405,7 @@ section ol li {
 }
 
 #hero {
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 img {
@@ -867,8 +870,9 @@ section a {
         text-align: left;
         color: #222222;
         margin: 0px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: bolder;
+        /* font-family: 'Poppins', sans-serif; */
+        font-family: 'Playfair Display-black', serif;
+        font-weight: bold;
         padding: 0px;
         font-size: 30px;
         padding-top: 20px;
@@ -878,7 +882,8 @@ section a {
         text-align: left;
         color: #222222;
         margin: 0px;
-        font-family: 'Poppins', sans-serif;
+        /* font-family: 'Poppins', sans-serif; */
+        font-family: 'Playfair Display-black', serif;
         font-weight: bolder;
         padding: 0px;
         font-size: 20px;
