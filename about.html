@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet"> -->
     
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Playfair+Display:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
 
@@ -23,14 +23,27 @@
         <header>
             <nav class="menu">
                 <a id="logo1" href="index.html">Cindy Lee</a>
-                <img src="images/menu.png" alt="menu" id="hamburger">
-                <ul class="hidden">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="https://drive.google.com/file/d/1Dc5ZCcdWu5k2WdSjfZ9euPCVaz0kw3tU/view?usp=sharing">Resume</a></li>
-                </ul>
+                <img src="images/menu.svg" alt="menu" id="hamburger">
             </nav>
         </header>
+    </div>
+    
+    <div id="openImg" class="hidden">
+
+        <div id="nav_mobile2">
+            <header>
+                <nav class="menu">
+                    <a id="logo1" href="index.html">Cindy Lee</a>
+                    <img src="images/close.svg" alt="menu" id="closeBtn">
+                </nav>
+            </header>
+            <div id="hiddenmobile">
+                <a href="index.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="https://drive.google.com/file/d/1Dc5ZCcdWu5k2WdSjfZ9euPCVaz0kw3tU/view?usp=sharing">Resume</a>
+            </div>
+            
+        </div>
     </div>
 
     <div id="nav_desktop">
@@ -47,82 +60,161 @@
         </header>
     </div>
 
-    <main>
-        <div id="aboutintro">
-            <div id="aboutintro2">
-                <div id="introtext">
-                    <h1>I’m a boba-fueled college student majoring in Design, Chinese Studies, and International Relations
-                    </h1>
+    <main id="aboutpage">
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/uparrow.svg" alt="back to top button"></button>
+        
+        <section id="abouttop">
+
+            <div id="abouttext">
+                
+                <div id="cindycircle"><img src="images/circlecindy2.png" alt="Cindy"></div>
+
+
+                <div>
+                    <h1>Nice to meet you, I'm <span style="color: #5D93EF;">Cindy</span></h1>
 
                     <p>
-                        I combine disciplines from my majors to design experiences that are human-centered, inclusive, and cross-cultural.
+                        I’m a new grad UX Designer with a unique blend of majors from UC Davis—Design, Chinese Studies, and International Relations. My interests in people, languages, and cultures drive me to design experiences that are human-centered, inclusive, accessible, and cross-cultural.
                     </p>
                 </div>
-
-                <!-- <img src="images/boba.png" alt="Cindy"> -->
-                
-                <img src="images/cindy2.png" alt="Cindy">
-              
-                
-            </div>
-        </div>
-
-        <section>
-            <div id="why">
-                <h3>My Story</h3>
-
-                <p>
-                    Originally, I entered college as a Chinese Studies major but I soon double majored in International Relations with an emphasis in World Trade and Development and an area emphasis in East Asia. This stemmed from my interest in learning about people, cultures, history, and languages. My initial goal was to become a Chinese to English translator or interpreter to help bridge the language barrier many Chinese immigrants face in the United States.
-                </p>
-
-                <p>
-                    During the pandemic, I worked at the Oakland Chinatown Chamber of Commerce as an Administrative Assistant and worked with a lot of Chinese immigrant business owners and community members who were having difficulty adapting to changes due to COVID-19. Businesses were closing because they could not adapt to the shift to online services such as offering delivery through food delivery apps. Community members were unable to attend community workshops because they did not know how to use Zoom. This was due to the lack of language options and high difficulty of some apps and websites. I knew that there had to be a way to improve these products so they could be more inclusive of those who suffer from language barriers or low digital literacy. While researching solutions to help members of my community, I learned I could be a part of that solution through user experience design and create products that are functional, inclusive, and cross cultural. 
-                </p>
             </div>
 
-            <div id="interests">
-                <h3>Interests/Hobbies</h3>
-                <p>
-                    🎬 Watching Asian dramas and films
-                </p>
-
-                <p>
-                    🎧 Listening to Asian music
-                </p>
-
-                <p>
-                    ✍🏼 Learning Chinese and Korean
-                </p>
-
-                <p>
-                    ☕️ Trying out new restaurants, boba shops, and cafes
-                </p>
-
-                <p>
-                    🚶🏻‍♀️ Going on walks and solo dates
-                </p>
-
-                <p>
-                    🧩 Solving puzzles, especially jigsaw puzzles and sudoku puzzles
-                </p>
-
-                <p>
-                    👩🏻‍💻 Learning to code, especially front end code
-                </p>
-
-
-            </div>
-
-            <!-- <div id="connect">
-                <h2>Let's Connect</h2>
-                <div id="connecticon">
-                    <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
-
-                    <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div> -->
 
         </section>
+
+            <section>
+                <h3>Why UX Design?</h3>
+
+                <p>
+                    I began my college journey as a double major in Chinese Studies and International Relations with an emphasis on World Trade and Development and East Asia (a mouthful, I know), I aspired to become a Chinese to English translator and/or interpreter to help break down language barriers faced by Chinese immigrants in the US. 
+                </p>
+
+                <p>
+                    During the pandemic, I worked at the Oakland Chinatown Chamber of Commerce as an Administrative Assistant to service my community and practice my language skills. However, COVID-19 resulted in the rapid shift towards digitalization, online platforms, and electronic solutions, and I noticed that many community members and business owners struggled to adapt due to their low digital literacy and language barrier. To help them, I taught the elderly to use Zoom so they could host community meetings virtually, assisted business owners  to apply for online grants, help them build their online presence, and more; however, I knew these were only short-term solutions. This experience motivated me to seek more long-term solutions to make these services more inclusive and accessible.  
+                </p>
+
+                <p>
+                    While researching solutions, I discovered the world of user experience design. Realizing the impact I could make through this field, I triple majored in Design my senior year and became inspired to create functional, accessible, inclusive, and cross-cultural products that could bridge gaps and improve the lives of individuals facing similar challenges as members of my community.
+                </p>
+            </section>
+
+
+            <section id="abouttop">
+
+                <section class="experience">
+                    <h3>Experience</h3>
+
+                    <p>UI/UX Design Intern @ <span style="color: #5D93EF;">Candid</span> <span style="color: #999;">(June 2023 - Present)</span></p>
+
+                    <p>Product Designer @ <span style="color: #5D93EF;">AggieWorks</span> <span style="color: #999;">(Jan 2023 - Present)</span></p>
+
+                    <p>UX Design Consultant @ <span style="color: #5D93EF;">Design Interactive</span> <span style="color: #999;">(Jan 2023 - Present)</span></p>
+
+                    <p>UI/UX Design Consultant @ <span style="color: #5D93EF;">Playground</span> <span style="color: #999;">(Jan 2023 - June 2023)</span></p>
+
+                    <p>Design Associate @ <span style="color: #5D93EF;">Design Interactive</span> <span style="color: #999;">(Oct 2022 - May 2023)</span></p>
+
+                </section>
+
+            </section>
+
+            <section>
+                <h3>When I am not designing, I am...</h3>
+
+                <div id="hobby">
+
+                    <div>
+                        <div id="hobbytitle">
+                            <h4>🎬</h4>
+                            <h4>Watching Asian Dramas and Films</h4>
+                        </div>
+                        
+
+                        <p>
+                            Asian dramas and films are not only my favorite pastime, they also helped me learn languages, gave me a glimpse of other cultures, and made me a curious and empathetic individual. My interest for cross-cultural design stems from my interest in comparing and contrasting design preferences across different cultures by analyzing the posters and apps or websites seen in the dramas/films.
+                        </p>
+                    </div>
+
+                    <div>
+                        <div id="hobbytitle">
+                            <h4>✍🏻</h4>
+                            <h4>Learning Languages</h4>
+                        </div>
+
+                        <p>
+                            Ever since I learned Mandarin by watching Taiwanese dramas as a kid, I developed a deep interest in learning new languages. I am fluent in English, Cantonese, and Mandarin. And though a bit ambitious, I would like to be fluent in Korean, Spanish, and Japanese one day. Currently, learning Korean through comprehensive input aka an excuse to watch more K-dramas.
+                        </p>
+
+                    </div>
+
+                    <div>
+                        <div id="hobbytitle">
+                            <h4>👩🏻‍💻</h4>
+                            <h4>Learning Front End Code</h4>
+                        </div>
+
+                        <p>
+                            I developed an interest in web development after completing the Interactive Media series at UC Davis which taught me how to use HTML5, CSS, and JavaScript. Though I could have used a website builder, I decided to code my portfolio from scratch to continue honing my skills. Feel free to check out my past projects from my <a href="https://cindileee.github.io/des157portal/">DES157A</a> and <a href="https://cindileee.github.io/des157b/">DES157B </a>classes.
+                        </p>
+                        
+                    </div>
+
+                    <div>
+                        <div id="hobbytitle">
+                            <h4>🧋</h4>
+                            <h4>Being A Foodie</h4>
+                        </div>
+
+                        <p>
+                            I am the biggest foodie I know. I spend my weekends trying out new restaurants, boba shops, and cafes, and my weekdays thinking about which ones I should try on the weekend... and designing of course. There really is nothing that a cup of boba, an iced mocha, or a trip to an AYCE hot pot restaurant, cannot fix. 
+                        </p>
+                        
+                    </div>
+
+                    
+                    
+                </div>
+            </section>
+
+            <section id="abouttop">
+
+                <section class="experience">
+                    <h3>Creative Inspiration</h3>
+
+                    <div id="inspo">
+                        <div>
+                            <img src="images/chungkingexpress.svg" alt = "Chungking Express">
+    
+                            <h6>Favorite Movie</h6>
+                            <p>Chungking Express (重慶森林)</p>
+                        </div>
+
+                        <div>
+                            <img src="images/guopei.svg" alt = "Guo Pei">
+    
+                            <h6>Favorite Exhibit</h6>
+                            <p>Guo Pei: Couture Fantasy</p>
+                        </div>
+
+                        <div>
+                            <img src="images/huanghai.svg" alt = "Chungking Express">
+    
+                            <h6>Favorite Designer</h6>
+                            <p>Huang Hai</p>
+                        </div>
+                    </div>
+                    
+
+                    
+
+                </section>
+
+            </section>
+
+            
+
+       
 
     </main>
 
@@ -140,21 +232,9 @@
         });
     </script>
 
+    
+
     <!-- <footer>
-        <p><a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Cindy Lee</a></p>
-
-        <div id="connecticon">
-            <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
-
-            <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
-        </div>
-
-        <p>
-            <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a>
-        </p>
-    </footer> -->
-
-    <footer>
         
         <p>Let's Connect!</p>
 
@@ -164,7 +244,65 @@
             <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
         </div>
 
+    </footer> -->
+
+
+    <footer>
+
+        <div id="row">
+            <p>Designed and coded by a boba-fueled Cindy</p>
+    
+            <img src="images/bobaemoji.svg" alt="boba emoji">
+        </div>
+    
+        <div id="row">
+            <p>Let's Connect:</p>
+    
+            <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
+    
+            <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
+        </div>
+    
     </footer>
+
+
+    <script>
+        //From W3School
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+    
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+    
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    
+    
+        document.querySelector('#hamburger').addEventListener('click', function(){
+                    console.log('hello');
+                    document.querySelector('#openImg').className = 'showing';
+                    document.querySelector('#mainbody').className = 'hidden';
+                    
+        })
+    
+        document.querySelector('#closeBtn').addEventListener('click', function(){
+                    console.log('hello');
+                    document.querySelector('#openImg').className = 'hidden';
+                    document.querySelector('#mainbody').className = 'showing';
+        })
+    
+    
+    </script>
+
 </body>
 
 </html>

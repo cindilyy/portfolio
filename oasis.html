@@ -14,19 +14,32 @@
 
 </head>
 <body id="librarypost">
-    
+
     <div id="nav_mobile">
         <header>
             <nav class="menu">
                 <a id="logo1" href="index.html">Cindy Lee</a>
-                <img src="images/menu.png" alt="menu" id="hamburger">
-                <ul class="hidden">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="https://drive.google.com/file/d/1Dc5ZCcdWu5k2WdSjfZ9euPCVaz0kw3tU/view?usp=sharing">Resume</a></li>
-                </ul>
+                <img src="images/menu.svg" alt="menu" id="hamburger">
             </nav>
         </header>
+    </div>
+    
+    <div id="openImg" class="hidden">
+
+        <div id="nav_mobile2">
+            <header>
+                <nav class="menu">
+                    <a id="logo1" href="index.html">Cindy Lee</a>
+                    <img src="images/close.svg" alt="menu" id="closeBtn">
+                </nav>
+            </header>
+            <div id="hiddenmobile">
+                <a href="index.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="https://drive.google.com/file/d/1Dc5ZCcdWu5k2WdSjfZ9euPCVaz0kw3tU/view?usp=sharing">Resume</a>
+            </div>
+            
+        </div>
     </div>
 
     <div id="nav_desktop">
@@ -44,6 +57,8 @@
     </div>
 
     <main>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/uparrow.svg" alt="back to top button"></button>
 
         <section>
             <h2>Oasis</h2>
@@ -368,5 +383,43 @@
         </div>
         
     </footer>
+
+    <script>
+        //From W3School
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+    
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+    
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    
+    
+        document.querySelector('#hamburger').addEventListener('click', function(){
+                    console.log('hello');
+                    document.querySelector('#openImg').className = 'showing';
+                    document.querySelector('#mainbody').className = 'hidden';
+                    
+        })
+    
+        document.querySelector('#closeBtn').addEventListener('click', function(){
+                    console.log('hello');
+                    document.querySelector('#openImg').className = 'hidden';
+                    document.querySelector('#mainbody').className = 'showing';
+        })
+    
+    
+    </script>
+
 </body>
 </html>
