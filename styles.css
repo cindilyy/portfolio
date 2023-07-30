@@ -182,6 +182,7 @@ html{
 #casestudiessection{
     width:90%;
     margin:auto;
+    
 }
 
 #casestudies img {
@@ -278,7 +279,7 @@ section h3 {
     line-height: 40px;
 }
 
-section h4 {
+section h4, #addbackground1 h4{
     text-align: left;
     color: #141414;
     margin: 0px;
@@ -718,6 +719,11 @@ h6{
     
 }
 
+.row2-1{
+    justify-content: center;
+    
+}
+
 .row2 div p{
     margin:0;
 }
@@ -814,7 +820,13 @@ h6{
   }
 
   #aboutpage h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 0px;
+    font-size: 32px;
+    line-height: 40px;
     margin-bottom: 20px;
+    margin-top:0;
   }
 
   #aboutpage h4{
@@ -850,6 +862,16 @@ h6{
     margin-bottom: 0;
     padding-top:50px;
     padding-bottom:0;
+
+    margin-bottom: 50px;
+        /* width:80%; */
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+            
+        padding-top:50px;
+        padding-bottom: 50px;
     
     
 }
@@ -864,6 +886,11 @@ h6{
     display: block;
     /* gap: 60px;
     align-items: center;  */
+    padding-top:50px;
+    padding-bottom:50px;
+    width:90%;
+    margin:auto;
+    margin-bottom:100px;
 }
 
 #abouttext h1{
@@ -879,7 +906,13 @@ h6{
     font-size: 18px;
     line-height: 32px;
 }
-
+.experience, .experience2{
+    padding-top:50px;
+    padding-bottom:50px;
+    width:90%;
+    margin:auto;
+    margin-bottom:100px;
+}
 
 .experience h3{
     margin-bottom: 30px;
@@ -900,6 +933,24 @@ h6{
 
 }
 
+#experiencediv p{
+    margin-bottom:0px;
+    margin-top:5px;
+}
+
+#experiencediv{
+    margin-bottom: 30px;
+}
+
+#experiencediv:last-child{
+    margin-bottom: 0;
+}
+
+.experience img{
+    margin-top:30px;
+    margin-bottom:0;
+}
+
 #hobbytitle{
     display: flex;
     gap: 15px;
@@ -914,16 +965,17 @@ a:hover{
     color: #999;
 }
 
-#inspo{
+/* #inspo{
     display: block;
     grid-template-columns: none;
     gap: 0;
     
     
-}
+} */
 
 #inspo img{
     width:100%;
+    margin-bottom:10px;
 }
 
 #inspo h6{
@@ -1153,8 +1205,18 @@ a:hover{
         transform: scale(1.1);
     }
 
-    #casestudiessection{
+    /* #casestudiessection{
         width:65%;
+    } */
+
+    #casestudiessection{
+        margin-bottom: 50px;
+        /* width:100%; */
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        
     }
 
 
@@ -1273,8 +1335,15 @@ a:hover{
         padding-left: 20px;
         padding-right: 20px;
         color:#fff;
-        margin-top: 13px;
+        margin-top: 20px;
         
+    }
+
+    #traderjoespage section{
+        margin-bottom: 50px;
+        max-width:800px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
       
@@ -1295,13 +1364,30 @@ a:hover{
     }
 
 
-    section{
+    /* section{
         margin-bottom: 50px;
         width:60%;
         margin-left: auto;
         margin-right: auto;
         
-    }
+    } */
+
+    /* section{
+        margin-bottom: 50px;
+        width:80%;
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    /* section{
+        margin-bottom: 50px;
+        width:100%;
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    } */
 
     section h2 {
         padding: 0px;
@@ -1532,7 +1618,7 @@ a:hover{
     #infobarTJ{
         display:grid;
         grid-template-columns: 1fr 1.3fr 1fr 0.6fr;
-        gap:50px;
+        gap:40px;
         margin-top: -40px;
         margin-bottom: -20px;
     }
@@ -1605,10 +1691,17 @@ a:hover{
         background-color: #B8322E; 
     }
 
-    #addbackground section{
+    /* #addbackground section{
         padding-top: 50px;
         padding-bottom: 50px;
-    }
+    } */
+
+    /* #addbackground div{
+        margin-bottom: 50px;
+        max-width:800px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
 
     #addbackground h5, #addbackground p, #addbackground h3{
         color: #ffff;
@@ -1799,10 +1892,16 @@ a:hover{
     }
 
     #aboutpage section{
-        padding-bottom: 0;
+        /* padding-bottom: 0;
         margin-top: 100px;
         margin-bottom: 100px;
-        margin-top:0;
+        margin-top:0; */
+        padding-top: 50px;
+        margin-bottom: 50px;
+        width:80%;
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #abouttop{
@@ -1810,14 +1909,27 @@ a:hover{
         background-color: rgb(	93, 171, 239, 0.1);  
     }
 
-    #abouttop section{
+    /* #abouttop section{
         padding-top:50px;
-        padding-bottom: 50px; 
-    }
+       
+    } */
 
-    #abouttext{
+    /* #abouttext{
         width:60%;
         margin:auto;
+        padding-top:100px;
+        padding-bottom: 100px;
+        display: flex;
+        gap: 60px;
+        align-items: center; 
+    } */
+
+    #abouttext{
+        margin-bottom: 50px;
+        width:80%;
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
         padding-top:100px;
         padding-bottom: 100px;
         display: flex;
@@ -1839,12 +1951,56 @@ a:hover{
         line-height: 32px;
     }
 
-    .experience h3{
-        margin-bottom: 30px;
+    .experience{
+        display: flex;
+        /* align-items: flex-end; */
+        align-items: center;
+
+        margin-bottom: 50px;
+        /* width:80%; */
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+            
+        padding-top:50px;
+        padding-bottom: 50px;
+
+
+
+    }
+
+    .experience img{
+        margin:0;
+        width:100%;
         
     }
 
-    .experience p{
+    #experiencediv p{
+        margin-bottom:0px;
+        margin-top:5px;
+    }
+
+    #experiencediv{
+        margin-bottom: 30px;
+    }
+
+    #experiencediv:last-child{
+        margin-bottom: 0;
+    }
+    
+    .experience h3{
+        margin-bottom: 30px;
+        font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+    padding: 0px;
+    font-size: 32px;
+    line-height: 40px;
+        
+    }
+
+    .experience p, .experience2 p{
         font-family: 'Open Sans', sans-serif;
         font-size: 18px;
         line-height: 24px;
@@ -1852,6 +2008,21 @@ a:hover{
         margin-bottom: 30px;
 
     }
+
+    .experience2{
+        margin-bottom: 50px;
+        max-width:1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+
+    .experience2 h3{
+        margin-top:0;
+    }
+
+
 
     /* .experience p:last-of-type{
         margin-bottom: 0px;
@@ -1884,6 +2055,7 @@ a:hover{
     }
 
     #inspo{
+        
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         /* gap: 50px; */
@@ -1915,7 +2087,7 @@ a:hover{
 
 
 
-@media only screen and (min-width: 800px) and (max-width:1040px){
+/* @media only screen and (min-width: 800px) and (max-width:1040px){
 
     #cindycircle img{
         margin: auto;
@@ -1936,4 +2108,4 @@ a:hover{
         align-items: center; 
     }
 
-}
+} */
