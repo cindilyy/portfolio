@@ -362,6 +362,12 @@ img{
 
 }
 
+#playgroundpage h5{
+    color: #006ADC;
+    font-weight: 500; 
+
+}
+
 
 #addbackground1 h4{
     display: block;
@@ -409,7 +415,7 @@ img{
     flex: 1;
 }
 
-#oasispage #jumplinks a {
+#oasispage #jumplinks a{
     
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -422,8 +428,20 @@ img{
     flex: 1;
 }
 
+#playgroundpage #jumplinks a{
+    background-color: #006ADC;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+    
+    padding: 20px 24px;
+    min-width: 120px;
+    flex: 1;
+}
 
-#traderjoespage #jumplinks a:hover, #oasispage #jumplinks a:hover{
+#traderjoespage #jumplinks a:hover, #oasispage #jumplinks a:hover, #playgroundpage #jumplinks a:hover{
     background-color: #F8F8F3;
     color: #141414;
 }
@@ -564,6 +582,21 @@ iframe {
     width:100%;
     background-color: #244872; 
 }
+
+#playgroundpage #addbackground{
+    width:100%;
+    background-color: #006ADC; 
+}
+
+#playgroundpage #ertchifi{
+    margin-top:100px;
+}
+
+#playgroundpage #addbackground p{
+    margin-bottom: 0;
+}
+
+
 
 #addbackground section{
     padding-top: 50px;
@@ -766,6 +799,12 @@ h6{
     margin-top:10px;
 }
 
+.row6 {
+    display: flex;
+    gap: 10px;
+}
+
+
 
 
 
@@ -921,7 +960,7 @@ h6{
 
 .experience p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -987,8 +1026,23 @@ a:hover{
     font-size: 18px;
     color: #767676;
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
+#playgroundpage #challenge h6{
+    margin-top: 10px;
+}
+
+#playgroundpage #challenge p{
+    margin-bottom: 20px;
+}
+
+#nav_mobile #infobarPlayground{
+    display: block;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
 
   /* @media only screen and (min-width: 601px) and (max-width: 799px){
     
@@ -1331,6 +1385,10 @@ a:hover{
         background-color: #244872;
     }
 
+    #playgroundpage #jumplinks{
+        background-color: #006ADC;
+    }
+
     #jumplinks p{
         padding-left: 20px;
         padding-right: 20px;
@@ -1339,7 +1397,7 @@ a:hover{
         
     }
 
-    #traderjoespage section, #oasispage section{
+    #traderjoespage section, #oasispage section, #playgroundpage section{
         margin-bottom: 50px;
         /* max-width:800px; */
         max-width:1000px;
@@ -1360,7 +1418,7 @@ a:hover{
     }
 
 
-    #traderjoespage #jumplinks a:hover, #oasispage #jumplinks a:hover{
+    #traderjoespage #jumplinks a:hover, #oasispage #jumplinks a:hover, #playgroundpage #jumplinks a:hover{
         background-color: #F8F8F3;
         color: #141414;
     }
@@ -1625,6 +1683,16 @@ a:hover{
         margin-bottom: -20px;
     }
 
+    #nav_desktop #infobarPlayground{
+        /* display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:60px; */
+        display: flex;
+        justify-content: space-between;
+        margin-top: -40px;
+        margin-bottom: -20px;
+    }
+
     #userpersona{
         display: flex;
         flex-direction:row;
@@ -1650,6 +1718,12 @@ a:hover{
 
     #oasispage h5{
         color: #244872;
+        font-weight: 500; 
+
+    }
+
+    #playgroundpage h5{
+        color: #006ADC;
         font-weight: 500; 
 
     }
@@ -1692,6 +1766,8 @@ a:hover{
         width:100%;
         background-color: #B8322E; 
     }
+
+    
 
     /* #addbackground section{
         padding-top: 50px;
@@ -1856,6 +1932,11 @@ a:hover{
         margin-top:10px;
     }
 
+    .row6 {
+        display: flex;
+        gap: 10px;
+    }
+
     #myBtn {
         display: none;
         position: fixed;
@@ -2004,7 +2085,7 @@ a:hover{
 
     .experience p, .experience2 p{
         font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 24px;
         font-weight: 500;
         margin-bottom: 30px;
@@ -2083,6 +2164,17 @@ a:hover{
         font-weight: 400;
     }
 
+    #playgroundpage img{
+        width: 100%;
+    }
+
+    #playgroundpage #challenge h6{
+        margin-top: 10px;
+    }
+
+    #playgroundpage #challenge p{
+        margin-bottom: 20px;
+    }
 
 
    

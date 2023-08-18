@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <link rel="icon" type="image/x-icon" href="images/cindydrawing2.svg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Playfair+Display:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="styles.css" rel="stylesheet">
+    <style media="all">
+        
+        section a{
+            color: #006ADC;
+        }
+
+        
+        .mobile-display{display:none}
+        .desktop-display{display:block}
+        /* @media (max-width:600px){
+        .desktop-display {display:none}
+        .mobile-display {display:block}
+        } */
+        @media (max-width:800px){
+        .desktop-display {display:none}
+        .mobile-display {display:block}
+        }
+    </style>
+
+</head>
+
+
+<body id="travelocitypost">
+    
+    <div id="nav_mobile">
+        <header>
+            <nav class="menu">
+                <a id="logo1" href="index.html">Cindy Lee</a>
+                <img src="images/menu.svg" alt="menu" id="hamburger">
+            </nav>
+        </header>
+    </div>
+
+    <div id="nav_desktop">
+        <header>
+            <a id="logo1" href="index.html">Cindy Lee</a>
+            <nav class="menu">
+                <ul>
+                    <li><a id="button1" href="index.html">Work</a></li>
+                    <li><a id="button2" href="about.html">About</a></li>
+                    <li><a href="https://drive.google.com/file/d/1Dc5ZCcdWu5k2WdSjfZ9euPCVaz0kw3tU/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+
+    <main id="playgroundpage">
+
+        <div id="openImg" class="hidden">
+
+            <div id="nav_mobile2">
+                <header>
+                    <nav class="menu">
+                        <a id="logo1" href="index.html">Cindy Lee</a>
+                        <img src="images/close.svg" alt="menu" id="closeBtn">
+                    </nav>
+                </header>
+                <div id="hiddenmobile">
+                    <a href="index.html">Work</a>
+                    <a href="about.html">About</a>
+                    <a href="https://drive.google.com/file/d/1Dc5ZCcdWu5k2WdSjfZ9euPCVaz0kw3tU/view?usp=sharing">Resume</a>
+                </div>
+                
+            </div>
+            
+        </div>
+         
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/uparrow.svg" alt="back to top button" style=" width: auto;"></button>
+
+        <img id="hero" src="images/playgroundcover.png" alt="Playground Cover Image">
+
+       
+        </div>
+
+        <!-- <section id="mainbody"> -->
+
+            <div id="addbackground1" class="desktop-display">
+                <div id="jumplinks">
+                    <p style="font-weight: 500;">Jump Links:</p>
+                    <a href="#timeoverview">Time Space Overview</a>
+                    <a href="#timefinal">Time Space Hi-Fi</a>
+                    <a href="#ertcoverview">ERTC Overview</a>
+                    <a href="#ertcfinal">ERTC Hi-Fi</a>
+                    <a href="#dev">Development</a>
+                    <a href="#conclusion">Conclusion</a>
+                </div>
+                    
+            </div>
+
+            <div id="addbackground1" class="mobile-display">
+                <!-- <p>Jump Links</p> -->
+                <h4>Jump Links</h4>
+                
+                <div id="jumplinks">
+                    <a href="#timeoverview">Time Space Overview</a>
+                    <a href="#timefinal">Time Space Hi-Fi</a>
+                    <a href="#ertcoverview">ERTC Overview</a>
+                    <a href="#ertcfinal">ERTC Hi-Fi</a>
+                    <a href="#dev">Development</a>
+                    <a href="#conclusion">Conclusion</a>
+                </div>
+            </div>
+
+            <section>
+                <h3>Overview</h3>
+
+                <p>
+                    Playground is a child care management software that manages billing, attendance, registration, communication, paperwork, reporting, and more for childcare programs. My team was tasked with designing and developing four web business tools to help users accomplish simple tasks efficiently, help Playground better understand users' needs, and increase user traction on the <a style ="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; margin-bottom:0;
+                    display: inline-block;" href="https://www.tryplayground.com/">Playground's website</a>. I was solely in charge of designing the Time Space Calculator and ERTC Eligibility Assessment. 
+                </p>
+            </section>
+
+            <div id="nav_desktop">
+                <section>
+                    <div id="infobarPlayground">
+                        <div id="Role">
+                            <h4>Role</h4>
+                            <p>UI/UX Design</p>
+                        </div>
+    
+                        <div id="timeframe">
+                            <h4>Team</h4>
+                            <p>2 Designers<br>3 Developers</p>
+                        </div>
+                        
+                        <div id="timeframe">
+                            <h4>Duration</h4>
+                            <p>16 weeks<br>Jan 2023 - Jun 2023</p>
+                        </div>
+        
+                        <div id="tools">
+                            <h4>Tools</h4>
+                            <p>Figma, Framer,<br>
+                                React.js, HubSpot</p>
+                        </div>
+                    </div>
+                    
+                </section>
+                
+            </div>
+
+            <div id="nav_mobile">
+                <section>
+                    <div id="infobarPlayground">
+                        <div id="Role">
+                            <h4>Role</h4>
+                            <p>UI/UX Design</p>
+                        </div>
+    
+                        <div id="timeframe">
+                            <h4>Team</h4>
+                            <p>2 Designers, 3 Developers</p>
+                        </div>
+                        
+                        <div id="timeframe">
+                            <h4>Duration</h4>
+                            <p>16 weeks, Jan 2023 - Jun 2023</p>
+                        </div>
+        
+                        <div id="tools">
+                            <h4>Tools</h4>
+                            <p>Figma, Framer, React.js, HubSpot</p>
+                        </div>
+                    </div>
+                    
+                </section>
+                
+            </div>
+
+            
+
+            <div id="addbackground">
+                <section id="timeoverview">
+                    <h3>Time Space Calculator</h3>
+                    <p>
+                        A calculator tool to help users determine what percentage of their home is being used for businesses, so they can base their expenses such as property tax, utilities, home repairs, and homeowner’s insurance on this amount.
+                    </p>
+                </section>
+            </div>
+
+
+
+            <section>
+                <h5>TIME SPACE CALCULATOR: LITERATURE REVIEW</h5>
+                <h3>What Is A Time Space Calculator?</h3>
+    
+                <p>
+                    I began by conducting a literature review on an article the <a style ="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; margin-bottom:0;
+                    display: inline-block;" href="https://www.childcare.texas.gov/time-space-calculation">Texas Workforce Commission</a> to learn what the Time Space Calculator is and how it functions. From this article, I also found the formula that this tool would be based around.  
+                </p>
+
+                <img src="images/playgroundlitrev.png" alt="oasis literature review">
+
+            </section>
+
+            <section>
+                <h5>TIME SPACE CALCULATOR: LO-FI SKETCHES</h5>
+                <h3>Creating The Skeleton</h3>
+    
+                <p>
+                    The client shared that they would like each step on a separate page instead of a one-page form, so I created some simple low-fidelity wireframes of all the necessary inputs and frames based on the time space percentage formula. 
+                </p>
+
+                <img src="images/playgroundlofi1.png" alt="Lo-fi sketches">
+
+            </section>
+
+            <section>
+                <h5>TIME SPACE CALCULATOR: MID-FI PROTOTYPE</h5>
+                <h3>First Deliverable</h3>
+    
+                <p>
+                    The client already had a format for the web tools which consists of the name and description at the top and the tool at the bottom, so I designed my tool using this format. I also included their nav bar to make the mockup feel more realistic so the client has a better idea of how the tool will look. For the tool itself, the client shared a few reference tools of designs he liked, so I referenced the layout of <a style ="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; margin-bottom:0;
+                    " href="https://www.servicetitan.com/tools/service-business-valuation-calculator?industry=HVAC&otherIndustry=&state=Alabama">Service Titan’s Service Business Valuation Calculator tool</a> and followed a similar center-aligned text for my first deliverable. I also designed a multi-step progress bar so users can clearly see which step they are on. 
+                </p>
+
+                <img src="images/playgroundmidfi.gif" alt="Mid-Fi Prototype" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+
+            </section>
+
+            <section>
+                <h5>TIME SPACE CALCULATOR: MID-FI PROTOTYPE</h5>
+                <h3>Change In Layout</h3>
+    
+                <p>
+                    During the middle of the project, the client wanted to change the layout for all the tools to have the title and description on the left side instead of at the top and the tool on the right, so I changed the layout accordingly. After presenting our mid-fidelity prototype to our client, I implemented the following changes based on the feedback received.
+                </p>
+
+
+                <div class="row6">
+                    <h4 style="color:#006ADC;">01</h4>
+                    <h4>Center-aligned to a left-align</h4>
+                </div>
+
+                <p>
+                    I decided to opt for a left-align format for better readability.
+                </p>
+
+
+                <div class="row6">
+                    <h4 style="color:#006ADC;">02</h4>
+                    <h4>Non-labeled progress bar</h4>
+                </div>
+
+                <p>
+                    I redesigned the progress bar to be non-labeled because the labeled progress bar was not responsive on tablet and mobile as it requires too much screen real estate. I also changed the color of the progress bar from blue to green, because the color green is often associated with success and it better highlights the progress bar as it contrasts with Playground’s  primarily blue design system.
+                </p>
+
+
+                <div class="row6">
+                    <h4 style="color:#006ADC;">03</h4>
+                    <h4>More transitions and animations</h4>
+                </div>
+
+                <p>
+                    I added a processing animation that turns into a checkmark for positive reinforcement for the user. The final Time Space Percentage Report was also animated instead of being an image to make the frame more interesting.
+                </p>
+
+            </section>
+
+            <section id="timefinal">
+                <h5>TIME SPACE CALCULATOR: HI-FI PROTOTYPE</h5>
+                <h3>Final Design</h3>
+    
+                <img src="images/playgroundhifi1.gif" alt="Hi-Fi Prototype" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+
+            </section>
+
+
+
+
+
+            <div id="addbackground">
+                <section id="ertcoverview">
+                    <h3>Employee Retention Tax Credit (ERTC) Eligibility Assessment</h3>
+                    <p>
+                        An assessment tool to help users find whether they are eligible for the Employer Retention Tax Credit, which is a refundable tax credit for businesses that continued to pay employees while either shut down due to the COVID-19 pandemic or had significant declines in gross receipts.
+                    </p>
+                </section>
+            </div>
+
+
+
+            <section>
+                <h5>ERTC ELIGIBILITY ASSESSMENT: LITERATURE REVIEW</h5>
+                <h3>What Is ERTC?</h3>
+    
+                <p>
+                    I conducted multiple literature reviews on various articles and informational sessions to learn what ERTC means and how to determine eligibility. I learned that determining eligibility is a bit confusing because applicants can qualify in more ways than one, there are multiple determinants, and eligibility requirements differ depending the year. I found this chart from  <a style ="font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 600; margin-bottom:0;
+                    display: inline-block;" href="https://www.childcare.texas.gov/time-space-calculation">Jamie Trull’s blog</a> which organized the requirements in a more digestible format, and began creating a low fidelity prototype.
+                </p>
+
+                <img src="images/playgroundertcflow1.png" alt="ERTC 2020 Eligibility">
+
+            </section>
+
+            <section>
+                <h5>ERTC ELIGIBILITY ASSESSMENT: LO-FI WIREFRAMES</h5>
+                <h3>Organizing The User Flow</h3>
+    
+                <p>
+                    I started off by creating low-fidelity wireframes for each question in the flow chart. The focus of this phase was to map out how each frame connected with each other and organize the task flow.
+                </p>
+
+                <img src="images/playgroundlofi2.png" alt="Lo-fi sketches">
+
+            </section>
+
+            <section>
+                <h5>ERTC ELIGIBILITY ASSESSMENT: MID-FI PROTOTYPE</h5>
+                <h3>Mid-Fi Prototype Iterations</h3>
+    
+                <p>
+                    After figuring out how each page was connected, we began to focus on establishing a format to display the information.
+                </p>
+
+                <h6>Iteration 1</h6>
+
+                <p>
+                    During this time, the client had not yet changed the layout of the web tool so the first iteration was designed based on the original format. To keep all the tools fairly consistent, I followed a similar layout to the Time Space Calculator. I also added arrows to the buttons to keep it consistent with the other button components on Playground’s website.
+                </p>
+
+                <img src="images/playgroundmidfi2.png" alt="Mid-Fi Prototype" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+
+                <!-- <img src="images/playgroundmidfi2-1.png" alt="Mid-Fi Prototype" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));"> -->
+
+
+                <p>
+                    However, after presenting this to the client, they felt that there were too many arrows and they associated arrows with moving to a new frame. Thus, I ideated various other button components for the client to pick from. The client liked the 3rd version, so I proceeded with those buttons.
+                </p>
+
+                <img src="images/playgroundmidfi3.png" alt="Mid-Fi Prototype">
+
+                <h6>Iteration 2</h6>
+
+                <p>
+                    The client also wanted to group some of the related questions into the same frame. The frame would begin with only one question, but after the user successfully completes the question, the next part will be revealed at the bottom. With the old layout for all the tools which had the title and description on the top and the tool at the bottom, we had a lot of space to work with. However, by our second iteration, the client wanted to change the layout as mentioned in the previous tool with the title and description on the left and tool on the right. The width of the tool was minimized by half, so our tool was super long. The client and I both felt that this was a poor visual and experience design, so we decided to fix the viewport and have the contents within the square be scrollable to prevent the viewport from constantly changing. I also split different parts of the question into multiple frames instead of grouping them to avoid having users scroll excessively.
+                </p>
+
+                <img src="images/playgroundertcmidfi2.gif" alt="Mid-Fi Prototype" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+
+                
+
+            </section>
+
+            <section id="ertcfinal">
+                <h5>ERTC ELIGIBILITY ASSESSMENT: HI-FI PROTOTYPE</h5>
+                <h3>Final Design</h3>
+
+                <p>
+                    Our final prototype includes a fixed, scrollable viewport. I picked 600px by 600px as the size of our tool because the 600px length was the perfect length to not leave too much white space for shorter questions but long enough to display an ample amount of information for longer questions. The “back” and “next” buttons are always fixed in the same place and the "next" button is only clickable after all of the information has been filled out for negative reinforcement.
+                </p>
+    
+                <img src="images/playgroundertcfinal.gif" alt="Mid-Fi Prototype" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+                
+            </section>
+
+            <section>
+                <h5>HI-FI PROTOTYPE</h5>
+                <h3>Design System</h3>
+
+                <p>
+                    Since we worked with Playground’s existing design system, we strived to blend our designs with Playground’s existing online identity throughout our entire process.
+                </p>
+    
+                <img src="images/playgrounddesignsystem.png" alt="Design System" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+                
+            </section>
+
+            <section id="dev">
+                <h5>DEVELOPMENT</h5>
+                <h3>Design to Development Handover</h3>
+
+                <p>
+                    After the client approved my designs, I had to hand over my designs to the developers. Prior to this project, they have never used Figma before so I had to teach them how to use Figma. The developers especially struggled with the ERTC Eligibility Tool due to its complicated flow. Thus, I created a dedicated prototype and design file for the developers that was more organized by adding arrows to connect each flow and added descriptive instructions for details such as transitions, animations, and more. The final prototype has a fixed viewport which was inconvenient for the developers to reference, so in my prototype for the developers, I also unfixed the viewport to make it easier for them.  
+                </p>
+    
+                <img src="images/playgrounddev.png" alt="Developer Handover">
+                
+            </section>
+
+
+
+
+
+            <section id="conclusion">
+                <h5>CONCLUSION</h5>
+                <h3>Takeaways</h3>
+    
+                <p>
+                    This is my first time working on a real product with a client, and I would like to begin by thanking Playground and our main point of contact for the opportunity to work alongside them on their website. They provided me guidance and insight throughout the whole process, allowing me to gain more experience in the industry as well as grow professionally. 
+                </p>
+
+                <p>
+                    This experience brought to my attention many things that I never considered before and helped me strengthened many skills as a designer. For example, in the past, I never had to worry about the responsiveness of a product because my designs were hypothetical; however, for this project, all of my designs had to be responsive. I also gained experience doing developer handoffs and communicating with a client, which is an invaluable skill to have in the industry. 
+                </p>
+
+            </section>
+
+            <section id="challenge">
+                <h5>CONCLUSION</h5>
+                <h3>Challenges</h3>
+
+                <h6>Design Handoff to Developers</h6>
+                <p>
+                    This was the first time I had ever worked with developers and communicating with the developers was initially challenging because they were not familiar with Figma; however, that was resolved after I offered them more support by creating more clear and organized design files. Another hurdle revolved around actualizing our designs. Our developers tried their best to translate our designs into code; however, they lack the same attention to detail as we possess as designers as their primary focus lay in the tool's functionality. Initially, they struggled to comprehend our meticulous scrutiny of even the minutest elements like padding and font thickness; however, as we spent more time explaining our design decisions to them, they progressively grasped the significance of these details and improved their ability to faithfully translate our designs into code.
+                </p>
+    
+                <h6>Creative Freedom</h6>
+                <p>
+                    One of the biggest challenge stemmed from miscommunication with our client. We began the project thinking our client wanted us to reference tools that they liked and had limited creative freedom in order to stay consistent with the design of the Playground website; however, during the middle of the project, we sorted out our misunderstanding and were able to gain more creative freedom. 
+                </p>
+
+                <h6>Communication</h6>
+                <p>
+                    Our client is based in New York, so we have to accommodate for the time difference.  In addition, given our status as students, we all had varying schedules, so scheduling meetings were always difficult. In addition, our communication with the client experienced a temporary pause midway through the project. To address this situation, we organized a meeting with the client to discuss how we could more effectively adapt to his busy schedule.
+                </p>
+                
+            </section>
+
+            <section>
+                <h5>CONCLUSION</h5>
+                <h3>Next Steps</h3>
+    
+                <p>
+                    Playground shared that they plan to implement our tools to their website during Spring 2023, and I am so excited to see my design come to life and be used by real users. The journey does not stop here as I will take all that I learned from this project and utilize them to refine my skills as a designer. I aim to design more interactive and functional experiences and be a better communicator to my future clients and developers. 
+                </p>
+                
+            </section>
+
+
+            <!-- <section id="otherprojects">
+                <h3>Other Projects</h3>
+                <div class="row4">
+                    <div>
+                        <a href="oasis.html"><img src="images/oasishero.svg" alt="Oasis"></a>
+                        <a href="oasis.html">Oasis</a>
+                    </div>
+                   
+                    <div>
+                        <a href="travelocity.html"><img src="images/travelocityhero.svg" alt="travelocity"></a>
+
+                        <a href="travelocity.html">Travelocity</a>
+                    </div>
+
+                    
+                </div>
+                
+            </section> -->
+            
+            
+    </main>
+
+    <script>
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector('.menu ul');
+
+        hamburger.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+
+        });
+    </script>
+
+<footer>
+
+    <div id="row">
+        <p>Designed and coded by a boba-fueled Cindy</p>
+
+        <img src="images/bobaemoji.svg" alt="boba emoji">
+    </div>
+
+    <div id="row">
+        <p>Let's Connect:</p>
+
+        <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
+
+        <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
+    </div>
+
+</footer>
+
+
+<script>
+    //From W3School
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+
+    document.querySelector('#hamburger').addEventListener('click', function(){
+                console.log('hello');
+                document.querySelector('#openImg').className = 'showing';
+                document.querySelector('#mainbody').className = 'hidden';
+                
+    })
+
+    document.querySelector('#closeBtn').addEventListener('click', function(){
+                console.log('hello');
+                document.querySelector('#openImg').className = 'hidden';
+                document.querySelector('#mainbody').className = 'showing';
+    })
+
+
+</script>
+
+</body>
+</html>
