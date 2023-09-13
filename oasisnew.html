@@ -39,7 +39,7 @@
 </head>
 
 
-<body id="travelocitypost">
+<body id="oasispage">
     
     <div id="nav_mobile">
         <header>
@@ -88,7 +88,7 @@
 
         <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/uparrow.svg" alt="back to top button"></button>
 
-        <img id="hero" src="images/oasishero2.png" alt="Trader Joe's App hero image">
+        <img id="hero" src="images/newoasishero.png" alt="Oasis hero image">
 
        
         </div>
@@ -99,8 +99,9 @@
                 <div id="jumplinks">
                     <p style="font-weight: 500;">Jump Links:</p>
                     <a href="#understand">Understanding</a>
-                    <a href="#useresearch">User Research</a>
+                    <a href="#userresearch">User Research</a>
                     <a href="#ideation">Ideation</a>
+                    <a href="#design">Design</a>
                     <a href="#usabilitytesting">Usability Testing</a>
                     <a href="#hifi">Hi-Fi Prototype</a>
                     <a href="#conclusion">Conclusion</a>
@@ -115,8 +116,9 @@
                 <div id="jumplinks">
                     
                     <a href="#understand">Understanding</a>
-                    <a href="#useresearch">User Research</a>
+                    <a href="#userresearch">User Research</a>
                     <a href="#ideation">Ideation</a>
+                    <a href="#design">Design</a>
                     <a href="#usabilitytesting">Usability Testing</a>
                     <a href="#hifi">Hi-Fi Prototype</a>
                     <a href="#conclusion">Conclusion</a>
@@ -127,12 +129,12 @@
                 <h3>Overview</h3>
 
                 <p>
-                    Oasis is an online Student Advising site for UC Davis to submit major change requests, look at their transcripts, monitor their academic performance, and more. However, the numerous tools that the platform has available makes using it to its full extent difficult.
+                    Oasis is an online Student Advising site for UC Davis to submit major change requests, look at their transcripts, monitor their academic performance, and more. However, the numerous tools that the platform has available makes using it to its full extent difficult. I wanted to see how I could improve students’ experience of using OASIS as an advising tool to help them finish their degree. 
                 </p>
             </section>
 
             <section>
-                <div id="infobarTJ">
+                <div id="infobarOasis">
                     <div id="Role">
                         <h4>Role</h4>
                         <p>UI/UX Design, UX Research</p>
@@ -140,31 +142,33 @@
                     
                     <div id="timeframe">
                         <h4>Duration</h4>
-                        <p>3 days<br>Sept 30, 2022 - Oct 2, 2022</p>
+                        <p>1 week, Sept 2022</p>
                     </div>
     
                     <div id="tools">
                         <h4>Tools</h4>
-                        <p>Figma</p>
+                        <p>Figma, FigJam</p>
                     </div>
                 </div>
             </section>
 
             <section id="understand">
-                <h5>UNDERSTANDING: LITERATURE REVIEW</h5>
-                <h3>Current Oasis Website</h3>
+                <h5>UNDERSTANDING</h5>
+                <h3>Analyzing Current Design</h3>
     
-                <p>To better understand the product I was redesigning, I analyzed a few pages of Oasis and recorded my observations.</p>
+                <p>
+                    As a student at UC Davis, I was familiar with Oasis; however, I still wanted to do a deep analysis of the website to ensure that I had a deep understanding of the product I was redesigning before I began. Here are some of my observations. 
+                </p>
 
-                <img src="images/oasis_currentpage1.png" alt="oasis current home page" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+                <img src="images/oasiscurrent1.png" alt="oasis current home page">
 
-                <img src="images/oasis_currentpages2.png" alt="oasis current degree worksheet page" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+                <img src="images/oasiscurrent2.png" alt="oasis current degree worksheet page">
 
 
             </section>
 
             <section id="userresearch">
-                <h5>USER RESEARCH: SURVEY</h5>
+                <h5>USER RESEARCH</h5>
                 <h3>Hearing From Students</h3>
     
                 <p>
@@ -176,130 +180,131 @@
             </section>
 
             <section id="ideation">
-                <h5>IDEATION</h5>
+                <h5>IDEATION & SYNTHESIS</h5>
                 <h3>Pain Points and Solutions</h3>
     
                 <p>
-                    From our affinity map, we developed four main pain points and began to ideate solutions for each pain point. 
+                    From my affinity map and design flaws I observed in my review of the current design, I compiled a list of common user pain points and began ideating solutions for each pain point. 
                 </p>
 
-                <div id="strokediv2">
-                    <div>
-                        <p class="stroke3">01</p>
-                        <p class="stroke4">01</p>
+                <div id="ideationdiv">
+                    <div id="strokediv2">
+                        <div class="strokediv2">
+                            <p class="stroke3">01</p>
+                            <p class="stroke4">01</p>
+                        </div>
+    
+                        <div>
+                            <h6>Only Use A Few Features</h6>
+                        </div>
+                        
                     </div>
-
-                    <div>
-                        <h6>Only Use A Few Features</h6>
-                    </div>
-                    
+    
+                    <p>
+                        5/6 users reported that they only use Oasis for a few key features such as "Academic Records" and "Degree Worksheets" and rarely utilize any of the other features. However, these features are mixed in with the sea of other features making them inconvenient to access.
+                    </p>
+    
+                    <h6>Solution: <span style="color:#244872;">Redesign Most Used Features and Added Home Edit Feature</span></h6>
+    
+                    <p>
+                        Since time was limited, I chose to focus only on redesigning commonly used pages such as the "Home" page, “Academic Records”, and “Degree Worksheets”. On the Home Page, an edit option will be added to give users the ability to edit what they want to display in each section for a more personal, customizable experience and to further eliminate clutter.
+                    </p>
                 </div>
 
-                <p>
-                    Most users reported that they only use Oasis for a few key features such as "Academic Records" and "Degree Worksheets" and rarely utilize any of the other features. However, these features are mixed in with the sea of other features making it inconvenient to access.
-                </p>
 
-                <img src="images/tjpain1.svg" alt="Trader Joe's Pain Point 1: Product Availability">
-
-                <h6>Solution: <span style="color:#244872;">Redesign Most Used Features and Home Edit Feature</span></h6>
-
-                <p>
-                    Since time was limited, I chose to focus only on redesigning commonly used pages such as the "Home" page, “Academic Records”, and “Degree Worksheets”. On the Home Page, an edit option will be added to give users the ability to edit what they want to display in each section for a more personal, customizable experience and to further eliminate clutter.
-                </p>
-                <img src="images/tjpain1img.svg" alt="Trader Joe's Pain Point 1: Product Availability">
-
-
-
-                <div id="strokediv2">
-                    <div>
-                        <p class="stroke3">02</p>
-                        <p class="stroke4">02</p>
+                <div id="ideationdiv">
+                    <div id="strokediv2">
+                        <div>
+                            <p class="stroke3">02</p>
+                            <p class="stroke4">02</p>
+                        </div>
+    
+                        <div>
+                            <h6>Home Screen's Excessive Whitespace</h6>
+                        </div>
+                        
                     </div>
-
-                    <div>
-                        <h6>Home Screen's Excessive Scrolling and Whitespace</h6>
-                    </div>
+    
+                    <p>
+                        6/6 users shared that they disliked having to scroll so far down on the home screen to access certain features, which makes it time-consuming and hard to find important tools. In addition, they do not understand why there is so much whitespace on the home page.
+                    </p>
+    
                     
+    
+                    <h6>Solution: <span style="color:#244872;"> Minimize Sections and Eliminate Whitespace</span></h6>
+    
+                    <p>
+                        I will use different components to better display information and the goal is to eliminate the need for scrolling. For example, dropdown displays will be used to hide information that the user won’t access often. Unnecessary whitespace will also eliminated. A calendar view will be used instead of a list view to improve the viewing experience for the user.
+                    </p>
+                </div>
+                
+                
+                <div id="ideationdiv">
+                    <div id="strokediv2">
+                        <div>
+                            <p class="stroke3">03</p>
+                            <p class="stroke4">03</p>
+                        </div>
+    
+                        <div>
+                            <h6>Sorting Options for Academic Records</h6>
+                        </div>
+                        
+                    </div>
+    
+                    <p>
+                        4/6 users expressed that they wanted more sorting options for academic records, especially the ability to sort in descending order to avoid scrolling.
+                    <p>
+    
+                    
+    
+                    <h6>Solution: <span style="color:#244872;">Added More Sorting Options For Academic Record</span></h6>
+    
+                    <p>
+                        I will add the option to sort in descending order to avoid scrolling to find most recent courses, as well as, the option to pick certain courses (i.e. all courses, UCD courses, non-UCD courses).
+                    </p>
                 </div>
 
-                <p>
-                    Users shared that they dislike having to scroll so far down on the home screen to access certain features, which makes it time-consuming and hard to find important tools. In addition, they do not understand why there is so much whitespace on the home page.
-                </p>
 
-                <img src="images/tjpain2.svg" alt="Trader Joe's Pain Point 2: Forgetting Items">
-
-                <h6>Solution: <span style="color:#244872;"> Minimize Sections and Eliminate Whitespace</span></h6>
-
-                <p>
-                    I will use different components to better display information and the goal is to eliminate the need for scrolling. For example, dropdown displays will be used to hide information that the user won’t access often. Unnecessary whitespace will also eliminated. A calendar view will be used instead of a list view to improve the viewing experience for the user.</p>
-                <img src="images/tjpain2img.svg" alt="Trader Joe's Pain Point 2: Forgetting Items">
-
-
-                <div id="strokediv2">
-                    <div>
-                        <p class="stroke3">03</p>
-                        <p class="stroke4">03</p>
+                <div id="ideationdiv">
+                    <div id="strokediv2">
+                        <div>
+                            <p class="stroke3">04</p>
+                            <p class="stroke4">04</p>
+                        </div>
+    
+                        <div>
+                            <h6>Ability To Save Favorite Links</h6>
+                        </div>
+                        
                     </div>
-
-                    <div>
-                        <h6>More Sorting Options for Academic Record Page</h6>
-                    </div>
+    
+                    <p>
+                        4/6 users often use Oasis to access a couple of their most frequented links and expressed wanting an option to quickly access these links. They also wanted quick links to other important websites and resources that were relevant to their academics such as MyDegree and access to their transcript. 
+                    <p>
+    
                     
+    
+                    <h6>Solution: <span style="color:#244872;">Favorite Links Section</span></h6>
+    
+                    <p>
+                        A section will be added on the Home page for users to quickly access their favorite worksheets and forms to further streamline the task flow. I will also add more quick links to other resources and websites that may be useful for a students’ academic success. 
+                    </p>
                 </div>
-
-                <p>
-                    Users expressed that they wanted more sorting options for academic records, especially the ability to sort in descending order to avoid scrolling.
-                <p>
-
-                <img src="images/tjpain3.svg" alt="Trader Joe's Pain Point 3: Shopping At A Busy Store">
-
-                <h6>Solution: <span style="color:#244872;">Added More Sorting Options For Academic Record</span></h6>
-
-                <p>
-                    I will add the option to sort in descending order to avoid scrolling to find most recent courses, as well as, the option to pick certain courses (i.e. all courses, UCD courses, non-UCD courses).
-                </p>
-
-                <img src="images/tjpain3img.svg" alt="Trader Joe's Pain Point 3: Shopping At A Busy Store">
-
-
-
-                <div id="strokediv2">
-                    <div>
-                        <p class="stroke3">04</p>
-                        <p class="stroke4">04</p>
-                    </div>
-
-                    <div>
-                        <h6>Ability To Save Favorite Links</h6>
-                    </div>
-                    
-                </div>
-
-                <p>
-                    Since users often use Oasis to access a couple of their most frequented links, they expressed wanted an option to quickly access these links.ferent platforms resulting in a scattered experience.
-                <p>
-
-                <img src="images/tjpain4.svg" alt="Trader Joe's Pain Point 4: Lack of Social Features">
-
-                <h6>Solution: <span style="color:#244872;">Favorite Links Section</span></h6>
-
-                <p>
-                    A section will be added on the Home page for users to quickly access their favorite worksheets and forms to further streamline the task flow.
-                </p>
-
-                <img src="images/tjpain4img.svg" alt="Trader Joe's Pain Point 4: Lack of Social Features">
+                
+                
+                
             </section>
 
-            <section id="lofi">
+            <section id="design">
                 <h5>LO-FI WIREFRAMES</h5>
-                <h3>Sketching Ideas</h3>
+                <h3>Visualizing My Ideas On Pen and Paper</h3>
     
                 <p>
-                    I began to visualize my solutions through low-fidelity wireframes, and I focused on the layout of the Home screen.
+                    I began to visualize my solutions by sketching out some low-fidelity wireframes. My primary focus was on the Home page, as users had the most difficulty using it. 
                 </p>
 
-                <!-- <img src="images/oasis_lowfi2.png" alt="low-fidelity">
-                <img src="images/oasis_lowfi1.png" alt="low-fidelity"> -->
+                
 
                 <div id="twoimages">
                     <img src="images/oasis_lowfi2.png" alt="low-fidelity" style= "filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
@@ -309,63 +314,171 @@
 
             </section>
 
+            <section>
+                <h5>HI-FI PROTOTYPE</h5>
+                <h3>Transitioning to Hi-Fi</h3>
+    
+                <p>
+                    For this project, I wanted to focus on improving the user experience of the website and avoid doing a complete UI makeover in order to stay consistent with other UC Davis websites and lower the learning curve for students, so I mainly used the current Oasis design system and design patterns or components of other UC Davis website. 
+                </p>
+
+                
+
+                <img src="images/oasishifi1.png" alt="hi-fidelity" style= "filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+
+            </section>
+
+
+
+            <section id="usabilitytesting">
+                <h5>USABILITY TESTING</h5>
+                <h3>Putting It To The Test</h3>
+    
+                <p>
+                    I conducted three usability tests with UC Davis students who all had prior experience using Oasis. The primary objectives of these tests were to gather initial impressions, compare the existing and my proposed designs, assess the intuitiveness of my icons, and observe the ease of navigating through my prototype. To test the intuitiveness of my prototype, I assigned them tasks and had them verbalize their thought process as they navigated through my prototype. They were also asked to rate them based on difficulty from a scale of 1 to 5 (1 being the easiest to 5 being the most difficult). I also turned off Figma hotspots to limit the amount of support they had while navigating through my prototype. 
+                </p>
+
+                <h6>Usability Testing Results</h6>
+
+                <img src="images/oasisusabilitytestingresults.png" alt="usability testing results" style= "filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+
+                <p>
+                    In general, users had very little difficulty navigating through my prototype and all users liked my redesign more than the current design. However, there were some areas for improvements. 
+                </p>
+
+                <div class="oasisusaresults">
+                    <div class="oasiscolumn">
+                        <p style="color: #244872; font-weight: 800;">Likes:</p>
+                    
+                        <ul>
+                            <li>Highlights the important information and hides the unnecessary or less used information </li>
+                            <li>Customizable experience</li>
+                            <li>Intuitive icons </li>
+                            <li>Lots of copy to aid users’ understanding</li>
+                            <li>Simple, clean, and organized design</li>
+                            <li>Brought to their attention key features that weren’t obvious in the current design </li>
+                        </ul>
+                    </div>
+
+                    <div class="oasiscolumn">
+                        <p style="color: #244872; font-weight: 800;">Wants:</p>
+                    
+                        <ul>
+                            <li>Some of the copy could be improved</li>
+                            <li>Favoriting a worksheet is a bit confusing as the relationship between favoriting a worksheet or form in Degree Worksheets to appear on the Home Page is not obvious </li>
+                            <li>Change to Academic Records is not obvious and would like more ways of displaying and sorting the information</li>
+                            <li>Does not want a new Degree Worksheet to be created after each update</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            
+            <section>
+                <h5>USABILITY TESTING</h5>
+                <h3>Refining Features</h3>
+    
+                <p>
+                    Gathering all of the findings from our tests, we made the following changes:
+                </p>
+
+                <div>
+                    
+                </div>
+
+                <div class="row3">
+                    
+                    <div class="row2-1">
+                        
+                        <img src="images/oasis_usability1.png" alt="Oasis Usability Testing Change 1">
+                       
+                    </div>
+    
+                    <div>
+                        <h4><span style="color:#244872;">01</span> Improved Favoriting A Worksheet Flow</h4>
+
+                        <p>
+                            Taking inspiration from Gmail, I added a pop up at the bottom of the page as positive reinforcement to let users know that they have successfully favorited a worksheet and this worksheet will now be added to their Favorites section on the Home Page to emphasize the connection between the pages and their action. 
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="row3">
+                    
+                    <div class="row2-1">
+                        <img src="images/oasis_usability2.png" alt="Oasis Usability Testing Change 2">
+                       
+                    </div>
+    
+                    <div>
+                        <h4><span style="color:#244872;">02</span> Streamlined Degree Worksheet Flow</h4>
+
+                        <p>
+                            A pop up asking the user to either update or create a new worksheet with their new changes was added to eliminate duplicate worksheets but also keep the option to create a new worksheet in case they want to save different versions of their worksheets to reference in the future. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
+
             <div id="addbackground">
                 <section id="hifi">
                     <h5>HI-FI PROTOTYPE</h5>
-                    <h3>Helping Students Stay Organized</h3>
+                    <h3>Helping UC Davis students find the resources they need to succeed academically</h3>
                 </section>
             </div>
 
             <section id="hifi1">
 
                 <div>
-                    <h3 style="color: #244872;">Home Screen</h3>
+                    <h3 style="color: #244872;">Home Page</h3>
                     <p>
-                        The Home screen was redesigned to eliminate unnecessary whitespace and the need for scrolling so users can see everything they need at a glance.
+                        The Home screen was redesigned to eliminate unnecessary whitespace and the need for scrolling so users can see everything they need at a glance. The tile format was inspired by another UC Davis website, myUCDavis, which uses tiles to organize information. 
                     </p>
-                    <img src="images/oasis_finalhome2.png" alt="final home page">
+                    <img src="images/oasis_hifi1.png" alt="final home page">
                 </div>
                 
 
                 <div>
                     <h3 style="color: #244872;">Personalize Home Screen</h3>
                     <p>
-                        To give users more control on what to display on their Home screen, users can click the more icon to add or remove certain information. 
+                        To give users more control on what to display on their Home screen, users can click the more icon to add or remove certain information.
                     </p>
-                    <img src="images/oasis_edit.gif" alt="final edit">    
-                </div>
-                
-
-                <div>
-                    <h3 style="color: #244872;">Degree Worksheets</h3>
-                    <p>
-                        Users commonly use Oasis to access degree worksheets and academic plan forms, so I added a section on the Home page to add and access their favorite worksheets and forms, as opposed to clicking on the "Degree Worksheets" tab and searching for them in the original design. 
-                    </p>
-                    <img src="images/oasis_finalfavorite.gif" alt="final favorite worksheets">
+                    <img src="images/oasis_hifipersonal.gif" alt="final edit home page">    
                 </div>
                 
 
                 <div>
                     <h3 style="color: #244872;">More Filters For Academic Record</h3>
                     <p>
-                        One of the most requested features was the ability to sort all courses in descending order to eliminate the need to scroll all the way to the bottom of the page to look at their latest courses, so that sorting feature was added as an option. 
+                        One of the most requested features was the ability to sort all courses in descending order to eliminate the need to scroll all the way to the bottom of the page to look at their latest courses, so that sorting feature was added as an option. The copy was updated from “descending” to “oldest to newest” and vice versa for “ascending” to aid comprehension. Another option to sort by UC Davis courses and non-UC Davis courses was also added for students who want to check if their high school, community college, or past college classes have been successfully added. 
+                    </p>
+                    <img src="images/oasis_hifiacademicrecord.gif" alt="final academic records">
+                </div>
+                
+
+                <div>
+                    <h3 style="color: #244872;">Streamlined Degree Worksheets Page</h3>
+                    <p>
+                        The current Oasis design saves a new copy of a degree worksheet each time the user edits a worksheet which results in clutter and a poor user experience. Due to the obscure nature of the archive button and the unintuitive icon choice, majority of users were not aware that they could archive worksheets. Even those who knew about it seldom utilized this feature due to concerns that it might delete the worksheet, primarily because of the poor design decision to use an "x" symbol for archiving. My design uses whitespace to make the information easier to read, skim, and digest. By changing the archiving symbol, I also enhanced the visibility of a previously inconspicuous feature, thereby encouraging users to make better use of it.
                     </p>
     
-                    <p>
-                        Another option to sort by UC Davis courses and non-UC Davis courses was also added. 
-                    </p>
-                    <img src="images/oasis_finalacademicrecord.gif" alt="final favorite worksheets">
+                    <img src="images/oasis_hifiworksheet.gif" alt="final degree worksheets">
                 </div>
                 
                 
             </section>
 
-            <section>
+            <section id="conclusion">
                 <h5>CONCLUSION</h5>
                 <h3>Takeaways</h3>
     
                 <p>
-                    When I showed my design to a user for feedback, they questioned a lot of my design decisions. My responses were not as well articulated as they could have been. My biggest takeaway is to practice articulating all of my design decisions thoroughly before showing them to users for feedback.
+                    I had a lot of fun improving the design of a website that I use often but struggle to fully utilize due to its poor UI and UX. I especially enjoyed the interview process where I got to understand on a deeper level how my peers experience Oasis. Our different opinions and pain points goes to show how everyone has different opinions and shows how important user research is to finding different pain points and designing experiences that reflect these differences.                  
                 </p>
 
             </section>
@@ -380,7 +493,7 @@
 
                 <ol>
                     <li>
-                        I would like to redesign other features of Oasis based on the user feedback I gathered, especially the “Degree Worksheet” and “GPA Chart & Tools” since they are commonly used features.
+                        I would like to redesign other features of Oasis based on the user feedback I gathered, especially the “GPA Chart & Tools” since my interviewees and testers mentioned that it was a feature they used. 
                     </li>
 
                     <li>
@@ -388,17 +501,13 @@
                     </li>
 
                     <li>
-                        Test redesign with users
-                    </li>
-
-                    <li>
                         Conduct some A/B testing to test different layouts
                     </li>
+
                 </ol>
             </section>
 
-
-            <section id="otherprojects">
+            <!-- <section id="otherprojects">
                 <h3>Other Projects</h3>
                 <div class="row4">
                     <div>
@@ -410,6 +519,27 @@
                         <a href="travelocity.html"><img src="images/travelocityhero.svg" alt="travelocity"></a>
 
                         <a href="travelocity.html">Travelocity</a>
+                    </div>
+
+                    
+                </div>
+                
+            </section> -->
+
+            <section id="otherprojects">
+                <h3>Other Projects</h3>
+                <div class="row4">
+                   
+                    <div>
+                        <a href="traderjoes.html"><img src="images/tjhero3.png" alt="Trader Joe's"></a>
+
+                        <a href="traderjoes.html">Trader Joe's</a>
+                    </div>
+
+                    <div>
+                        <a href="playground.html"><img src="images/playgroundhero2.png" alt="Playground"></a>
+
+                        <a href="playground.html">Playground</a>
                     </div>
 
                     
