@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AggieExchange</title>
+    <link rel="icon" type="image/x-icon" href="images/cindydrawing2.svg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Playfair+Display:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="styles.css" rel="stylesheet">
+    <style media="all">
+        
+        section a{
+            color: #2E6470;
+        }
+
+        
+        .mobile-display{display:none}
+        .desktop-display{display:block}
+        /* @media (max-width:600px){
+        .desktop-display {display:none}
+        .mobile-display {display:block}
+        } */
+        @media (max-width:800px){
+        .desktop-display {display:none}
+        .mobile-display {display:block}
+        }
+    </style>
+
+</head>
+
+
+<body id="travelocitypost">
+    
+    <div id="nav_mobile">
+        <header>
+            <nav class="menu">
+                <a id="logo1" href="index.html">Cindy Lee</a>
+                <img src="images/menu.svg" alt="menu" id="hamburger">
+            </nav>
+        </header>
+    </div>
+
+    <div id="nav_desktop">
+        <header>
+            <a id="logo1" href="index.html">Cindy Lee</a>
+            <nav class="menu">
+                <ul>
+                    <li><a id="button1" href="index.html">Work</a></li>
+                    <li><a id="button2" href="about.html">About</a></li>
+                    <li><a href="https://drive.google.com/file/d/139izHhvE9YFd-kgnhhHVe3Hv2WTmn7k5/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+
+    <main id="aggieexchangepage">
+
+        <div id="openImg" class="hidden">
+
+            <div id="nav_mobile2">
+                <header>
+                    <nav class="menu">
+                        <a id="logo1" href="index.html">Cindy Lee</a>
+                        <!-- <img src="images/menu.png" alt="menu" id="hamburger"> -->
+                        <img src="images/close.svg" alt="menu" id="closeBtn">
+                        <!-- <ul class="hidden">
+                            <li><a href="index.html">Work</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="https://drive.google.com/file/d/1Dc5ZCcdWu5k2WdSjfZ9euPCVaz0kw3tU/view?usp=sharing">Resume</a></li>
+                        </ul> -->
+
+                        
+                    </nav>
+                </header>
+                <div id="hiddenmobile">
+                    <a href="index.html">Work</a>
+                    <a href="about.html">About</a>
+                    <a href="https://drive.google.com/file/d/139izHhvE9YFd-kgnhhHVe3Hv2WTmn7k5/view?usp=sharing">Resume</a>
+                </div>
+                
+            </div>
+            
+            
+            <!-- <p>Work</p>
+            <p>About</p>
+            <p>Resume</p> -->
+            
+        </div>
+         
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/uparrow.svg" alt="back to top button"></button>
+
+        <img id="hero" src="images/ae_hero.png" alt="AggieExchange hero image">
+
+       
+        </div>
+
+        <div id="addbackground1" class="desktop-display">
+            <div id="jumplinks">
+                <p style="font-weight: 500;">Jump Links:</p>
+                <a href="#understand">Understanding</a>
+                <a href="#userresearch">User Research</a>
+                <a href="#ideation">Ideation</a>
+                <a href="#design">Design</a>
+                <a href="#usabilitytesting">Usability Testing</a>
+                <a href="#hifi">Hi-Fi Prototype</a>
+                <a href="#conclusion">Conclusion</a>
+            </div>
+                
+        </div>
+
+
+        <!-- <section id="mainbody"> -->
+
+            
+            <div id="addbackground1" class="mobile-display">
+                <!-- <p>Jump Links</p> -->
+                <h4>Jump Links</h4>
+                
+                <div id="jumplinks">
+                    
+                    <a href="#understand">Understanding</a>
+                    <a href="#userresearch">User Research</a>
+                    <a href="#ideation">Ideation</a>
+                    <a href="#design">Design</a>
+                    <a href="#usabilitytesting">Usability Testing</a>
+                    <a href="#hifi">Hi-Fi Prototype</a>
+                    <a href="#conclusion">Conclusion</a>
+                </div>
+            </div>
+
+            <section>
+                <h3>Overview</h3>
+
+                <p>
+                    AggieExchange is an online marketplace platform designed specifically for UC Davis students. The goal is to create a platform that connects students, allowing them to buy and sell products and services within their community. I was one of two product designers in charge of the product from its inception to its beta launch.
+                </p>
+            </section>
+
+            <section>
+                <div id="infobarTJ">
+                    <div id="Role">
+                        <h4>Role</h4>
+                        <p>Product Designer</p>
+                    </div>
+    
+                    <div>
+                        <h4>Team</h4>
+                        <p>
+                            Product Designers (2), Developers (4), Product Managers (2), Technical Product Manager (1)
+                        </p>
+                    </div>
+                    
+                    <div id="timeframe">
+                        <h4>Duration</h4>
+                        <p>9 months<br>Jan 2023 - Sept 2023</p>
+                    </div>
+    
+                    <div id="tools">
+                        <h4>Tools</h4>
+                        <p>Figma, Adobe Illustrator, Google Forms, Notion</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="understand">
+                <h5>UNDERSTANDING</h5>
+                <h3>The Predecessor: AggieCentral</h3>
+    
+                <p>
+                    AggieWorks is a student run organization comprised of product managers, designers, and developers, who work in cross-functional teams to create real-world products to solve problems for UC Davis students. AggieExchange is one of three products within this organization. However, before AggieExchange, we were called AggieCentral, a map app for UC Davis students to highlight various study, food, and resources on campus. We started by extensively researching UC Davis students' wayfinding needs but found that most students were able to quickly find resources on campus and there was no need for this product. As user-centric designers, we advocated for a different product prompt, a process that required defending our decision with our research data against multiple stakeholders. We eventually gained the freedom to choose a new prompt. 
+                </p>
+
+                <p>
+                    To find inspiration for our new project, we surveyed UC Davis students about potential product ideas. The top two requested products, club discovery and roommate finding, were already being pursued by other AggieWorks teams. Feeling stuck, I turned to Facebook groups for UC Davis students, where I noticed numerous textbook and iClicker listings. Recalling my own failed experiences of buying and selling textbooks, I shared my idea with my team. Recognizing the need for a dedicated marketplace platform, we conducted market analysis, identifying areas for enhancement within the marketplace platforms catering to UC Davis students.
+                </p>
+
+            </section>
+            
+
+            <section id="userresearch">
+                <h5>USER RESEARCH: SURVEYS</h5>
+                <h3>Listening to Students</h3>
+    
+                <p>
+                    To better understand how students are currently purchasing and selling items, we sent out a Google Form to UC Davis students asking quantitative questions regarding their experience using or not using marketplace apps. Our survey 69 responses from UC Davis students, and we learned that students are having difficulty finding items using existing marketplace platforms.
+                </p>
+
+                <div id="aesurvey">
+                    <div id="strokediv">
+                        <div>
+                            <!-- <p class="stroke1">43%</p>
+                            <p class="stroke2">43%</p> -->
+                            <p style="color: #2E6470; font-size: 50px; font-weight: 500; font-family: 'Roboto', sans-serif; ">43%</p>
+                           
+                        </div>
+                        <div>
+                            <!-- <p class="strokedivp">
+                                of students use a Davis-centered marketplace platform despite 74% having used other marketplace platforms
+                            </p> -->
+                            <!-- <p class="strokedivp">
+                                of students use a Davis-centered marketplace platform
+                            </p> -->
+                            <h4>
+                                of students use a Davis-centered marketplace platform
+                            </h4>
+                        </div>
+                    </div>
+    
+                    <div id="strokediv">
+                        <div>
+                            <p style="color: #2E6470; font-size: 50px; font-weight: 500; font-family: 'Roboto', sans-serif; ">54%</p>
+                        </div>
+                        <div>
+                            <!-- <p class="strokedivp">
+                                of students take weeks to find an item they want to buy </p> -->
+                            <h4>
+                                of students take weeks to find an item they want to purchase 
+                            </h4>
+                        </div>
+                    </div>
+    
+                    <div id="strokediv">
+                        <div>
+                            <p style="color: #2E6470; font-size: 50px; font-weight: 500; font-family: 'Roboto', sans-serif; ">68%</p>
+                        </div>
+                        <div>
+                            <!-- <p class="strokedivp">
+                                of students have trouble selling items on a marketplace platform
+                            </p> -->
+                            <h4>
+                                of students have trouble selling items on marketplace platforms
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <hr/>
+
+                <div id="aesurvey2">
+                    <div>
+                        <h4>Main reasons for using a marketplace platform:</h4>
+    
+                        <ol>
+                            <li>Affordability</li>
+                            <li>Sustainability </li>
+                            <li>Variety of products, especially access to uncommon items</li>
+                        </ol>
+                    </div>
+    
+                    <div>
+                        <h4>Main reasons for not using a marketplace platform:</h4>
+    
+                        <ol>
+                            <li>Unfamiliar with platforms</li>
+                            <li>Don’t need anything</li>
+                            <li>Condition / Don’t want to interact with others</li>
+                        </ol>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section>
+                <h5>USER RESEARCH: INTERVIEWS & FOCUS GROUPS</h5>
+                <h3>Diving Deeper Into The UC Davis Marketplace Experience</h3>
+    
+                <p>
+                    To gain a deeper understanding of students’ experiences with marketplace apps, we conducted 14 interviews with a range of UC Davis students and a focus group with 6 participants. We discovered five common themes across our interviews and focus group:
+                </p>
+            </section>
+
+            <section>
+                <h5>USER RESEARCH: COMPETITIVE ANALYSES</h5>
+                <h3>Understanding the Competition</h3>
+    
+                <p>
+                    We wanted to explore what was currently successful in other marketplace apps and identify areas for improvement, so our Product Managers conducted a competitive analysis on 7 popular marketplace apps and websites with our students based on their survey responses. Here are the top three most popular marketplace platforms with our survey respondents.
+                </p>
+
+                <img src="images/ae_compana.png" alt="AggieExchange Competitive Analyses" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+                
+            </section>
+
+
+            <section>
+                <h5>USER RESEARCH: AFFINITY MAPPING</h5>
+                <h3>Finding Commonalities</h3>
+    
+                <p>
+                    We consolidated our user research insights from our survey, interviews, focus group, and competitive analyses by placing all of our insights onto post-it notes and grouping them by common themes we noticed.
+                </p>
+
+                <img src="images/ae_affinity.png" alt="AggieExchange Affinity Map" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+
+                <h6>Key Findings</h6>
+                <div class="row5-1">
+                    <h4 style="color:#2E6470;">01</h4>
+                    <h4 style="font-weight: 400;">Students have difficulty connecting with reliable and local sellers</h4>
+                </div>
+                <div class="row5-1">
+                    <h4 style="color:#2E6470;">02</h4>
+                    <h4 style="font-weight: 400;">Students have difficulty filtering other marketplace platforms to find the items they need</h4>
+                </div>
+                <div class="row5-1">
+                    <h4 style="color:#2E6470;">03</h4>
+                    <h4 style="font-weight: 400;">Students have difficulty selling their items to trusted buyers</h4>
+                </div>
+            </section>
+
+            <section>
+                <h5>USER RESEARCH: USER PERSONAS</h5>
+                <h3>Meet Our Users</h3>
+    
+                <p>
+                    After finding common patterns from our user research, we created two user personas, one to represent the buyer and another to represent the seller, to show their goals, frustrations, and motivations. These user personas serve as a reminder to us throughout this project who we are selling for and the main pain points we want to resolve. 
+                </p>
+
+                <div id="twoimages">
+                    <img src="images/ae_persona1.png" alt="User Persona Buyer" style= "filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+    
+                    <img src="images/ae_persona2.png" alt="User Persona Seller" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+                </div>
+
+            </section>
+
+            <section>
+                <h5>USER RESEARCH: USER JOURNEY MAP</h5>
+                <h3>The Aggie Shopping and Buying Experience</h3>
+    
+                <p>
+                    We also created a user journey map for buyers to visualize the journey a typical student may take while using a marketplace app or website. Through this process, we found many potential user pain points, better empathized with our users, and found opportunities for improvement.
+                </p>
+
+                <img src="images/ae_journeymap.png" alt="AggieExchanger Shopper User Journey Map" style="filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+            </section>
+
+            <div id="addbackground" style="background-color:#2E6470;">
+                <section id="aeproblem">
+                    <h5>UNDERSTANDING: PROBLEM STATEMENT</h5>
+                    <!-- <h3>Problem Statement</h3> -->
+        
+                    <p style="font-size: 24px; line-height: 40px; font-weight: 600;">How might we  improve UC Davis students' online marketplace experience by promoting safety, improved item discovery, and quicker item sales?</p>
+    
+                    <p>
+                        UC Davis students face challenges while using online marketplaces: finding reliable local sellers, efficient item searches, trust concerns with unknown parties, confirming the condition of items, and finding affordable items. 
+                    </p>
+                </section>
+            </div>
+
+            <section id="ideation">
+                <h5>IDEATION: FEATURES</h5>
+                <h3>Technical Constraint</h3>
+    
+                <p>
+                    As a student-run organization, we have limited funding and lack resources, so throughout this project our main challenge as designers were finding solutions to our technical constraints. For example, after discussing with our team, we discovered that incorporating payment and direct messaging on our website would require a significant time investment, pose implementation challenges, and potentially introduce reliability issues. Consequently, we decided to eliminate payment transactions and in-website messaging from our MVP. As a vital part of the marketplace experience, working around this constraint became our biggest challenge.
+                </p>
+
+                <p>
+                    Our solution for communication between the seller and buyer is to allow buyers to message sellers through our website, which would send a message to the seller via email. Subsequent interactions and communications will continue to take place through email. For payment, it would up to the users to decide how they want to pay. In evaluating our user flow, we conducted a comparative analysis with established marketplace platforms like Craigslist, which shares a similar user flow, and Facebook Marketplace, which employs a comparable payment method. Our assessment indicated that our user flow is comparable with other popular marketplace platforms, and instead we can focus on enhancing the user experience in alternative areas.
+                </p>
+
+                
+            </section>
+
+            <section id="ideation">
+                <h5>IDEATION: FEATURES</h5>
+                <h3>Picking Our MVP Features</h3>
+    
+                <p>
+                    Next, we began to ideate solutions for our key pain points. However, given our tight deadline and lack of developers, we had to narrow down the list of features we would be implementing in the first iteration. To do this, with the help of our product managers, we rated the impact and effort of each feature on a scale of 1-3 (1 being high and 3 being low). We prioritized features that had high impact and made those a part of our MVP, or minimum viable product. Here is a snippet of our features ranking table.
+                </p>
+
+                <p>
+                    Our solution for communication between the seller and buyer is to allow buyers to message sellers through our website, which would send a message to the seller via email. Subsequent interactions and communications will continue to take place through email. For payment, it would up to the users to decide how they want to pay. In evaluating our user flow, we conducted a comparative analysis with established marketplace platforms like Craigslist, which shares a similar user flow, and Facebook Marketplace, which employs a comparable payment method. Our assessment indicated that our user flow is comparable with other popular marketplace platforms, and instead we can focus on enhancing the user experience in alternative areas.
+                </p>
+
+                <img src="images/ae_mvp.png" alt="AggieExchanger MVP Features" style="width:60%; filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));">
+
+                <h6>MVP Features List</h6>
+                <p>
+                    Ultimately, we decided to design and develop the following pages and features: 
+                </p>
+
+                <ol>
+                    <li>Home Page</li>
+                    <li>Profile creation</li>
+                    <li>Reviews</li>
+                    <li>Contacting seller</li>
+                    <li>Search bar and filters to find items</li>
+                    <li>Like and save items</li>
+                    <li>Buyer and seller ratings</li>
+                    <li>Item Listings</li>
+                    <li>Email notifications</li>
+                    <li>Student authentication </li>
+                </ol>
+
+                
+            </section>
+
+            <section>
+                <h5>IDEATION: USER FLOWS</h5>
+                <h3>User Flows</h3>
+    
+                <p>
+                    We developed distinct user flows for various tasks as visual aids to better understand and illustrate the user's journey.
+                </p>
+
+                <img src="images/ae_userflows.png" alt="AggieExchange User Flows">
+            </section>
+
+            <section id="design">
+                <h5>DESIGN: MID-FIDELITY PROTOTYPING</h5>
+                <h3>Creating the Skeleton</h3>
+    
+                <p>
+                    We created a mid-fi prototype with two flows to represent the seller flow and buyer flow. At this stage, we wanted the focus to be on the rather than the appearance. Here are some of the wireframes for one user's journey through the site. 
+                </p>
+
+                <img src="images/ae_midfi.png" alt="AggieExchange Mid-Fidelity Prototyping">
+            </section>
+
+
+            <section id="usabilitytesting">
+                <h5>USABILITY TESTING</h5>
+                <h3>Putting Our Designs To The Test</h3>
+    
+                <p>
+                    We conducted 10 usability tests with UC Davis students and had them complete various tasks with our prototype. Our primary objectives were to evaluate users' ability to navigate the website effectively and gather feedback regarding their initial impressions. This initial round of testing played a pivotal role in providing valuable insights that guided us in making necessary adjustments to our initial user flow.
+                </p>
+
+                <h6>Parts of our prototype were intuitive</h6>
+
+                <ol>
+                    <li>Sign up/onboarding process was smooth</li>
+                    <li>Listing an item to sell and editing the listing was straightforward</li>
+                    <li>Uniformity in layouts of our pages (i.e home page, categories pages, all listings, etc.) made it easy for the user to understand how they function</li>
+                    <li>Searching for an item was simple</li>
+                    <li>Contacting a seller to purchase and item was a frictionless process for our testers</li>
+
+                </ol>
+
+                <h6>Other areas had room for improvement</h6>
+
+                <div class="row5-1">
+                    <h4 style="color:#2E6470;">01</h4>
+                    <h4>Profile Page Too Cluttered</h4>
+                </div>
+                <p>
+                    Users voiced concerns about the profile page, particularly regarding the overwhelming nature of the tabs and the small text sizes that span across the page. Additionally, there's ambiguity about whether the emphasis should be on the user's bio and name or their listed products. We decided to slightly shrink the bio section by decreasing the size of the profile picture and increase readability by shrinking the width and increasing the font size. We also increase the size of the listing card components to bring more attention to each individual listing. 
+                </p>
+
+                <img src="images/ae_usa1.png" alt="AggieExchange Usability Testing Change 1">
+
+
+                <div class="row5-1">
+                    <h4 style="color:#2E6470;">02</h4>
+                    <h4>Filters</h4>
+                </div>
+                <p>
+                    The filter and sort by buttons were not obvious and users had a hard time accessing them. We fixed this by making it more like a button by adding a border and an arrow to indicate that it is a drop down. 
+                </p>
+
+                <img src="images/ae_usa2.png" alt="AggieExchange Usability Testing Change 2">
+
+
+                <div class="row5-1">
+                    <h4 style="color:#2E6470;">03</h4>
+                    <h4>Reviews</h4>
+                </div>
+                <p>
+                    From our research, we learned that buyers highly valued purchasing from a reputable seller so we wanted to prioritize building a review system. In our effort to establish fairness, we instituted a system allowing both buyers and sellers to review their transactions. Each user's review section would contain a "Bought" tab, displaying reviews left for them by sellers they've interacted with, and a "Sold" tab, showcasing reviews left by buyers of their products.
+                </p>
+
+                <p>
+                    Testers found the review process confusing because it involved opening an email to access the buyer's review page, which was omitted from the flow, hindering user comprehension; future tests will include mockups for complete clarity. Furthermore, it became evident that users were uncertain whether their reviews pertained to the transaction partner or the product, necessitating clarity in the review page's purpose and wording.
+                </p>
+
+                <p>
+                    Owing to the complexities of integrating notifications within our website, our Technical PM and developers suggested we send emails to buyers once a transaction was finalized, prompting them to review the seller. However, it was later noted that this approach introduced an extra step that discouraged buyers from submitting seller reviews. Ultimately, our PMs decided to <strong>cut reviews from our minimum viable product</strong> as we did not have the time or resources to fully fix the system. We decided to save our work on the review flow for a later iteration.
+                </p>
+
+                <img src="images/ae_usa3.png" alt="AggieExchange Usability Testing Change 3">
+
+                <h7>Original reviews wireframes that are now archived for a future iteration</h7>
+
+
+                <div class="row5-1">
+                    <h4 style="color:#2E6470;">04</h4>
+                    <h4>Purchased Tab</h4>
+                </div>
+                <p>
+                    Following the completion of a transaction, sellers originally had the option to mark a product as sold and designate the buyer. This information would then be displayed on the buyer's profile page under the "Purchased" tab. However, when considering our competitive analysis, where we observed that many Facebook Marketplace listings remained active even after being sold, we were concerned that a similar lack of motivation and an additional step might lead sellers to skip this part of the process. We decided to eliminating the "Purchased" tab as the displayed items under "Purchased" would be inaccurate if the seller chose not to mark them as sold.
+                </p>
+
+                <img src="images/ae_usa4.png" alt="AggieExchange Usability Testing Change 4">
+
+
+               
+                
+            </section>
+
+
+
+
+            <section>
+                <h5>DESIGN: BRANDING</h5>
+                <h3>Branding</h3>
+    
+                <p>
+                    The core values of AggieExchange are safety, local, sustainable, community, and budget-friendly. Thus, we spent a lot of time making sure our color palette, typography, and logo aligned with our values. 
+                </p>
+
+                <h6>Colors</h6>
+
+                <p>
+                    We applied principles of color psychology to guide our choices concerning the website's color palette. Given that budget-conscious shoppers have demonstrated a favorable response to teal according to research such as summarized in this <a href="https://medium.com/@rodgerdwightbuyvoets/how-color-affects-shopping-habits-36141daf4c49#:~:text=Impulse%20shoppers%20respond%20best%20to,pink%2C%20rose%2C%20sky%20blue.">article</a>, we opted for it as our primary color. We complemented the teal with a vibrant green, a welcoming, joyful, and environmentally-conscious color that aligns with the values of our product. The complimentary touches of pink, aqua, orange, and purple amplifies the playful essence of our brand throughout the site.
+                </p>
+
+                <p>
+                    Making sure our website complies with the Web Content Accessibility Guidelines (WCAG) was a high priority of ours as we wanted our platform to be accessible for all students. Thus, a lot of time was spent testing different shades teal to ensure that all our our components complied with WCAG while still remaining visually interesting and welcoming. 
+                </p>
+
+                <p>
+                    We selected Poppins as our font, as we wanted a clean, modern look throughout the site. This typeface also aligns with our university's branding, leading us to believe that a similar font choice would evoke a sense of familiarity and resonance. 
+                </p>
+
+
+                <img src="images/ae_styleguide.png" alt="AggieExchanger Style Guide">
+
+                <h6>Logo</h6>
+                <p>
+                    For our logo, we sketched our dozens of ideas and went through multiple rounds of iterations until we landed on the final design. Our final logo mimics a shopping bag by using the top of the lower-case “a” as the handle. Peers also shared that our logo resembled a lock, which aligns with one of the main values of our platform, security. The rounded corners also give off a more soft, welcoming feel to our site. 
+                </p>
+
+                <img src="images/ae_logo.svg" alt="AggieExchanger Logo">
+
+                <h6>Graphics</h6>
+
+                <p>
+                    Since there were limitations to the features and pages we could design due to technical constraints, we spent more time on the visuals of our site to make AggieExchange more fun and welcoming because according to our user research, a clean, beautiful UI plays a big factor in whether they will use a marketplace platform. Though we both partook in every part of the design process, I focused more on hi-fi prototyping and making sure all our prototypes were clean, functional, and accessible, while my fellow product designer focused more on branding and graphic design. She designed dedicated banners for the Home Page and each category page to help our platform stand out by being more visually engaging. 
+                </p>
+
+                <img src="images/ae_graphics.png" alt="AggieExchanger Graphics">
+                
+
+                
+            </section>
+
+            <div id="addbackground">
+                <section id="hifi">
+                    <h5>HI-FI PROTOTYPE</h5>
+                    <h3>Enhancing the UC Davis Marketplace Experience</h3>
+                    <p>Helping students connect to sell and buy in a safe environment with improved item discovery and quicker item sales.</p>
+                </section>
+            </div>
+
+
+            <section id="aehifi">
+                <div>
+                    <h3>
+                        <span style="color:#2E6470; font-size: 30px;">Sign In & Sign Up</span>
+                    </h3>
+                    <p style="text-align: left;">
+                        When users open the AggieExchange website, they will arrive at the Home page, where they can search and view listings. For further action such as liking, selling, or buying, they must sign in or create an account using this UC Davis email. To create an account, students will be prompted to provide basic information, including their name, location, and a short biography.
+                    </p>
+
+                    <img src="images/ae_signup.gif" alt="Onboarding">
+                </div>
+
+
+                <div>
+                    <h3>
+                        <span style="color:#2E6470; font-size: 30px;">Home & Category Pages</span>
+                    </h3>
+                    <p style="text-align: left;">
+                        Upon entering the site, users are welcomed by the AggieExchange mascot featured on a banner. Following that, they have the option to explore the four categories: home, school, clothing, and miscellaneous, or view all listings.
+                    </p>
+
+                    <img src="images/ae_home.gif" alt="Home Page">
+                </div>
+    
+    
+                <div>
+                    <h3>
+                        <span style="color:#2E6470; font-size: 30px;">Create A Listing</span>
+                    </h3>
+                    <p style="text-align: left;">
+                        To begin selling, students can create a listing, which will ask them to fill in basic information such as name, condition, and price. Furthermore, users have the flexibility to select from a variety of pickup options and tags, enhancing their chances of making successful sales.
+                    </p>
+
+                    <img src="images/ae_listing.gif" alt="Listing">
+                </div>
+
+                
+                <div>
+                    <h3>
+                        <span style="color:#2E6470; font-size: 30px;">Profile</span>
+                    </h3>
+                    <p style="text-align: left;">
+                        The profile page functions as a storefront for students, enabling them to effortlessly manage their listings. Additionally, users can access their sold items and liked items and make profile edits.
+                    </p>
+
+                    <img src="images/ae_profile.gif" alt="Profile">
+                </div>
+
+    
+            </section>
+
+
+            <section>
+                <h5>DEVELOPMENT</h5>
+                <h3>Developer Handoff</h3>
+    
+                <p>
+                    Once we had completed our final prototype, we handed off our designs to our developers. Some changes were made to improve the responsiveness of our designs as we wanted our website to be enjoyable on mobile devices as well. Here are some of our mobile website wireframes.
+                </p>
+
+                <p>
+                    We are currently in the development phase getting ready to release our beta launch at the beginning of Fall 2023 when students are moving in to new apartments and dorms and ready to sell and purchase items. 
+                </p>
+
+                <img src="images/ae_dev.png" alt="AggieExchange Mobile Wireframes for development">
+
+            </section>
+
+            <section id="conclusion">
+                <h5>CONCLUSION</h5>
+                <h3>Takeaways</h3>
+    
+                <p>
+                    This project was unlike anything I had done before as I was in charge of a product from coming up with the prompt to research to design to branding to testing to the development handover to marketing. It exposed me to many realistic issues that I never had to consider for other personal projects. Through this process I gained so much valuable experience such as advocating for my designs, designing for the product lifecycle, working in a cross-functional team, branding to be accessible and reflect our values, and much more. 
+                </p>
+
+                <p>
+                    Thinking back on improvements I could’ve made, I think we should have conducted more usability tests on the hi-fidelity prototype, particularly focusing on UI-related concerns that emerged in our initial rounds. In addition, we should have designed with responsiveness in mind so our website would be user-friendly across all interfaces. Additionally, a more extensive ideation phase, including the exploration of backup options to reinforce our core values, would have been preferable but was challenging due to our accelerated timeline.
+                </p>
+            </section>
+
+            <section>
+                <h5>CONCLUSION</h5>
+                <h3>Challenges</h3>
+    
+                <p>
+                    <strong style="color: #2E6470;">Technical Constraints:</strong> The biggest challenge was working within technical constraints, which limited the freedom we had and the amount of features we could explore. However, this was great practice as it mimics what would happen in the real world and it pushed us to think more creatively about technically-feasible solutions. 
+                </p>
+
+                <p>
+                    <strong style="color: #2E6470;">Product Timeline:</strong> Another challenge that we as a team had to overcome was meeting product timelines. As the peak selling and buying windows are the few weeks before and after the beginning of school, we were on a strict timeline to conduct research, design, develop, test, and market, within a short-time period. This resulted in us pushing back the release of certain features and making compromises to some steps of the process. 
+                </p>
+
+                <p>
+                    <strong style="color: #2E6470;">Defending Design Decisions:</strong> Due to time constraints, our PMs often suggested reducing time for ideation, prototyping, and testing. In addition, members of our organization come from a predominantly computer science background, thus we were required to constantly educate others about the important of good design practices. Through frequent stand-ups and design critiques, we learned to explain and defend our design decisions with research or testing results, which are valuable industry skills.
+                </p>
+            </section>
+
+            <section>
+                <h5>CONCLUSION</h5>
+                <h3>Next Steps</h3>
+    
+                <p>
+                    The journey continues as we're actively working on Iteration 2 of our product, which will introduce features such as reviews and a feedback page. However, as of September 2023, I've graduated and won't be able to attend in-person meetings, thus I've stepped down from my role as a product designer. Nevertheless, I'm genuinely excited about witnessing the implementation of our new designs and seeing our website evolve, enhancing the apartment purging and treasure hunting experience for UC Davis students.
+                </p>
+
+            </section>
+
+
+            <section id="otherprojects">
+                <h3>Other Projects</h3>
+                <div class="row4">
+                   
+                    <div>
+                        <a href="traderjoes.html"><img src="images/tjhero3.png" alt="Trader Joe's"></a>
+
+                        <a href="traderjoes.html">Trader Joe's</a>
+                    </div>
+
+                    <div>
+                        <a href="oasisnew.html"><img src="images/oasis_herosmall.png" alt="Oasis"></a>
+
+                        <a href="oasisnew.html">Oasis</a>
+                    </div>
+
+                    
+                </div>
+                
+            </section>
+            
+            
+    </main>
+
+    <script>
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector('.menu ul');
+
+        hamburger.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+
+        });
+    </script>
+
+<footer>
+
+    <div id="row">
+        <p>Designed and coded by a boba-fueled Cindy</p>
+
+        <img src="images/bobaemoji.svg" alt="boba emoji">
+    </div>
+
+    <div id="row">
+        <p>Let's Connect:</p>
+
+        <a href="https://www.linkedin.com/in/cindy-lee-b056561a6/"><i class="fab fa-linkedin"></i></a>
+
+        <a href="mailto:&#108;&#101;&#101;&#046;&#099;&#105;&#110;&#100;&#121;&#055;&#050;&#048;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><i class="fas fa-envelope"></i></a>
+    </div>
+
+</footer>
+
+
+<script>
+    //From W3School
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+
+    document.querySelector('#hamburger').addEventListener('click', function(){
+                console.log('hello');
+                document.querySelector('#openImg').className = 'showing';
+                document.querySelector('#mainbody').className = 'hidden';
+                
+    })
+
+    document.querySelector('#closeBtn').addEventListener('click', function(){
+                console.log('hello');
+                document.querySelector('#openImg').className = 'hidden';
+                document.querySelector('#mainbody').className = 'showing';
+    })
+
+
+</script>
+
+</body>
+</html>

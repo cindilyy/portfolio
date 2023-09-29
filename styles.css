@@ -312,7 +312,7 @@ section p {
     padding: 0px;
     text-align: left;
     margin-top:10px;
-    margin-bottom:10px;
+    margin-bottom:16px;
 }
 
 
@@ -368,11 +368,19 @@ img{
 
 }
 
+#aggieexchangepage h5{
+    color: #2E6470;
+    font-weight: 500; 
+
+}
+
 
 #addbackground1 h4{
     display: block;
     padding: 20px 20px 10px;
 }
+
+
 
 #jumplinks{
     /* background-color: #B8322E; */
@@ -441,7 +449,21 @@ img{
     flex: 1;
 }
 
-#traderjoespage #jumplinks a:hover, #oasispage #jumplinks a:hover, #playgroundpage #jumplinks a:hover{
+#aggieexchangepage #jumplinks a {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+    background-color: #2E6470;
+    padding: 20px 24px;
+    min-width: 120px;
+    flex: 1;
+}
+
+
+#traderjoespage #jumplinks a:hover, #oasispage #jumplinks a:hover, #playgroundpage #jumplinks a:hover, #aggieexchangepage #jumplinks a:hover{
     background-color: #F8F8F3;
     color: #141414;
 }
@@ -666,6 +688,7 @@ h6{
     font-size: 24px;
     font-weight: 500;
     margin:0;
+    margin-top:-3px;
 }
 
 .stroke3{
@@ -1109,6 +1132,34 @@ a:hover{
     margin-top: 100px;
 }
 
+#aggieexchangepage #aesurvey h4{
+    margin:0;
+}
+
+#aggieexchangepage #aesurvey{
+    margin-top:30px;
+    
+}
+
+#aggieexchangepage #aesurvey #strokediv{
+    margin-bottom: 30px;
+}
+
+#aehifi div{
+    margin-bottom: 100px;
+}
+
+#aggieexchangepage #addbackground{
+    width:100%;
+    background-color: #2E6470; 
+}
+
+#aggieexchangepage #aesurvey h4{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+    
+}
 
 
   /* @media only screen and (min-width: 601px) and (max-width: 799px){
@@ -1305,7 +1356,7 @@ a:hover{
 
 
     #home #traderjoes, #library,
-    #travelocity,#weguide, #playground, #oasis{
+    #travelocity,#weguide, #playground, #oasis, #aggieexchange{
         display:flex;
         text-align: center;
         gap:10%;
@@ -1352,7 +1403,7 @@ a:hover{
         max-width: 1000px;
     }
 
-    #traderjoesa, #weguidea, #travelocitya, #librarya, #playgrounda, #oasisa{
+    #traderjoesa, #weguidea, #travelocitya, #librarya, #playgrounda, #oasisa, #aggieexchangea{
         align-self: center;
         
     }
@@ -1456,6 +1507,10 @@ a:hover{
         background-color: #006ADC;
     }
 
+    #aggieexchangepage #jumplinks{
+        background-color: #2E6470;
+    }
+
     #jumplinks p{
         padding-left: 20px;
         padding-right: 20px;
@@ -1464,10 +1519,11 @@ a:hover{
         
     }
 
-    #traderjoespage section, #oasispage section, #playgroundpage section{
+    #traderjoespage section, #oasispage section, #playgroundpage section, #aggieexchangepage section{
         margin-bottom: 50px;
         /* max-width:800px; */
-        max-width:1000px;
+        /* max-width:1000px; */
+        max-width:900px;
         width:80%;
         margin-left: auto;
         margin-right: auto;
@@ -1485,7 +1541,7 @@ a:hover{
     }
 
 
-    #traderjoespage #jumplinks a:hover, #oasispage #jumplinks a:hover, #playgroundpage #jumplinks a:hover{
+    #traderjoespage #jumplinks a:hover, #oasispage #jumplinks a:hover, #playgroundpage #jumplinks a:hover, #aggieexchangepage #jumplinks a:hover{
         background-color: #F8F8F3;
         color: #141414;
     }
@@ -1566,7 +1622,7 @@ a:hover{
         padding: 0px;
         text-align: left;
         margin-top:10px;
-        margin-bottom:10px;
+        margin-bottom:20px;
     }
     
 
@@ -1917,6 +1973,7 @@ a:hover{
         font-weight: 500;
         /* font-weight: 400; */
         margin:0;
+        margin-top:-6px;
     }
 
     .stroke3{
@@ -2050,7 +2107,8 @@ a:hover{
         padding-top: 50px;
         margin-bottom: 50px;
         width:80%;
-        max-width:1000px;
+        /* max-width:1000px; */
+        max-width:900px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -2078,7 +2136,8 @@ a:hover{
     #abouttext{
         margin-bottom: 50px;
         width:80%;
-        max-width:1000px;
+        /* max-width:1000px; */
+        max-width:900px;
         margin-left: auto;
         margin-right: auto;
         padding-top:100px;
@@ -2109,7 +2168,8 @@ a:hover{
 
         margin-bottom: 50px;
         width:80%;
-        max-width:1000px;
+        /* max-width:1000px; */
+        max-width:900px;
         margin-left: auto;
         margin-right: auto;
 
@@ -2162,7 +2222,8 @@ a:hover{
 
     .experience2{
         margin-bottom: 50px;
-        max-width:1000px;
+        /* max-width:1000px; */
+        max-width:900px;
         margin-left: auto;
         margin-right: auto;
         padding-top:50px;
@@ -2287,6 +2348,122 @@ a:hover{
         margin-top: 100px;
     }
 
+    #aggieexchangepage #strokediv{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        
+        
+       
+    }
+
+    #aggieexchangepage #aesurvey h4{
+        font-size: 18px;
+        text-align: center;
+        font-weight: 500;
+        
+    }
+
+    /* #aggieexchangepage #strokediv .stroke1{
+        left: 32%;
+        top: 3%;
+        
+        
+    } */
+
+    #aesurvey{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+        align-items: start;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        
+
+    }
+
+    #aggieexchangepage #infobarTJ{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #aesurvey2{
+        display: flex;
+        gap:50px;
+    }
+
+    #aesurvey h4{
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #d9d9d9;
+        margin: 2em 0;
+        padding: 0;
+    } 
+
+    #aggieexchangepage #ideation ol{
+        -webkit-column-count: 2;  /* Chrome/Opera, Safari */
+        -moz-column-count: 2; /* Mozilla Firefox */
+        column-count: 2;
+        gap:50px;
+
+    }
+
+    #aggieexchangepage #ideation ol li:first-of-type{
+        margin-top:0;
+
+    }
+
+    #aggieexchangepage .row5-1{
+        gap:10px;
+
+    }
+
+    h7{
+        display: block;
+        color: #767676;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+        font-size: 14px;
+        margin-top:-10px;
+
+    }
+
+    #aggieexchangepage #addbackground{
+        width:100%;
+        background-color: #2E6470; 
+
+    }
+
+    #aggieexchangepage #addbackground #hifi,  #aggieexchangepage #addbackground #aeproblem{
+        padding-bottom:30px;
+
+    }
+    
+
+    /* #aggieexchangepage #TJfeatures img {
+        max-width: 50%;
+    } */
+
+    #aggieexchangepage #aehifi img {
+        max-width: 90%;
+       
+    }
+
+    #aehifi div{
+        margin-bottom: 100px;
+       
+    }
+
+    #oasispage h6{
+        margin-top:-10px;
+    }
+    
    
 }
 
