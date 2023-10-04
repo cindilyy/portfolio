@@ -683,6 +683,10 @@ iframe {
     align-items: center;
 }
 
+#strokediv2 h6{
+    margin-top:-6px;
+}
+
 h6{
     font-family: 'Roboto', sans-serif; 
     font-size: 24px;
@@ -1973,7 +1977,8 @@ a:hover{
         font-weight: 500;
         /* font-weight: 400; */
         margin:0;
-        margin-top:-6px;
+        /* margin-top:-6px; */
+        margin-top:30px;
     }
 
     .stroke3{
@@ -2463,6 +2468,15 @@ a:hover{
     #oasispage h6{
         margin-top:-10px;
     }
+
+    #ae_interviews{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        /* row-gap: 16px; */
+        
+    }
+    
     
    
 }
